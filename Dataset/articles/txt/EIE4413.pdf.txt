@@ -1,0 +1,405 @@
+Subject Description Form 
+
+ 
+
+Subject Code 
+
+EIE4413 
+
+Subject Title 
+
+Digital Signal Processing 
+
+Credit Value 
+
+Level 
+
+3 
+
+4 
+
+Pre-requisite  
+
+EIE3312 Linear Systems 
+
+Co-requisite/ 
+Exclusion 
+
+Objectives 
+
+Nil 
+
+This  is  an  essential  subject  to  provide  fundamental  digital  signal  processing 
+(DSP) techniques important to many communications and multimedia subjects. 
+Both theory and practical realisation are stressed. 
+
+Intended Subject 
+Learning Outcomes 
+
+Upon completion of the subject, students will be able to: 
+ 
+ 
+Category A: Professional/academic knowledge and skills 
+1.  Understand the basic concepts of Fourier analysis of digital signals and apply 
+
+them to practical problems. 
+
+2.  Design and realize simple digital filters for practical applications. 
+3.  Understand  the  importance  of  random  signal  processing  in  DSP,  and  its 
+
+application in statistical measures, prediction and data modelling.  
+
+Subject Synopsis/ 
+Indicative Syllabus 
+
+4.  Design and simulate simple DSP systems. 
+ 
+
+Category B: Attributes for all-roundedness 
+5.  Think critically. 
+6.  Learn independently. 
+
+Syllabus: 
+
+1. 
+
+Introduction  
+1.1  Why  DSP?  Typical  DSP  system.  Typical  steps  to  construct  a  DSP 
+
+system.  
+
+ 
+
+2.  Discrete Fourier Transform and Convolution 
+
+2.1  Fourier  series  and  continuous-time  Fourier 
+
+transform,  Gibbs 
+phenomenon, Shannon sampling theorem. Discrete Fourier transform 
+(DFT), properties of DFT, Fourier analysis using DFT. The fast Fourier 
+transform (FFT) algorithm. 
+
+2.2  DSP  systems.  Linear  convolution  and  its  implementation.  Convolution 
+
+theorem. Convolution by section. 
+
+3.  Design of Finite Impulse-response (FIR) and Infinite Impulse-response (IIR) 
+
+Digital Filters 
+3.1  Design stages for FIR filters. Design method – Windowing. Designing low-
+pass, band-pass, and high-pass FIR filters. Linear phase response filters 
+and their design.  
+
+3.2  Difference equation, impulse response and transfer function of IIR filters. 
+IIR filter implementation. Poles, zeros and stability of IIR filters. Frequency 
+response of IIR filters. Case study: first and second order IIR filter design. 
+Designing higher order IIR filters. 
+
+4.  Random Signal Processing 
+
+4.1  Revision  on  Random  Processes,  probability  distribution 
+
+function, 
+expected values, variance and standard derivation. Application – Finding 
+correlation:  covariance,  cross  correlation,  unbiased  cross  correlation, 
+auto-correlation.  Application  –  Denoising:  white  and  coloured  noises, 
+power spectral density, periodogram, Welch’s method. 
+
+ 
+
+ 
+5.  Advanced DSP and Applications 
+ 
+
+To discuss not less than one of the following topics: 
+5.1  Architectures of digital signal processors and DSP chips. 
+5.2  Denoising using the Wiener filter: Basic Wiener filter theory, Wiener filter 
+
+in frequency domain.  Application example. 
+
+5.3  Multirate  digital  signal  processing:  Concepts  of  multirate  signal 
+processing,  design  of  practical  sampling  rate  converters.  Application 
+examples. 
+
+Laboratory Experiments: 
+
+The student will carry out at least three laboratory exercises on the topics below: 
+1.  Laboratory 1: MATLAB for DSP laboratory exercises. 
+2.  Laboratory 2: FIR filter analysis and design. 
+3.  Laboratory 3: IIR filter analysis and design. 
+4.  Laboratory 4: Properties of DFT and the fast Fourier transform. 
+5.  Laboratory 5: Statistical digital signal processing. 
+
+ 
+
+Teaching/ Learning 
+Methodology 
+
+Teaching and 
+Learning Method 
+
+Lectures 
+
+Intended 
+Subject 
+Learning 
+Outcome 
+
+1, 2, 3, 5 
+
+Tutorials 
+
+1, 2, 3, 5 
+
+Laboratory 
+sessions 
+
+1, 2, 3, 4, 5, 
+6 
+
+Remarks 
+
+Fundamental  principles  and 
+key 
+concepts of the subject are delivered to 
+students 
+
+Supplementary to lectures, tutorials are 
+conducted  with  smaller  class  size. 
+Students will be able to clarify concepts 
+and to have a deeper understanding of 
+the  lecture  material;  problems  and 
+application  examples  are  given  and 
+discussed. 
+
+Students will make use of the software 
+tool  to  simulate  the  various  theories 
+and visualize the results. 
+
+ 
+
+Assessment 
+Methods in 
+Alignment of 
+Assessment and 
+Intended Subject 
+Learning Outcomes 
+
+Specific Assessment 
+Methods/Tasks  
+
+% 
+
+Weighting 
+
+Intended Subject Learning 
+Outcomes to be Assessed 
+(Please tick as appropriate) 
+
+1 
+
+2 
+
+3 
+
+4 
+
+5 
+
+6 
+
+1.  Continuous 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Assessment (total 40%) 
+
+  Short exercises 
+
+  Tests 
+
+  HW Assignment  
+
+  Laboratory sessions 
+
+2.  Examination 
+
+Total  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+   
+
+     
+
+     
+
+     
+
+           
+
+     
+
+ 
+
+ 
+
+ 
+
+5% 
+
+20% 
+
+5% 
+
+10% 
+
+60% 
+
+100% 
+
+ 
+
+ 
+The continuous assessment will consist of a number of assignments, 
+laboratory reports, short exercises, and two tests. 
+ 
+Explanation  of  the  appropriateness  of  the  assessment  methods  in 
+assessing the intended learning outcomes: 
+ 
+
+Specific Assessment 
+Methods/Tasks 
+
+Remark 
+
+Short exercises  
+
+Small  exercises  conducted 
+the 
+students’  basic  understanding  of  the  theories, 
+concepts  and  physical  meanings  of  subject 
+materials during the lectures or tutorial classes. 
+
+to  measure 
+
+Tests and examination  End-of  chapter  type  problems  used  to  evaluate 
+students’  ability  in  applying  concepts  and  skills 
+learnt in the classroom, and their comprehension 
+of subject materials. 
+Students need to think critically in order to come 
+with a good solution for the problem given. 
+
+Assignment  
+
+Students have to learn independently, to search, 
+digest and analyze data.   
+
+Laboratory sessions 
+
+ 
+
+Each  student  is  required  to  produce  a  report  on 
+the  laboratory  work  they  conduct.  Each  student 
+also needs to make a demonstration on the open-
+ended question set out in each laboratory work. 
+
+Student Study 
+Effort Expected 
+
+Class contact (time-tabled): 
+
+ 
+
+  Lecture 
+
+  Tutorial/Laboratory/Practice Classes 
+
+Other student study effort: 
+
+  Lecture: preview/review of notes; homework/ 
+assignment; preparation for tests/examination 
+
+  Tutorial/Laboratory/Practice Classes: preview of 
+
+materials, revision and/or reports writing 
+
+26 Hours 
+
+13 Hours 
+
+ 
+
+36 Hours 
+
+30 Hours 
+
+Total student study effort: 
+
+105 Hours 
+
+Reading List and 
+References 
+
+Textbooks: 
+ 
+1.  S.K. Mitra, Digital Signal Processing, McGraw-Hill Education (Asia), 3rd ed., 
+
+2009. 
+
+2.  E.C.  Ifeacher  and  B.W.  Jervis,  Digital  Signal  Processing  -  A  Practical 
+
+Approach, Prentice-Hall (Pearson Education), 2002. 
+
+ 
+Reference Books: 
+ 
+1.  J.G.  Proakis  and  D.G.  Manolakis,  Digital  Signal  Processing:  Principles, 
+
+Algorithms and Applications, 4/e., Pearson International Edition, 2007. 
+
+2.  Ulrich  Karrenberg,  An 
+
+Interactive  Multimedia 
+
+Introduction 
+
+to  Signal 
+
+Processing, 2nd ed., Springer, 2007. 
+
+Last Updated 
+
+January 2018 
+
+Prepared by 
+
+Dr Daniel P.K. Lun 
+
+ 
+
+

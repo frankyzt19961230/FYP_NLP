@@ -1,0 +1,560 @@
+ 
+
+Subject Code 
+
+EIE3331 
+
+Subject Description Form 
+
+Subject Title 
+
+Communication Fundamentals 
+
+Credit Value 
+
+Level 
+
+3 
+
+3 
+
+Pre-requisite 
+
+AMA2111 Mathematics I  
+
+Co-requisite/ 
+Exclusion 
+
+Objectives 
+
+Intended Subject 
+Learning Outcomes 
+
+  
+
+Subject Synopsis/ 
+Indicative Syllabus 
+
+  
+
+Nil 
+
+Telecommunication plays an important role in modern societies that rely heavily 
+on a knowledge economy. Telecommunication systems enable the transfer and 
+exchange  of  information  over  communication  channels  that  are  corrupted  by 
+disturbances and noises in a cost-effective manner. The major objectives of this 
+subject are for the students to establish a firm foundation for the understanding 
+of telecommunication systems, and the relationship among various technical and 
+socio-economic factors when such systems are designed and operated. 
+
+Upon completion of the subject, students will be able to: 
+ 
+Category A: Professional/academic knowledge and skills 
+1. 
+and 
+
+processes, 
+
+various 
+
+Identify 
+in 
+telecommunication  systems,  and  describe  their  functions,  effects,  and 
+interrelationship. 
+
+parameters 
+
+elements, 
+
+2.  Analyze, measure, and evaluate the performance of a telecommunication 
+
+system against given criteria. 
+
+3.  Design  typical  telecommunication  systems  that  consist  of  basic  and 
+
+essential building blocks. 
+
+ 
+Category B: Attributes for all-roundedness 
+4.  Communicate effectively. 
+5.  Think critically and creatively. 
+6.  Assimilate new technological development in related field. 
+
+Syllabus:  
+ 
+1. 
+ 
+
+Introduction (1 hour) 
+1.1  Introduction  to  telecommunication  systems,  their  past  and  present 
+development; elements of a basic communication system; examples of 
+practical telecommunication systems.  
+
+ 
+2.  Analog Communications (10 hours) 
+ 
+
+2.1  Amplitude  Modulation  (AM):  double  sideband,  double  sideband  with 
+suppressed carrier, single sideband, frequency spectrum and power of 
+the AM signal, Frequency Division Multiplexing. 
+
+2.2  Demodulation of AM signals: coherent detector, direct demodulation  
+2.3  Frequency modulation: bandwidth of FM signals, Stereo FM. 
+2.4  Demodulation of FM signals: Phase-Locked Loop (PLL) detector.  
+2.5  Comparison of AM and FM performance: bandwidth, signal-to-noise ratio 
+
+ 
+ 
+ 
+ 
+ 
+3.  Analog to Digital Conversion (4 hours) 
+ 
+ 
+
+3.1  Sampling theorem; pulse amplitude modulation 
+3.2  Quantizing:  uniform  quantization  and  quantization  noise,  SNR  (e.g.: 
+
+Audio CD standard), non-uniform quantization (e.g. A-law, u-law) 
+
+3.3  Pulse code modulation (PCM) 
+3.4  Time division multiplexing: T1 multiplexing system   
+
+ 
+ 
+ 
+4.  Digital Modulation and Demodulation (9 hours) 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+4.1  ASK,  FSK,  PSK,  DPSK,  QPSK  (e.g.  satellite  system),  OQPSK,  QAM 
+
+(e.g. Microwave link applications), constellation diagram, bandwidth. 
+
+4.2 Coherent demodulation 
+4.3 Non-coherent demodulation (e.g. DPSK, OQPSK) 
+4.4 BER performance over Additive White Gaussian Noise (AWGN) channel 
+4.5  Effects  of  bandwidth,  distortion,  noise,  timing  error  on  detection,  eye 
+
+diagram 
+
+ 
+Practical: 
+ 
+  Analog communication experiments (6 hours) 
+  Matlab simulation/experiments in digital communication systems (6 hours) 
+ 
+Assignment: 
+ 
+  Reception survey of analog sound broadcast quality in Hong Kong   
+ 
+ 
+
+Intended 
+Subject 
+Learning 
+Outcome 
+
+1,2,3,5,6 
+
+Teaching and 
+Learning 
+Method 
+
+Lectures, 
+supplemented 
+with interactive 
+questions and 
+answers, and 
+short quizzes 
+
+Remarks 
+
+the  knowledge 
+
+In  lectures,  students  are  introduced  to  the 
+knowledge  of  the  telecommunication  field; 
+comprehension  of 
+is 
+strengthened with interactive Q&A and short 
+quizzes. The students will be able to define 
+and describe key terms and concepts about 
+telecommunication. They will also be able to 
+explain  and  generalize  knowledge  about 
+different 
+telecommunication 
+modulation 
+their 
+performance,  difference  between  analog 
+and digital modulation techniques) 
+
+techniques 
+
+(e.g. 
+
+and 
+
+Tutorials where 
+case studies 
+are conducted, 
+and problems 
+are given to 
+students for 
+them to solve 
+
+Laboratories, 
+where students 
+will conduct 
+experiments on 
+digital 
+communication 
+systems  
+
+Assignment/ 
+homework, 
+online quizzes, 
+tests, end-of-
+chapter 
+problems 
+
+ 
+
+1,2,3,4,5,6 
+
+2,3,4,5,6 
+
+in 
+
+cases 
+
+analyzing 
+
+In tutorials,  students  apply  what  they  have 
+learnt 
+(e.g. 
+superheterodyne  receiver  structure)  and 
+solving  problems 
+the 
+channel capacity of a given channel). They 
+will analyze the given information, compare 
+and  contrast  different  scenarios  and 
+propose solutions or alternatives. 
+
+(e.g.  calculating 
+
+By performing hands-on authentic tasks, the 
+students  will  be  able  to  synthesize  a 
+structure  of  knowledge  by  designing  a 
+solution to a communication problem. They 
+will  relate  the  observation  to  theories  and 
+principles. They will also evaluate outcomes 
+of  the  tasks  they  perform and  interpret  the 
+data they gather. 
+
+1,2,3,4,5,6  Through 
+
+working 
+
+assignment 
+
+and 
+homework,  online  quizzes,  and  end-of-
+chapter problems in text books, students will 
+develop  a 
+firm  understanding  and 
+comprehension  of  the  knowledge  taught. 
+They  will  analyze  given  information  and 
+apply  knowledge  in  solving  problems.  For 
+some design type of questions (e.g. design 
+a communication link with a given S/N ratio), 
+they  will  have  to  synthesize  solutions  by 
+evaluating different alternatives. 
+
+Teaching/ Learning 
+Methodology 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Assessment 
+Methods in 
+Alignment with 
+Intended Learning 
+Outcomes 
+
+Specific Assessment 
+Methods/Tasks  
+
+% 
+
+Weighting 
+
+Intended Subject Learning 
+Outcomes to be Assessed 
+(Please tick as appropriate) 
+
+1 
+
+ 
+
+2 
+
+ 
+
+3 
+
+ 
+
+4 
+
+ 
+
+5 
+
+ 
+
+6 
+
+ 
+
+1. Continuous 
+Assessment (total 50%) 
+
+ 
+
+  Assignments 
+
+  Laboratory  report  
+
+  Quiz 
+
+  Test 
+
+2. Examination 
+
+Total  
+
+10% 
+
+10% 
+
+10% 
+
+20% 
+
+50% 
+
+      
+
+ 
+
+    
+
+      
+
+      
+
+      
+
+100 % 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+Explanation  of  the  appropriateness  of  the  assessment  methods  in 
+assessing the intended learning outcomes: 
+ 
+
+Specific Assessment 
+Methods/Tasks 
+
+Remark 
+
+Assignment/  Homework/ 
+tests/examination 
+
+Laboratory report 
+
+ 
+
+ 
+
+tests, 
+
+Assignment/Homework, 
+and 
+examinations are given to students to assess 
+their  competence  level  of  knowledge  and 
+comprehension,  ability 
+to  analyze  given 
+information,  ability  to  apply  knowledge  and 
+skills  in  new  situation,  ability  to  synthesize 
+structure, and ability to evaluate given data to 
+make  judgment.  The  criteria  (i.e.  what  to  be 
+demonstrated)  and  level  (i.e.  the  extent)  of 
+achievement  will  be  graded  according  to  six 
+levels: Excellent (A+ and A), Good (B+ and B), 
+Satisfactory  (C+  and  C),  Marginal  (D)  and 
+Failure (F). These will  be  made known to the 
+students  before  an  assignment/homework  is 
+given.  Feedback  about  their  performance will 
+be  given  promptly  to  students  to  help  them 
+improvement their learning. 
+
+Students are required to conduct experiments 
+in  team  of  2  students  each  in  four  laboratory 
+sessions. The emphasis is on assessing their 
+ability to apply knowledge and skills learned in 
+designing, synthesizing and evaluating, ability 
+in working with other people, and ability to take 
+data  and  relate  the  measurement  results  to 
+theory. Expectation and grading criteria will be 
+given as in the case of assignment/ homework. 
+
+Student Study Effort 
+Expected 
+
+Class contact (time-tabled): 
+
+ 
+
+  Lecture 
+
+  Tutorial/Laboratory/Practice Classes 
+
+Other student study effort: 
+
+  Lecture: preview/review of notes; 
+
+homework/assignment; preparation for 
+test/quizzes/examination 
+
+24 Hours 
+
+15 hours 
+
+ 
+
+36 Hours 
+
+  Tutorial/Laboratory/Practice Classes: preview of 
+
+30 Hours 
+
+materials, revision and/or reports writing 
+
+ 
+
+Total student study effort: 
+
+105 Hours 
+
+Reading List and 
+References 
+
+Recommended Textbook:  
+1.  J.G. Proakis and M. Salehi, Communication Systems Engineering, Prentice 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Hall, 2002. 
+
+ 
+Reference Books: 
+1.  R.E.  Ziemer,  W.H.  Tranter,  Principles  of  Communications:  Systems, 
+
+Modulation and Noise, 5th ed., New York : John Wiley & Sons, c2002. 
+
+2.  A.B.  Carlson,  P.B.  Crilly  and  J.C.  Ruthledge,  Communication  Systems:  an 
+introduction  to  signals  and  noise  in  electrical  communication,  4th  ed., 
+McGraw-Hill, 2002. 
+
+3.  S. Haykin, Communication Systems, 4th ed., John Wiley & Sons, 2001. 
+4.  W.D. Stanley and J.M. Jeffords, Electronic Communications: Principles and 
+
+Systems, Thomson Delmar Lerning, 2006. 
+
+Last Updated 
+
+March 2018 
+
+Prepared by 
+
+Dr W.C. Lee 
+
+ 
+  
+
+

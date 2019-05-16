@@ -1,0 +1,261 @@
+ 
+Subject Code 
+EIE3333 
+Subject Description Form 
+Subject Title 
+Data and Computer Communications 
+Credit Value 
+Level 
+Pre-requisite/  
+Co-requisite/ 
+Exclusion 
+3 
+3 
+Nil 
+Objectives 
+1.  To  provide  solid  foundation  to  students  about  the  architectures  and 
+operations of communication networks. 
+2.  To enable students to master the knowledge about computer networking in 
+the context of real-life applications. 
+3.  To prepare students to  learn and to critically  evaluate  new knowledge  and 
+emerging technology in communication networks. 
+Intended Subject 
+Learning Outcomes 
+  
+Upon completion of the subject, students will be able to: 
+ 
+Category A: Professional/academic knowledge and skills 
+1.  Understand the services, functions, and inter-relationship of different layers 
+in communication network models 
+2.  Describe how components in different layers inter-operate and analyze their 
+performance. 
+3.  Understand  and  apply  the  principles  and  practices  of  communication 
+networks. 
+4.  Learn  new  techniques  and  to  align  new  technologies  to  existing  network 
+infrastructure.  
+ 
+Category B: Attributes for all-roundedness 
+5.  Present ideas and findings effectively. 
+6.  Learn independently. 
+Subject Synopsis/ 
+Indicative Syllabus 
+ 
+Syllabus:  
+  
+1.  Computer Networks, Services, and Layered Architectures 
+ 
+Evolution  of  networking  and  switching  technology.  Protocol  and  services. 
+Layered network architectures: OSI 7-layer model, TCP/IP architecture. 
+ 
+2.  Digital Transmission and Protocols in Data Link Layer 
+Line  coding  techniques,  error  detection  and  correction.  Automatic  Repeat 
+Request  (ARQ)  protocol  and  reliable  data  transfer  service.  Sliding-window 
+flow  control.  Framing  and  point-to-point  protocol,  flow  control  and  error 
+controls.  High  level  data  link  control  (HDLC)  protocol  and  point-to-point 
+protocol (PPP). 
+ 
+3.  Local Area Networks (LANs) and Wireless LANs 
+  Media  Access  Control  (MAC)  protocols:  the  IEEE802.3  Ethernet  and 
+IEEE802.11  wireless  LAN  standards.  Interconnection  of  LANs:  bridge, 
+switch, and virtual LAN. 
+ 
+4.  Network Layer Protocols 
+Network layer operations, connection oriented and connectionless services. 
+Internet protocol (IP): IP datagram format, IP addressing, subnetting, IP 
+routing and router operations. Internet control message protocol (ICMP), 
+dynamic host configuration protocol (DHCP), network address translation 
+(NAT). 
+ 
+5.  Transport Layer Protocols 
+Transmission control protocol (TCP) and user datagram protocol (UDP) 
+Teaching/ Learning 
+Methodology 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Alignment of 
+Assessment and 
+Intended Subject 
+Learning Outcomes 
+ 
+Possible Laboratory Experiments: 
+1.  Cisco router configuration and programming. 
+2.  Static and Dynamic routing. 
+3.  Network monitoring and analysis 
+4.  Address resolution, ARP, IP, and TCP. 
+Teaching and 
+Learning 
+Method 
+Intended 
+Subject 
+Learning 
+Outcome 
+Lectures   
+1, 2, 3, 4 
+Tutorials 
+1, 2, 3, 4, 5 
+Laboratory 
+sessions 
+5, 6 
+ 
+ 
+ 
+Remarks 
+Fundamental 
+key 
+concepts  of  the  subject  are  delivered  to 
+students. 
+principles 
+and 
+Supplementary to lectures. Students will 
+be able to clarify concepts and to have a 
+deeper  understanding  of 
+lecture 
+material;  
+the 
+Problems  and  application  examples  are 
+given and discussed. 
+Students will conduct practical exercises 
+to  reinforce  concepts  and  techniques 
+learned. 
+Specific Assessment 
+Methods/ Task 
+% 
+Weighting 
+Intended Subject Learning 
+Outcomes to be Assessed 
+(Please tick as appropriate) 
+ 
+ 
+1 
+2 
+3 
+1.  Continuous 
+Assessment  
+  Tests 
+  Assignments 
+  Laboratories 
+2.  Examination 
+Total 
+40% 
+ 
+ 
+ 
+ 
+ 
+ 
+60% 
+100% 
+ 
+ 
+  
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+4 
+ 
+ 
+ 
+5 
+ 
+ 
+ 
+6 
+ 
+  
+ 
+  
+   
+ 
+ 
+  
+ 
+The continuous assessment will consist of a number of assignments, laboratory 
+reports, case study reports (administered in tutorial sessions), and two tests. 
+ 
+ 
+ 
+ 
+ 
+Explanation  of  the  appropriateness  of  the  assessment  methods  in 
+assessing the intended learning outcomes: 
+ 
+Specific Assessment 
+Methods/ Tasks 
+Remark 
+Assignments, Tests 
+and examination 
+Laboratory sessions 
+ 
+These can measure the students’ understanding of 
+the theories and the concepts of the subject. End-
+of-chapter 
+to  evaluate 
+students’  ability  in  applying  concepts  and  skills 
+learnt in the classroom; 
+type  problems  used 
+Assignments  of  reading  report  type  to  assess 
+students’ ability in acquiring new knowledge related 
+to communication networks; 
+Students  need  to  think  critically  and  creatively  in 
+order  to  come  with  an  alternate  solution  for  an 
+existing problem. 
+Each  group  of  students  is  required  to  complete 
+work-sheets,  to  indicate  their  understanding  and 
+correct completion of the laboratories. 
+Accuracy and the presentation of the work-sheets 
+will be assessed; 
+Student Study 
+Effort Expected 
+Class contact (time-tabled): 
+ 
+  Lecture 
+  Tutorial/Laboratory/Practice Classes 
+Other student study effort: 
+  Lecture: preview/review of notes; 
+homework/assignment; preparation for 
+test/quizzes/examination 
+  Tutorial/Laboratory/Practice Classes: preview of 
+materials, revision and/or reports writing 
+Total student study effort: 
+24 Hours 
+15 hours 
+ 
+36 Hours 
+30 Hours 
+105 Hours 
+Reading List and 
+References 
+Textbook : 
+ 
+1.  Behrouz A. Forouzan, Data Communications & Networking, 5th ed., McGraw-
+Hill, 2012. 
+ 
+Reference Books: 
+ 
+1.  Behrouz  A.  Forouzan,  Computer  Networks:  A  Top-Down  Approach, 
+McGraw-Hill, 2012. 
+2.  William  Stallings,  Data  and  Computer  Communications,  9th  ed.,  Pearson/ 
+Prentice-Hall, 2012. 
+3.  Douglas  Comer,  Computer  Networks  and  Internets,  5th  ed.,  Pearson/ 
+Prentice-Hall, 2009. 
+Last Updated 
+December 2016 
+Prepared by 
+Dr K.T. Lo 
+ 
+

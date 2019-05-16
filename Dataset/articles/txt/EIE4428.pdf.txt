@@ -1,0 +1,411 @@
+Subject Description Form 
+
+ 
+
+Subject Code 
+
+EIE4428  
+
+Subject Title 
+
+Multimedia Communications 
+
+Credit Value 
+
+Level 
+
+3 
+
+4 
+
+Pre-requisite 
+
+EIE3333 Data and Computer Communications or 
+
+Co-requisite/ 
+Exclusion 
+
+Objectives 
+
+EIE3342 Computer Networks 
+
+Nil 
+
+To  study  the  technical  issues  and  system  solutions  for  providing  multimedia 
+communications on the Internet. 
+
+Intended Subject 
+Learning Outcomes 
+
+  
+
+Upon completion of the subject, students will be able to: 
+ 
+ 
+Category A: Professional/academic knowledge and skills 
+1.  Understand 
+
+the  current  state-of-the-art  developments 
+
+technologies for multimedia communications. 
+
+in 
+
+Internet 
+
+2.  Appreciate  the  principles  used  in designing  multimedia protocols,  and so 
+
+understand why standard protocols are designed the way that they are. 
+
+3.  Understand  the  system  design  principles  of  multimedia  communications 
+
+systems. 
+
+4.  Solve problems and design simple networked multimedia systems. 
+ 
+Category B: Attributes for all-roundedness 
+5.  Think critically and learn independently. 
+
+Subject Synopsis/ 
+Indicative Syllabus 
+
+  
+
+Syllabus: 
+ 
+1.  Terminal/Codec Support for Multimedia Communications 
+ 
+
+ 
+ 
+
+ 
+
+Scalable Coding: SNR Scalability, Spatial Scalability, Temporal Scalability 
+and Fine Granularity Scalability (FGS) 
+Error Control: Error Propagation, Error Resilience Coding Techniques 
+Rate  Control:  Concepts  for  Rate  Control,  MPEG  TM5  Rate  Control 
+Algorithms 
+
+ 
+2.  Transport Layer Support for Multimedia Communications 
+
+TCP  congestion  control,  TCP  Delay  Analysis,  TCP  Throughput  Analysis, 
+Bandwidth Allocation. Media transport protocols: Real Time Protocol (RTP) 
+and  Real  Time Control  Protocol  (RTCP);  Signalling  Protocols:  Real-Time 
+Streaming Protocol (RTSP) 
+
+ 
+3.  Quality of Services (QoS) 
+ 
+
+Integrated  services  (intserv):  Architecture  and  Service  Model,  Resource 
+Reservation Protocol (RSVP), Packet Scheduling Disciplines in the Internet 
+Differentiated  Services  (diffserv):  Framework  and  Concept,  Assured  and 
+Expedited  Services,  Packet  Classification,  Routers  Internals  and  Packet 
+Dropping Techniques 
+
+ 
+4.  Multimedia Streaming Systems 
+ 
+
+Streaming  architecture:  Real-time Streaming  and  On-demand Streaming, 
+Content  Delivery  Network  (CDN),  Data  Sharing  Techniques,  Support  of 
+Interactive  Operations,  Peer-to-Peer  (P2P)  video  streaming  techniques, 
+Case Studies on Video on Demand and IPTV 
+
+ 
+ 
+ 
+
+ 
+Laboratory Experiments/Miniprojects: 
+ 
+1.   Multimedia networking 
+2.  Multimedia streaming 
+
+ 
+
+ 
+
+ 
+
+Teaching and 
+Learning Method 
+
+Intended 
+Subject 
+Learning 
+Outcome 
+
+Lectures 
+
+1, 2, 3 
+
+Tutorials 
+
+1, 2, 3, 4, 5 
+
+Laboratory 
+sessions/Mini-
+projects 
+
+4, 5 
+
+Remarks 
+
+fundamental  principles  and 
+key 
+concepts of the subject are delivered to 
+students 
+
+supplementary  to  lectures  and  are 
+conducted with smaller class size;  
+students will be able to clarify concepts 
+and to have a deeper understanding of 
+the lecture material;  
+problems  and  application  examples 
+are given and discussed 
+
+students  will  make  use  of  network 
+simulators to simulate various types of 
+communication networks and evaluate 
+their  performance,  or  students  will 
+develop a simple multimedia streaming 
+system 
+by 
+different 
+together  using  some 
+components 
+existing tools. 
+
+integrating 
+
+Specific 
+Assessment 
+Methods/Tasks  
+
+% 
+
+Weighting 
+
+Intended Subject Learning 
+Outcomes to be Assessed 
+(Please tick as appropriate) 
+
+Teaching/ Learning 
+Methodology 
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Assessment 
+Methods in 
+Alignment with 
+Intended Subject 
+Learning Outcomes 
+
+ 
+
+1.  Continuous 
+
+ 
+
+Assessment (total 
+40%) 
+
+  Assignments  
+
+  Tests 
+
+  Mini-Project 
+
+2.   Examination 
+
+Total  
+
+ 
+
+4% 
+
+24% 
+
+12% 
+
+60% 
+
+100% 
+
+1 
+
+ 
+
+2 
+
+ 
+
+3 
+
+ 
+
+  
+
+4 
+
+ 
+
+ 
+
+5 
+
+ 
+
+
+
+    
+
+ 
+
+ 
+
+ 
+
+ 
+
+    
+
+ 
+
+ 
+
+ 
+Explanation  of  the  appropriateness  of  the  assessment  methods  in 
+assessing the intended learning outcomes: 
+ 
+
+Specific Assessment 
+Methods/Tasks 
+
+Remark 
+
+Short quizzes  
+
+ 
+
+Assignments, tests and 
+examination 
+
+Laboratory sessions / 
+miniprojects 
+
+ 
+
+tests 
+
+true-false,  and  matching 
+
+(e.g.,  multiple-choice 
+mainly  objective 
+questions, 
+items) 
+conducted  to  measure  the  students’  ability  to 
+remember  facts  and  figures  as  well  as  their 
+comprehension of subject materials 
+
+end-of  chapter  type  problems  used  to  evaluate 
+students’  ability  in  applying  concepts  and  skills 
+learnt in the classroom; 
+students  need  to  think  critically  and  creatively  in 
+order  to  come  with  an  alternate  solution  for  an 
+existing problem 
+
+each group of students are required to produce a 
+written report; 
+accuracy and the presentation of the report will be 
+assessed. 
+
+Student Study 
+Effort Expected 
+
+Class contact (time-tabled): 
+
+ 
+
+  Lecture 
+
+  Tutorial/Laboratory/Practice Classes 
+
+Other student study effort: 
+
+  Lecture: preview/review of notes; 
+
+homework/assignment; preparation for 
+test/quizzes/examination 
+
+24 Hours 
+
+15 Hours 
+
+ 
+
+36 Hours 
+
+  Tutorial/Laboratory/Practice Classes: preview of 
+
+30 Hours 
+
+materials, revision and/or reports writing 
+
+Total student study effort: 
+
+105 Hours 
+
+Reading List and 
+References 
+
+Reference Books: 
+ 
+1.  J.K.  Kurose,  Computer  Networking:  A  Top-down  Approach  Featuring  the 
+
+Internet, 6th ed., Pearson, 2012. 
+
+2.  Ze-Nian  Li  and  Mark  S.  Drew  and  J.  Liu,  Fundamentals  of  Multimedia, 
+
+Springer, 2nd Edition, 2014. 
+
+3.  K.R.  Rao,  Z.S.  Bojkovic  and  D.A.  Milovanovic,  Multimedia  Communication 
+
+Systems: Techniques, Standards, and Networks, Prentice-Hall PTR, 2002. 
+
+Last Updated 
+
+June 2015 
+
+Prepared by 
+
+Dr K.T. Lo 
+
+ 
+
+

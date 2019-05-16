@@ -1,0 +1,253 @@
+ 
+Subject Code 
+EIE4432  
+Subject Description Form 
+Subject Title 
+Web Systems and Technologies 
+Credit Value 
+Level 
+3 
+4 
+Pre-requisite 
+ENG2003 Information Technology  
+Co-requisite/ 
+Exclusion 
+Objectives 
+Nil 
+This subject will provide students with the principles and practical programming 
+skills  of  developing  Internet  and  Web  applications.    It  enables  students  to 
+master the development skill for both client-side and server-side programming, 
+especially for database applications.  Students will have opportunity to put into 
+practice  the  concepts  through  programming  exercises  based  on  various 
+components of client/server web programming. 
+Intended Subject 
+Learning Outcomes 
+Upon completion of the subject, students will be able to: 
+ 
+ 
+Category A: Professional/academic knowledge and skills 
+1.  Understand  the  enabling  technologies  for  building  Internet  and  Web 
+Subject Synopsis/ 
+Indicative Syllabus 
+  
+database applications. 
+2.  Understand 
+applications. 
+the  different  components 
+for  developing  client/server 
+3.  Apply  the  techniques  and  features  of  the  client/server  development 
+languages to construct a database application based on Internet. 
+4.  Develop the web database applications through programming exercises. 
+ 
+Category B: Attributes for all-roundedness 
+5.  Present ideas and findings effectively. 
+6.  Think critically. 
+7.  Learn independently. 
+Syllabus: 
+ 
+1. 
+Introduction to Client/Server Computing 
+The  basic  principles  of  client/server  computing;  Distinguished 
+characteristics of client/server systems and application areas; Comparison 
+of  two  tier  versus  three  tier  client/server  solutions;  Web  programming 
+model; Interactive web. 
+ 
+2.  Web Programming 
+Client-Side  Web  Programming:  Benefits  and  limitation  of  client-side  web 
+programming.    Basic  concepts  and  development  based  on  Java  applet  / 
+JavaScript / dynamic HTML (DHTML). 
+ 
+Server-Side Web Programming: Approaches to server-side programming.  
+Benefits  and  limitations  of  server-side  web  programming.    Development 
+framework for server-side programming based on PHP / Servlet / JSP.  
+ 
+Web  application  development.    Development  of  a  web  application  using 
+synchronous and asynchronous techniques 
+ 
+3.  Web Database 
+Database  Design  and  Implementation:  Relation  model;  Mapping  an  ER 
+model  to  relational  model;  Foundations  of  relational  implementation; 
+Structured query language. 
+ 
+ 
+ 
+Web Database Applications: Multi-tier architecture; Principle of web database 
+applications: store, manage and retrieve data.  
+ 
+4.  Data Analysis 
+ 
+Introduction to data mining; Concepts of data analysis; web data mining; 
+Introduction to big data analysis; Techniques of big data analysis. 
+ 
+Laboratory Experiments: 
+ 
+Practical Works: 
+1.   Client-side web application programming. 
+2.   Server-side web application programming. 
+3.   Database-driven web design. 
+4.   Web database Applications. 
+Teaching/ Learning 
+Methodology 
+  
+Teaching 
+and Learning 
+Method 
+Intended 
+Subject 
+Learning 
+Outcome 
+Lectures 
+1, 2, 6 
+Tutorials 
+1, 2, 6 
+Remarks 
+fundamental principles and key concepts of 
+the subject are delivered to students. 
+supplementary to lectures;  
+students will be able to clarify concepts and 
+to  have  a  deeper  understanding  of  the 
+lecture material;  
+problems  and  application  examples  are 
+given and discussed. 
+ 
+ 
+ 
+Assessment 
+Methods in 
+Alignment with 
+Intended Subject 
+Learning Outcomes 
+ 
+Laboratory 
+sessions 
+3, 4, 6, 7 
+students will develop client-side and server-
+side web applications. 
+Mini-project 
+3, 4, 5, 6, 7 
+students  in  groups  of  2/3  are  required  to 
+develop a database-driven web application. 
+Each group is required to perform a detailed 
+study and make a presentation. 
+Specific 
+Assessment 
+Methods/Tasks  
+% 
+Weighting 
+Intended Subject Learning 
+Outcomes to be Assessed (Please 
+tick as appropriate) 
+1.  Continuous 
+Assessment 
+(total 60%) 
+  Tests 
+  Quiz 
+  Laboratory 
+sessions 
+  Mini-project 
+2.   Examination 
+ 
+18% 
+18% 
+6% 
+18% 
+40% 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     
+ 
+     
+ 
+ 
+ 
+ 
+ 
+    
+    
+     
+ 
+Total  
+100% 
+ 
+ 
+The continuous assessment consists of tests, laboratory exercises and a mini-
+project. 
+ 
+ 
+ 
+Explanation  of  the  appropriateness  of  the  assessment  methods  in 
+assessing the intended learning outcomes: 
+ 
+Specific Assessment 
+Methods/Tasks 
+Remark 
+Tests and examination 
+end-of  chapter  type problems  used  to evaluate 
+students’  ability  in  applying  concepts  and  skills 
+learnt in the classroom; 
+students need to think critically and creatively in 
+order  to  come  with  an  alternate  solution  for  an 
+existing problem. 
+Laboratory sessions, 
+mini-project 
+ 
+oral  examination  based  on 
+exercises  will  be  conducted 
+student’s 
+communication skills. 
+technical 
+the 
+laboratory 
+to  evaluate 
+and 
+knowledge 
+Student Study 
+Effort Expected 
+Class contact (time-tabled): 
+ 
+  Lecture 
+  Tutorial/Laboratory/Practice Classes 
+Other student study effort: 
+  Lecture: preview/review of notes; 
+homework/assignment; preparation for 
+test/quizzes/examination 
+24 Hours 
+15 Hours 
+ 
+36 Hours 
+  Tutorial/Laboratory/Practice Classes: preview of 
+30 Hours 
+materials, revision and/or reports writing 
+Total student study effort: 
+105 Hours 
+Reading List and 
+References 
+ 
+Reference Books: 
+ 
+1.  Max Bramer, Web Programming with PHP and MySQL: A Practical Guide, 
+Springer, 2015. 
+2.  O’Kane,  Mike,  A  Web-based  Introduction  to  Programming:  Essential 
+Algorithms, Syntax, and Control Structures using PHP, HTML and MySQL, 
+3rd ed., Caroline Academic Press, 2014.  
+3.  Nixon, Robin, PHP: 20 Lessons to Successful Web Development, McGraw-
+Hill Education, 2015. 
+ 
+Last Updated 
+March 2018 
+Prepared by 
+Dr Bonnie Law 
+ 
+

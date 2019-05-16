@@ -1,0 +1,488 @@
+Subject Description Form  
+
+ 
+
+Subject Code 
+
+EIE3105 
+
+Subject Title 
+
+Integrated Project 
+
+Credit Value 
+
+Level 
+
+6 
+
+3 
+
+Pre-requisites      
+
+EIE2211 Logic Design  
+ENG2002 Computer Programming   
+
+Co-requisite/ 
+Exclusion 
+
+Nil 
+
+Objectives 
+
+ 
+
+Provide  students  with  the  concepts  and  techniques  in  designing  embedded 
+software  and  hardware  interfaces.    Covering  different  topics  of  preceding  core 
+subjects,  this  subject  emphasizes  the  application  of  knowledge  in  an  integrated 
+manner.    Apart  from  various  technical  challenges,  students  will  also  need  to 
+address  typical  non-technical  issues  involved  in  conducting  a  project  or  product 
+development. 
+
+Intended Subject 
+Learning Outcomes 
+
+ 
+
+Upon completion of the subject, students will be able to: 
+ 
+Category A: Professional/academic knowledge and skills 
+1.  Understand technical knowledge specific to autonomous robots. 
+2. 
+3.  Design under cost constraints and with component limitations/tolerances in 
+
+Integrate and apply knowledge acquired in previous subjects. 
+
+mind.  
+
+4.  Locate and resolve practical problems on project development. 
+ 
+Category B: Attributes for all-roundedness 
+5.  Search, self-learn and try untaught solutions. 
+6.  Exercise discipline and time-planning to meet deadlines.   
+7.  Present ideas and findings effectively. 
+8.  Work with others in a team collaboratively and exercise leadership. 
+
+Subject Synopsis/ 
+Indicative Syllabus 
+
+1.  Embedded System Hardware  
+ 
+
+Details of a typical microcontroller architecture 
+
+ 
+
+2.  Microcontroller  
+ 
+
+Internal  resources;  Electrical  characteristics  of  I/O  pins;  Timer/counter 
+operations  and 
+timer/counter;  Pulse 
+measurement using timer/counter. 
+
+interrupts;  Pulse  control  using 
+
+3. 
+
+I/O Interfacing 
+Output-pin driving limitations; Inductive load driving; Keyboard multiplexing; 
+Display  multiplexing;  LCD  controllers;  Switches,  relays  and  power-control 
+semiconductors;  Sensors;  Actuators;  A/D  and  D/A  converters;  Serial 
+interfaces; I/O expansion techniques; Grounding issues and dc isolation. 
+
+4.  Embedded Software Development and Testing 
+ 
+
+Embedded  software  issues;  Tasks  and  events;  Interrupt  system:  nesting, 
+priority and latencies; C-language Programming. 
+
+5.  Platform-Specific Anatomy of  a Small Autonomous Robot  
+  Mechanical structures; Circuit design; Interrupts and tasks; Generic software 
+functions and high-level algorithms; Concurrency and timing issues; Modern 
+control technologies. 
+
+6. 
+ 
+
+Introduction to Digital Control Systems  
+Poles/zeros  and  system  response,  basics  of  PID  control,  the  root  locus 
+method,  Ziegler-Nichols  rules  for  tuning  PID  controllers,  sampled-data 
+systems,  z-transform  and  discrete  transfer  function,  stability  analysis, 
+
+steady-state  errors  and  transient  response  of  digital  systems,  design  and 
+implementation of digital controllers. 
+
+Time and progress management; Communication. 
+
+7.  Project Management  
+ 
+ 
+Laboratory Experiments: 
+1. 
+2.  Timer/Counter Programming 
+3. 
+4.  Serial Port Programming 
+5. 
+
+Interrupt Programming 
+
+Interfacing 
+
+Introduction to Microcontroller Programming 
+
+Project: 
+1.  Hardware:  
+
+Construction of a small autonomous robot 
+
+2.  Software:  
+
+Writing program to control the small autonomous robot in order to finish a 
+number of tasks. 
+
+3.  Presentation and report writing 
+ 
+
+Teaching 
+and Learning 
+Method 
+
+Intended 
+Subject 
+Learning 
+Outcome 
+
+Lectures 
+
+1, 2 
+
+Laboratories 
+
+1,  2,  3,  4, 
+5 
+
+Remarks 
+
+In  lectures,  students  are  introduced  to  the 
+knowledge of the relevant fields.  Students will 
+be able to define and describe key terms and 
+concepts.  They will also be able to explain and 
+generalize  knowledge  about  embedded 
+systems.  
+
+hands-on 
+
+performing 
+
+By 
+practical 
+experiments, students will be able to apply the 
+acquired knowledge to designing solutions to 
+embedded system problems.  They will relate 
+their  observation  to  theories  and  principles. 
+They  will  also  evaluate  performance  of  their 
+design. 
+
+Quizzes 
+
+1, 2, 3 
+
+Students  will  develop  a  firm  understanding 
+and comprehension of the knowledge taught. 
+
+Final Tests 
+
+1, 2, 3 
+
+Students  will  develop  a  firm  understanding 
+and comprehension of the knowledge taught. 
+
+Project 
+
+1 - 8 
+
+ 
+
+is  an  engineering  development  with 
+It 
+objectively  defined  milestones  during 
+its 
+progress.    The  scope  to  be  covered  shall 
+include mechanical work, embedded software 
+development  and  circuit  design.    It  shall 
+provide ample space for the more enthusiastic 
+students  to  excel.    Each  student  will  have 
+chances to play the role of leading the group 
+in 
+assigned.  
+Progress  will  be  measured  by  functional 
+demonstrations, logbooks and reports. 
+
+accomplishing 
+
+subtasks 
+
+Teaching/Learning 
+Methodology  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Assessment 
+Methods in 
+Alignment with 
+Intended Subject 
+Learning Outcomes 
+
+ 
+
+Specific 
+Assessment 
+Methods/Tasks  
+
+% 
+
+Weighting 
+
+Intended Subject Learning 
+Outcomes to be Assessed (Please 
+tick as appropriate) 
+
+Continuous 
+Assessment 
+
+1.  Exercises 
+
+2.  Quizzes 
+
+3.  Practical Test 
+
+4.  Tests 
+
+5.  Project logbook 
+
+6.  Project report 
+
+and presentation 
+
+7.  Project 
+
+demonstration 
+
+ 
+
+14% 
+
+12% 
+
+15% 
+
+10% 
+
+4% 
+
+10% 
+
+35% 
+
+1 
+
+2 
+
+3 
+
+4 
+
+5 
+
+6 
+
+7 
+
+8 
+
+ 
+
+ 
+
+ 
+
+     
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+      
+
+    
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+    
+
+    
+
+        
+
+        
+
+         
+
+Total  
+
+100% 
+
+ 
+
+ 
+
+ 
+ 
+
+Student Study 
+Effort Expected 
+ 
+
+Class contact (time-tabled): 
+
+  Lecture 
+
+  Tutorial/Laboratory/Practical Classes 
+
+  Tests/Quizzes 
+
+Other student study effort: 
+
+  Lecture: preview/review of notes; homework/assignment; 
+
+preparation for test/quizzes/examination 
+
+  Tutorial/Laboratory/Practice Classes: preview of 
+
+materials, revision and logbook/report writing 
+
+  Project Development: preview of materials, revision, self-
+
+evaluation and testing of robots 
+
+Total student study effort: 
+
+ 
+
+38 Hours 
+
+42 Hours 
+
+10 Hours 
+
+ 
+
+38 Hours 
+
+42 Hours 
+
+30 Hours 
+
+200 Hours 
+
+Reading List and 
+References 
+
+1.  The AVR Microcontroller and Embedded Systems: Using Assembly and C, 
+
+M. A. Mazidi, S. Naimi, and S. Naimi, Pearson, 2014. 
+
+2.  D. Lock, Project Management, 10th ed., Farnham: Gower, 2013. 
+
+Last Updated 
+
+May 2018 
+
+Prepared by 
+
+Dr Lawrence Cheung / Dr KH Loo 
+
+ 
+
+

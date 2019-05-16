@@ -1,0 +1,211 @@
+ 
+Subject Code 
+EIE4106  
+Subject Description Form 
+Subject Title 
+Network Management and Security 
+Credit Value 
+Level 
+Pre-requisite 
+3 
+4 
+EIE3333 Data and Computer Communication or 
+EIE3342 Computer Network 
+Co-requisite/ 
+Exclusion 
+Nil 
+Objectives 
+ 
+This course aims at training students to master the basic principles, knowledge, 
+and skills about network management and network security. They will learn how 
+to apply these principles in various scenarios by using appropriate hardware and 
+software tools to design solutions for network management and security problems, 
+and to evaluating performance. 
+Intended Subject 
+Learning Outcomes 
+ 
+Subject Synopsis/ 
+Indicative Syllabus 
+ 
+Teaching/Learning 
+Methodology  
+ 
+ 
+Upon completion of the subject, students will be able to: 
+ 
+Category A: Professional/academic knowledge and skills 
+1.  Describe some common features about network management systems 
+2.  Perform basic network management tasks with appropriate tools 
+3.  Describe some network security services and functions 
+4.  Analyze and evaluate some common security features of computer 
+networks 
+5.  Design simple network management and security systems 
+ 
+Category B: Attributes for all-roundedness 
+6.  Communicate Effectively 
+7.  Understand the creative process when designing a solution to a problem 
+1.  Network Management 
+Functional  areas  in  network  management,  network  management  station, 
+agent, management information base (MIB), Simple Network Management 
+Protocol (SNMP) 
+ 
+2.  Network Security 
+Security  services  and  mechanisms,  basic  cryptography,  authentication 
+protocols, digital signature and public key infrastructure, firewall and virtual 
+private network (VPN) 
+Lectures: The subject matters will be delivered through lectures. Students will 
+be engaged in the lectures through Q&A, discussions and specially designed 
+classroom activities. 
+ 
+Tutorials: During tutorials, students will work on/discuss some chosen topics in 
+small group. This will help strengthen the knowledge taught in lectures. 
+ 
+Laboratory: During laboratory exercises, students will perform hands-on tasks 
+to practice what they have learned. They will evaluate performance of systems 
+and design solutions to problems. 
+ 
+ 
+Assessment 
+Methods in 
+Alignment with 
+Intended Subject 
+Learning Outcomes 
+ 
+Specific Assessment 
+Methods/Tasks  
+% 
+Weighting 
+Intended Subject Learning 
+Outcomes to be Assessed 
+(Please tick as appropriate) 
+1.   Continuous 
+ 
+Assessment 
+(total: 50%) 
+ 
+  Homework and 
+assignments 
+  Tests 
+  Laboratory 
+exercises 
+ 
+15% 
+20% 
+15% 
+3 
+ 
+4 
+ 
+5 
+ 
+6 
+ 
+7 
+ 
+         
+1 
+ 
+ 
+ 
+2 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2.  Examination 
+50% 
+ 
+ 
+         
+Total  
+100% 
+ 
+ 
+Explanation  of  the  appropriateness  of  the  assessment  methods  in 
+assessing the intended learning outcomes: 
+ 
+Assignment and homework will require students to apply what they have learnt 
+to  solve  problems.  They  will  be  asked  to  evaluate  the  security  features  of  a 
+system,  to  design  a  system  to  meet  network  management  and  security 
+requirements. 
+ 
+Laboratory  exercises:  Students  will  be  assessed  about  their  performance  on 
+hands-on  tasks  such  as  setting  up  a  VPN,  capturing  and  analyzing  packets, 
+setting up a network management system. 
+ 
+Tests  will  require  the  students  to  solve  network  management  and  security 
+problems within a specific time and without access to other materials. This is a 
+good way to assess students’ mastery of knowledge and understanding. 
+ 
+Examination: This is similar to tests but in a larger scale. It can assess students’ 
+achievement of the learning outcomes in a wider spectrum. 
+Class contact (time-tabled): 
+ 
+  Lecture 
+  Tutorial/Laboratory/Practice Classes 
+Other student study effort: 
+  Lecture: preview/review of notes; 
+homework/assignment; preparation for 
+test/quizzes/examination 
+24 Hours 
+15 Hours 
+ 
+36 Hours 
+Student Study 
+Effort Expected 
+ 
+  Tutorial/Laboratory/Practice Classes: preview of 
+30 Hours 
+materials, revision and/or reports writing 
+Total student study effort: 
+105 Hours 
+ 
+ 
+Reading List and 
+References 
+Text Book: 
+ 
+1.  Perez,  Andre,  Network  Security,  London:  Hoboken,  NJ:  ISTE;  Wiley  2014 
+(eBook, online access) 
+2.  Subramanian, Mani, Network management : principles and practice, Pearson, 
+2nd ed., 2011 (PolyU Library Acc. No.: TK5105.5 .S92 2011). 
+3.  Network  security,  administration,  and  management  advancing  technology 
+and  practice,  InfoSci-Books.  ;  MyiLibrary,  Information  Science  Reference, 
+2011 (eBook, online access). 
+4.  Behrouz A. Forouzan, Introduction to cryptography and network security, New 
+York:  McGraw-Hill  Higher  Education,  2008  (PolyU  Library  Acc.  No.:  
+TK5105.59 .F672 2008). 
+ 
+General References and standards: 
+ 
+1.  Ding,  Jianguo,  Advances  in  network  management,  Books24x7,  CRC 
+Press : Auerbach Publications, 2010 (eBook, online access). 
+2.  Clemm,  Alexander,  Network  Management  Fundamentals,  Indianapolis, 
+Ind.: Cisco Press, 2007 (PolyU Library Call Number: TK5105.5 .C576 2007) 
+3.  Yusuf Bhaiji, Network security technologies and solutions, Indianapolis, IN: 
+Cisco Press, 2008 (PolyU Library Call Number: TK5105.59 .B468 2008). 
+4.  James  Henry  Carmouche,  IPsec  virtual  private  network  fundamentals, 
+Indianapolis,  Ind.:  Cisco  Press,  2007  (PolyU  Library  Call  Number: 
+TK5105.567 .C37 2007). 
+ 
+Classics Paper 
+ 
+1.  Shannon,  Claude  Elwood,  Claude  Elwood  Shannon:  collected  papers, 
+Institute of Electrical and Electronics Engineers, c1993 (PolyU Library Call 
+Number: TK5101 .S448 1993). 
+Last Updated 
+June 2016 
+Prepared by 
+Dr C.K. Leung 
+ 
+

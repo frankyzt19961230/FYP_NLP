@@ -1,0 +1,293 @@
+ 
+
+Subject Code 
+
+EIE4103  
+
+Subject Description Form 
+
+Subject Title 
+
+Mobile Computer System Architecture 
+
+Credit Value 
+
+Level 
+
+Pre-requisite 
+
+3 
+
+4 
+
+EIE2211 Logic Design or 
+EIE2105 Digital and Computer Systems 
+
+Co-requisite/ 
+Exclusion 
+
+Nil 
+
+Objectives 
+
+ 
+
+This  course  aims  at  providing  students  with  an  understanding  of  the  hardware 
+architecture  of  mobile  computing  systems  and  the  techniques  essential  to  their 
+design and implementations. 
+
+Intended Subject 
+Learning Outcomes 
+
+ 
+
+Upon completion of the subject, students will be able to: 
+ 
+Category A: Professional/academic knowledge and skills 
+1.  Understand the hardware architecture of mobile computers. 
+2.  Understand the functions and features of different sub-systems of a mobile 
+
+computer. 
+
+3.  Understand the design constraints of mobile computer systems. 
+ 
+Category B: Attributes for all-roundedness 
+4.  understand the creative process when designing solutions to a problem 
+
+Subject Synopsis/ 
+Indicative Syllabus 
+
+ 
+
+1.  Mobile Computers and Their Applications 
+
+Mobile computers and their applications in daily life. Complex systems and 
+microprocessors.  The  embedded  system  design  process.  Formalisms  for 
+system design. 
+
+ 
+2.  Instruction Sets 
+
+ARM  processor  –  Processor  and  memory  organization,  data  operations, 
+flow  of  control.  TIC55x  DSP  –  Processor  and  memory  organization,  data 
+operations, flow of control. 
+
+ 
+3.  Central Processing Units 
+
+Programming  input  and  output.  Supervisor  mode,  exceptions,  and  traps. 
+Co-processors.  Memory  system  mechanisms.  CPU  performance.  CPU 
+power consumption. Design example. 
+
+ 
+4.  Bus-Based Computer Systems 
+
+The  CPU  bus.  Memeory  devices.  I/O  devices.  Component  interfacing. 
+Designing  with  microprocessors.  Development  and  debugging.  System-
+level performance analysis. Design example. 
+
+ 
+5.  Multiprocessors 
+
+Why multiprocessors? CPUs and accelerators. Multiprocessor performance 
+analysis. Consumer electronics architecture. Design examples: cell phones, 
+compact DISC and DVD players, audio players, digital still cameras, video 
+accelerator etc. 
+
+ 
+6.  Networks 
+
+Distributed  embedded  architectures.  Networks  for  embedded  systems. 
+Network-based  design.  Internet-enabled  systems.  Vehicles  as  networks. 
+Sensor networks. Design example. 
+
+ 
+ 
+ 
+
+ 
+7.  3D Graphics on Embedded Systems 
+
+Principle of mobile  3D graphics system design. Mobile 3D graphics APIs. 
+Mobile 3D graphics SoC. Real chip implementations. 
+
+ 
+
+Teaching/Learning 
+Methodology  
+
+ 
+
+Lectures: The subject matters will be delivered through lectures. Students will 
+be engaged in the lectures through Q&A, discussions and specially designed 
+classroom activities.  
+
+Tutorials: During tutorials, students will work on/discuss some chosen topics in 
+small group. This will help strengthen the knowledge taught in lectures.  
+
+Laboratory and assignments: During laboratory exercises, students will perform 
+hands-on  tasks  to  practice  what  they  have  learned.  They  will  evaluate 
+performance  of  systems  and  design  solutions  to  problems.  The  assignments 
+will help students to review the knowledge taught in class.  
+
+While lectures and tutorials will help to achieve the professional outcomes 1, 2, 
+and 3, the open-ended questions in laboratory exercises and assignments will 
+provide the chance to students to exercise their creatively in problem solving. 
+
+ 
+
+Assessment 
+Methods in 
+Alignment with 
+Intended Subject 
+Learning Outcomes 
+
+ 
+
+Specific Assessment 
+Methods/Tasks  
+
+% 
+
+Weighting 
+
+1.   Continuous  Assessment 
+ 
+
+(total: 50%) 
+
+  Homework and 
+
+assignments 
+
+  Tests 
+
+ 
+
+16% 
+
+18% 
+
+Intended Subject Learning 
+Outcomes to be Assessed 
+(Please tick as appropriate) 
+
+1 
+
+ 
+
+2 
+
+ 
+
+3 
+
+ 
+
+4 
+
+ 
+
+   
+
+  
+
+ 
+
+  Laboratory exercises 
+
+16% 
+
+ 
+
+ 
+
+ 
+
+2.   Examination 
+
+Total  
+
+50% 
+
+100% 
+
+   
+
+ 
+
+ 
+Explanation  of  the  appropriateness  of  the  assessment  methods  in 
+assessing the intended learning outcomes: 
+
+Assignment, homework and laboratory exercises will require students to apply 
+what they have learnt to solve problems. There will be open-ended questions 
+that allow students to exercise their creativity in making design. 
+
+Examination  and  tests:  They  assess  students’  achievement  of  the  learning 
+outcomes more rigorously. 
+
+ 
+
+ 
+
+Student Study 
+Effort Expected 
+ 
+
+Class contact (time-tabled): 
+
+ 
+
+  Lecture 
+
+  Tutorial/Laboratory/Practice Classes 
+
+Other student study effort: 
+
+  Lecture: preview/review of notes; homework/assignment; 
+
+preparation for test/quizzes/examination 
+
+  Tutorial/Laboratory/Practice Classes: preview of 
+
+materials, revision and/or reports writing 
+
+24 Hours 
+
+15 hours 
+
+ 
+
+36 Hours 
+
+30 Hours 
+
+Total student study effort: 
+
+105 Hours 
+
+Reading List and 
+References 
+
+Reference Book: 
+ 
+1.  W.  Wolf,  Computers  as  components:  Principles  of  embedded  computing 
+
+system design, 2nd ed., Morgan Kaufmann, 2008. 
+
+2.  J.H. Woo,  J.H.  Sohn,  B.G.  Nam  and H.J.  Yoo,  Mobile 3D  graphics  SoC: 
+
+From algorithm to chip, John Wiley & Sons, 2010. 
+
+Last Updated 
+
+May 2018 
+
+Prepared by 
+
+Dr Chris Chan 
+
+ 
+
+

@@ -1,0 +1,289 @@
+Subject Description Form 
+ 
+Subject Code 
+EIE2106 
+Subject Title 
+Signal and System Analysis 
+Credit Value 
+Level 
+Pre-requisite/  
+Co-requisite/ 
+Exclusion 
+3 
+2 
+Nil 
+Objectives 
+1.  To provide students with basic concepts in signal acquisition and analysis 
+techniques. 
+2.  To  provide  students  with  an  analytical  foundation  for  further  studies  in 
+Communication Engineering and Digital Signal Processing. 
+Intended Subject 
+Learning Outcomes 
+  
+Upon completion of the subject, students will be able to: 
+ 
+Category A: Professional/academic knowledge and skills 
+1.  Understand  the  representations  and  classifications  of  the  signals  and 
+Subject Synopsis/ 
+Indicative Syllabus 
+  
+systems. 
+2.  Understand  the  time  domain  and  frequency  domain  representations  of 
+continuous-time signals. 
+3.  Use different techniques to analyze continuous-time systems. 
+4.  Apply  software  tools  to  laboratory  exercises  for  experimenting  with 
+theories, and to the analysis of continuous-time signals and systems. 
+5.  Understand the acquisition process of discrete-time signals. 
+ 
+Category B: Attributes for all-roundedness 
+6.  Present ideas and findings effectively. 
+7.  Think critically and learn independently. 
+ 
+Syllabus:  
+ 
+1. 
+ 
+Introduction 
+Basic principle of signal acquisition devices and systems: speech and audio 
+signals,  images and  videos,  electroencephalography signals,  etc. Human 
+perception of signals. Mathematical representation of signals: Revision of 
+complex  numbers,  the  Euler  theorem,  sinusoidal  waves  and  phasor 
+representation. 
+ 
+2.  Fourier Representations for Continuous-Time Signals 
+ 
+Revision of definite and indefinite integrations. The Fourier series. Concept 
+of  frequency  and  spectrum.  The  Fourier  Series  and  Fourier  Transform. 
+Frequency domain representation of continuous-time signals. 
+ 
+3.  Continuous-time System Analysis 
+Properties  of  continuous-time  systems:  causality,  time  Invariance, 
+linearity.  Linear 
+invariant  (LTI)  continuous-time  system  and 
+convolution integral. Frequency response of LTI continuous-time systems. 
+Ideal filters: filter classifications, ideal filter frequency responses, bandwidth. 
+Examples of filters.  
+time 
+ 
+4.  Digital Signal Acquisition  
+Sample-and-hold.  Analogue-to-digital  (A/D)  and  digital-to-analogue  (D/A) 
+conversion.  Quantization.  Fourier  transform  of  discrete-time  signals. 
+Sampling  and  aliasing.  Shannon  sampling  theorem  and  Nyquist  rate. 
+Introduction to the discrete Fourier transform. 
+ 
+ 
+ 
+5.  Programming in Matlab 
+Matrix  operations  and  variables.  Plots  and  graphics.  Programming 
+constructs.  
+ 
+Laboratory experiments: 
+ 
+1.  Lab 1: Introduction to Matlab programming  
+2.  Lab 2: Signal Analysis using Fourier Series 
+3.  Lab 3: Signal Analysis using Fourier Transform  
+ 
+Teaching/ Learning 
+Methodology 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Alignment of 
+Assessment and 
+Intended Subject 
+Learning Outcomes 
+ 
+ 
+ 
+ 
+ 
+ 
+Teaching and 
+Learning Method 
+Remarks 
+Intended 
+Subject 
+Learning 
+Outcome 
+Lectures 
+1, 2, 3, 5, 7  Fundamental  principles  and  key 
+concepts of the subject are delivered 
+to students. 
+Tutorials 
+1, 2, 3, 5, 7  These 
+are 
+supplementary 
+to 
+lectures. 
+Students  will  be  able 
+to  clarify 
+concepts  and  to  gain  a  deeper 
+understanding 
+lecture 
+material.  
+the 
+of 
+Laboratory sessions 
+3, 4, 6, 7 
+Problems  and  application  examples 
+are given and discussed. 
+the 
+Students  will  make  use  of 
+software  MATLAB 
+to  simulate 
+various  theories  and  visualize  the 
+results. 
+Specific 
+Assessment 
+Methods/ Task 
+% 
+Weighting 
+Intended Subject Learning 
+Outcomes to be Assessed 
+(Please tick as appropriate) 
+ 
+ 
+ 
+1.  Continuous 
+Assessment   
+(total 40%) 
+  Laboratory 
+sessions  
+  Short quizzes 
+  Tests 
+2.  Examination 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+  
+    
+  
+    
+  
+    
+  
+9% 
+13% 
+18% 
+60% 
+Total 
+100% 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Explanation  of  the  appropriateness  of  the  assessment  methods  in 
+assessing the intended learning outcomes: 
+ 
+Specific Assessment 
+Methods/Tasks 
+Remark 
+Short quizzes and 
+assignments 
+ 
+Tests and examination 
+They can measure the students’ understanding 
+of  the  theories  and  concepts  as  well  as  their 
+comprehension of subject materials. 
+End-of-chapter-type  problems  are  used 
+evaluate 
+concepts and skills learnt in the classroom; 
+the  students’  ability 
+to 
+in  applying 
+Students  need  to  think  critically  and  to  learn 
+independently  in  order  to  come  up  with  an 
+alternative solution to an existing problem. They 
+need to present their solutions in a logical and 
+systematic  manner 
+the 
+examination. 
+tests  and 
+the 
+in 
+Student Study 
+Effort Expected 
+Laboratory sessions  
+ 
+Oral  examination  based  on  the  laboratory 
+to  evaluate 
+exercises  will  be  conducted 
+student’s 
+technical 
+and 
+communication skills.  
+knowledge 
+Class contact (time-tabled): 
+ 
+  Lecture 
+  Tutorial/Laboratory/Practice Classes 
+Other student study effort: 
+  Lecture: preview/review of notes; 
+homework/assignment; preparation for 
+test/quizzes/examination 
+24 Hours 
+15 hours 
+ 
+36 Hours 
+  Tutorial/Laboratory/Practice Classes: preview of 
+30 Hours 
+materials, revision and/or reports writing 
+Total student study effort: 
+105 Hours 
+Reading List and 
+References 
+References: 
+ 
+ 
+ 
+1.  Chaparro, Luis F., Signals and systems using MATLAB, Academic Press, 
+2nd Edition, 2014. 
+2.  M.J. Roberts, Fundamentals of Signals & Systems, McGraw-Hill, 2008. 
+3. 
+James  H.  McClellan,  Ronald  W.  Schafer  and  Mark  A.  Yoder,  Signal 
+Processing First, Prentice-Hall, 2003. 
+Last Updated 
+March 2018 
+Prepared by 
+Dr Bonnie Law 
+ 
+  
+

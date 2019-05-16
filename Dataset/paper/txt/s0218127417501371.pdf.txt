@@ -1,0 +1,2826 @@
+August 28, 2017
+
+13:51 WSPC/S0218-1274
+
+1750137
+
+International Journal of Bifurcation and Chaos, Vol. 27, No. 9 (2017) 1750137 (16 pages)
+c(cid:1) World Scientiﬁc Publishing Company
+DOI: 10.1142/S0218127417501371
+
+Noise-Induced Chaos in a Piecewise Linear System
+
+Chen Kong∗ and Xian-Bin Liu†
+
+State Key Laboratory of Mechanics and Control of Mechanical Structures,
+
+Nanjing University of Aeronautics and Astronautics,
+
+29 Yudao Street, Nanjing, Jiangsu Province, P. R. China
+
+∗kongchen bill@126.com
+
+†xbliu@nuaa.edu.cn
+
+Received December 15, 2016; Revised April 18, 2017
+
+In the present paper, the phenomenon of noise-induced chaos in a piecewise linear system that
+is excited by Gaussian white noise is investigated. Firstly, the global dynamical behaviors of
+the deterministic piecewise linear system are investigated numerically in advance by using the
+generalized cell-mapping digraph (GCMD) method. Then, based on these global properties,
+the system that is excited by Gaussian white noise is introduced. Then, it is simpliﬁed by the
+stochastic averaging method, through which, a four-dimensional averaged Itˆo system is ﬁnally
+obtained. In order to reveal the phenomenon of noise-induced chaos quantitatively, MFPT (the
+mean ﬁrst-passage time) is selected as the measure. The expression for MFPT is formulated
+by using the singular perturbation method and then a rather simple representation is obtained
+via the Laplace approximation, and within which, the concept of quasi-potential is introduced.
+Furthermore, with the rays method, the MFPT under a certain set of parameters is estimated.
+However, within the process of analysis, the authors had to face a diﬃcult problem concerning
+the ill-conditioned matrix, which is the obstacle for the estimation of MFPT, which was then
+solved by applying one more approximation. Finally, the result is compared with the numerical
+one that is obtained by the Monte Carlo simulation.
+
+Keywords: Piecewise linear system;
+MFPT.
+
+intermittent switching behavior; noise-induced chaos;
+
+1. Introduction
+In recent years, there has been considerable inter-
+est in the research on the phenomena of noise-
+induced dynamical behaviors in the ﬁeld of random
+dynamical systems. Thus far, many of these phe-
+nomena, such as, the so-called noise-induced chaos
+[He & Habib, 2013; T´el et al., 2008; Lin & Young,
+2008], intermittent switching behavior [Armbruster
+et al., 2003; Stone & Armbruster, 1999], noise-
+induced switching between cycles in the heteroclinic
+networks [Armbruster et al., 2003; Stone & Arm-
+bruster, 1999], synchronization [Zhou et al., 2003],
+
+a lowering of the escape energy [Kraut & Feudel,
+2003a; Hunt et al., 1996], transient chaos [T´el et al.,
+2008; Kraut & Feudel, 2002], are observed and
+found, that belong respectively to diﬀerent subjects,
+such as ﬂuid mechanics [Aubry et al., 1988], neu-
+rology [Dtchetgnia Djeundam et al., 2013], biology
+[Billings & Schwartz, 2002], stochastic stability of
+structures [Roy, 1996], population ecology [Ellner &
+Turchin, 1995], chemistry [Naeh et al., 1990], laser
+theory [Zhou et al., 2003], communications theory
+[Hunt et al., 1996] and so on. It is noted that for
+a nonlinear dynamical system which has structural
+
+†
+Author for correspondence
+
+1750137-1
+
+Int. J. Bifurcation Chaos 2017.27. Downloaded from www.worldscientific.comby HONG KONG POLYTECHNIC UNIVERSITY on 04/20/19. Re-use and distribution is strictly not permitted, except for Open Access articles.August 28, 2017
+
+13:51 WSPC/S0218-1274
+
+1750137
+
+C. Kong & X.-B. Liu
+
+instability, even a small noise may result in these
+kinds of phenomena. Thus far, most research meth-
+ods emphasized on the numerical evaluation of the
+maximal Lyapunov exponent [He & Habib, 2013;
+Lin & Young, 2008; Aubry et al., 1988; Dtchetg-
+nia Djeundam et al., 2013; Ellner & Turchin, 1995],
+which is used to characterize the chaotic prop-
+erties of signals, and the fractal dimensions [T´el
+et al., 2008; Hunt et al., 1996], Stone and Holmes
+investigated the behaviors of the heteroclinic net-
+works under random perturbations [Aubry et al.,
+1988], a noise-induced transition from a periodic
+motion to a quasi-periodic or chaotic motion was
+found numerically in a Rayleigh–Duﬃng system
+[Hikihara et al., 2012] and furthermore via a
+reduced-order Fokker–Planck–Kolmogorov (FPK)
+equation, a disappearance of a noise-induced energy
+localization was found within a monostable Duﬀ-
+ing system. In [Roy, 1997a; Roy & Nauman, 1995],
+noise-induced chaos or
+switching
+behavior was found in multistable piecewise linear
+systems, however under the assumption of elliptic
+orbits and a two-dimensional Itˆo system, this phe-
+nomenon cannot be analyzed analytically. Accord-
+ing to the recent researches by the authors, for a
+noise-excited piecewise linear system, a chaotic sad-
+dle was found to exist among a wide range of param-
+eters [Kong et al., 2016], which reﬂects the fact that
+within the same range of parameters, noise-induced
+chaos can exist.
+
+intermittent
+
+Recently, the concept of quasi-potential was
+always used to characterize these complicated phe-
+nomena, especially for the nonlinear system which
+exhibits transient chaos or unattractive chaotic
+attractors. The unattractive chaotic attractors were
+found to be very common in a periodic window, and
+the quasi-potential plateaus caused by chaotic sad-
+dles were also observed [Kraut & Feudel, 2003b]
+(see Figs. 4–6 in [Kraut & Feudel, 2003b]). The
+quasi-potential was ﬁrst introduced by Freidlin and
+Wentzell [2012], in order to investigate the behav-
+ior of dynamical systems that were under random
+perturbation. However, up till now, the method
+of quasi-potential is mostly used in the numerical
+simulations of the complicated nonlinear dynami-
+cal systems which exhibit chaos or chaotic saddles,
+and the reason is simply because the dynamical
+structures of the nonlinear stochastic systems that
+process these phenomena are complicated. Fur-
+thermore, the quasi-potential was used by some
+researchers to measure MFPT. In the study of
+
+stability problem, stochastic stability is always
+deﬁned as the stability of invariant density [Young,
+1986], and an oscillator can be called stochasti-
+cally unstable if the MFPT is ﬁnite [Klosek-Dygas
+et al., 1988]. In this paper, the phenomenon of
+noise-induced chaos obviously implies the stochas-
+tic instability of a regular attractor, and MFPT
+can characterize the enhancement of noise-induced
+escape if the chaotic saddles exist [Hong et al.,
+2010].
+
+Based on the previous work of the authors
+[Kong et al., 2016], a piecewise linear system is
+investigated again in the present paper, for which
+the phenomenon of noise-induced chaos is inves-
+tigated furthermore. To measure the complicated
+phenomenon quantitatively, a high-dimensional Itˆo
+system is obtained and the relevant MFPT is esti-
+mated via the singular perturbation method. In the
+present analysis, the eﬀect of boundary layer is con-
+sidered, which reﬂects the algebraic rate of change
+of MFPT with respect to time, and as a result, the
+more precise estimation of MFPT is then obtained.
+Whereas, within the analysis process the authors
+are challenged, wherein an ill-conditioned matrix
+arises and hinders the estimation of the MFPT. To
+solve the problem, by ignoring that term in the for-
+mula of MFPT, which relates to the ill-conditioned
+matrix, an approximate result is obtained. Despite
+its complex forms, the approximate analytical result
+reﬂects successfully the inﬂuence of chaotic saddles
+on the exit behavior and matches the numerical
+results well.
+
+This paper is organized as follows. In Sec. 2, in
+the absence of noise excitation, the global dynami-
+cal properties of the piecewise linear system driven
+by only a harmonic excitation are illustrated by
+using GCMD. In Sec. 3, for the system driven by
+both a harmonic excitation and a Gaussian white
+noise, an averaged four-dimensional Itˆo system
+is obtained via the stochastic averaging method.
+Based on the analysis upon the boundary layer
+function and the rays method, the solution of the
+FPK equation is obtained along each ray by solv-
+ing a set of ordinary diﬀerential equations (ODEs)
+which are formulated in Sec. 4. In Sec. 5, on the
+basis of Laplace approximation method and the
+work of Z. Schuss and his co-workers, the expression
+for the MFPT is formulated. As noted before, the
+ill-conditioned matrix induced by the term within
+the expression of MFPT arises, to solve the prob-
+lem, one more approximation method is applied,
+
+1750137-2
+
+Int. J. Bifurcation Chaos 2017.27. Downloaded from www.worldscientific.comby HONG KONG POLYTECHNIC UNIVERSITY on 04/20/19. Re-use and distribution is strictly not permitted, except for Open Access articles.August 28, 2017
+
+13:51 WSPC/S0218-1274
+
+1750137
+
+and ﬁnally, a comparison between the approximate
+result and the numerical result simulated by Monte
+Carlo method is given. The conclusions and some
+discussions are summarized in Sec. 6.
+
+2. Global Analysis
+In this section, the global dynamical properties for a
+deterministic piecewise linear system is investigated
+in advance by using GCMD, prior to the inves-
+tigation on the MFPT of the relevant stochastic
+system, because of the complexity of the dynam-
+ical behaviors. GCMD is known as a powerful
+numerical method for inspecting and illustrating
+the global and local properties of a dynamical sys-
+tem [Kong et al., 2016; Hong, 2010; Hong et al.,
+2010; Han et al., 2015; Han et al., 2014; Yue et al.,
+2012; Hong & Xu, 2003; Hsu, 1995; Dellnitz et al.,
+2001]. And some eﬃcient algorithms were devised
+for obtaining invariant sets in high-dimensional sys-
+tems [Dellnitz et al., 2001]. For the piecewise linear
+system, its equation of motion is given by
+
+where f(x) is a piecewise linear restoring force,
+which is deﬁned as
+
+dt + f(x) = F (t)
+
+d2x
+dt2 + 2ζ dx
+
+x + 1, x ≤ −1,
+
+|x| < 1,
+0,
+x − 1, x ≥ 1
+
+f(x) =
+
+(1)
+
+(2)
+
+Noise-Induced Chaos in a Piecewise Linear System
+
+and F (t) is the external excitation, i.e.
+
+F (t) = f0 + f1cos(ωt) + ξ(t)
+
+(3)
+
+ξ(t) is the random process that has a zero mean
+and the autocorrelation function (cid:3)ξ(t)ξ(t + τ)(cid:4) =
+2Dδ(t), and D is assumed as a small parameter. In
+mechanical systems, there are many buﬀers, bar-
+riers and elastic stops to limit the amplitude of
+vibrations, such as vibration dampers in a vehicle
+and fenders. And the clearance or backlash between
+gears cannot be avoided to model the vibration of
+gear lapping system. All these systems are subjected
+to piecewise linear restoring forces. Equation (1) is
+a classical and generalized model with a clearance
+type nonlinearity used to model many systems in
+practical engineering projects, especially the vibra-
+tion and impact systems within mechanical and
+civil engineering. In this piecewise linear system,
+many complicated dynamical behaviors have been
+found.
+
+In [Kong et al., 2016], the dynamics of a deter-
+ministic piecewise linear system are investigated
+numerically. Through the Monte Carlo simulation,
+the noise-induced chaos is found twice if the fre-
+quency of the external excitation ω is around 0.49
+or belongs to the interval [0.7, 1.4], thus ω = 0.89
+is chosen to be as the typical case to show this
+phenomenon numerically. In the remainder of this
+research, the values of some parameters are set as
+ζ = 0.01, f0 = f1 = 0.25. For the system deﬁned in
+Eq. (1) excited by a very small noise, Fig. 1 displays
+the signal history and the corresponding projection
+
+1.5
+
+1
+
+0.5
+
+y
+
+0
+
+−0.5
+
+−1
+0
+
+Noise is added 
+
+1.5
+
+1
+
+0.5
+
+y
+
+0
+
+−0.5
+
+2000
+
+4000
+
+T
+
+6000
+
+8000
+
+10000
+
+(a)
+
+−1
+−3
+
+−2
+
+−1
+
+0
+x
+
+(b)
+
+1
+
+2
+
+3
+
+(a) The time history of y-component of the Poincar´e points on (4) are shown versus the time T which stands for the
+Fig. 1.
+period of the external excitation T = 2π/ω and (b) the projection of the same signal onto the Poincar´e section (4). ω = 0.89,
+D = 6e − 5 are chosen in this ﬁgure.
+
+1750137-3
+
+Int. J. Bifurcation Chaos 2017.27. Downloaded from www.worldscientific.comby HONG KONG POLYTECHNIC UNIVERSITY on 04/20/19. Re-use and distribution is strictly not permitted, except for Open Access articles.August 28, 2017
+
+13:51 WSPC/S0218-1274
+
+1750137
+
+C. Kong & X.-B. Liu
+
+on a Poincar´e section, which is deﬁned by
+
+(cid:5)
+(x, y, t)| t = t0, mod
+
+(cid:6)
+
+2π
+ω
+
+Σ =
+
+(4)
+
+where y-coordinate denotes
+˙x. The comparison
+between the signal in Fig. 1(a) before and after
+noise is added, the fact that the chaotic saddle exists
+in the deterministic system and the fact that the
+phenomenon of noise-induced chaos exists in the
+stochastic system are both veriﬁed. And the pro-
+jection of this signal is displayed in Fig. 1(b).
+
+Due to the complexity of the dynamical behav-
+iors of the system deﬁned in Eq. (1), in this section
+the GCMD method is applied to ﬁnd the reﬁned
+structure of the phase portrait on the Poincar´e sec-
+tion deﬁned in Eq. (4),
+in the case of no noise
+excitation (i.e. D = 0). The GCMD method is a
+numerical method which is based on the general-
+ized cell-mapping (GCM) method [Hsu, 1995, 1987]
+and graph theory, and with the help of the the-
+ory of digraph, this method extracts much more
+information through numerical computation, such
+as attractors, saddles and even chaotic saddles.
+Although via this method, the accurate positions
+of the ﬁxed points cannot be obtained, the areas
+that they occupy are given, which are suﬃcient for
+the qualitative analysis.
+
+In Fig. 2, the green parts are two period-1
+attractors, the black parts are the regular and
+chaotic saddles, and the blue and red parts
+are the stable and unstable manifolds of saddles
+respectively. The remaining pictures in this paper
+
+Fig. 2. The phase diagram projected on the Poincar´e sec-
+tion by using GCMD method, ω = 0.89. The attractors are
+shown by green points, and the saddle and chaotic saddles
+are shown by black points. The blue and red points are the
+stable and unstable manifolds of saddles respectively.
+
+obtained from the GCMD method follow the same
+convention. A cell space of 2000 × 2000 is used to
+cover the phase diagram in Fig. 2, and there are
+one period-1 stable solution with a large amplitude
+(the green part in the upper right), one period-1 sta-
+ble solution with a small amplitude (the green part
+in the lower left), one period-1 saddle (the black
+point located in the insertion of the blue and red
+line in the left) and one big black part that has
+a reﬁned structure which is a chaotic saddle. This
+chaotic saddle is a set of saddles interconnected
+by the manifold of each other [Kong et al., 2016;
+Hong & Xu, 2003]. It is noted that if the resolu-
+tion of this method is raised extremely, each of the
+two period-1 stable solutions and the period-1 sad-
+dle solution depicted in Fig. 2 should turn out to be
+a point respectively on the phase portrait, however
+the simulation process is uneconomical. Because the
+purpose of the investigation here is to just show the
+global properties of this system, not to determine
+the exact positions of these solutions, the results
+shown in Fig. 2 are enough here.
+
+By comparing Fig. 1(b) and the chaotic sad-
+dle in Fig. 2, it is observed that the phenomenon
+of noise-induced chaos is a kind of exit problem
+in which the system status exits from the basin
+of the stable attractor to the chaotic saddle under
+even a small noise excitation. That is how the
+noise-induced chaos occurs. Furthermore, due to the
+nonattracting property of the chaotic saddle, it is
+impossible for the system to stay at the chaotic
+saddle for a long time, instead it moves back to
+the stable attractor intermittently. The intermit-
+tent switching behavior occurs, as a result. So, the
+noise-induced chaos is a kind of exit behavior for
+dynamical systems wherein the attractors and the
+chaotic saddles coexist. And we note that in gen-
+eral, noise-induced chaos is not only a simple transi-
+tion between chaotic saddles and regular attractors.
+For example, Lin and Young studied noise-induced
+chaos without intermittent switching behavior in a
+two-dimensional system [Lin & Young, 2008].
+
+In order
+
+to characterize both the attrac-
+tor and the chaotic saddle, a further analysis is
+required with a smaller scope and a ﬁner resolution.
+Figure 3(a) shows the reﬁned structure just around
+the period-1 stable solution with a small amplitude.
+In this small scale, it is easy to ﬁnd that there is
+a period-3 saddle [three black parts connected to
+each other in Fig. 3(a)] around the attractor, which
+demonstrates that the period-3 saddle is the nearest
+
+1750137-4
+
+Int. J. Bifurcation Chaos 2017.27. Downloaded from www.worldscientific.comby HONG KONG POLYTECHNIC UNIVERSITY on 04/20/19. Re-use and distribution is strictly not permitted, except for Open Access articles.August 28, 2017
+
+13:51 WSPC/S0218-1274
+
+1750137
+
+Noise-Induced Chaos in a Piecewise Linear System
+
+0.4
+
+0.2
+
+0
+
+−0.2
+
+−0.4
+
+1
+
+0.5
+
+y
+
+0
+
+−0.5
+
+0
+
+0.5
+
+1
+
+(a)
+
+−1
+−0.5
+
+0
+
+0.5
+
+1
+x
+
+(b)
+
+1.5
+
+2
+
+2.5
+
+Fig. 3.
+(a) The phase diagram projected on the Poincar´e section (4) in a small scale around the period-1 stable cycle with a
+small amplitude by using GCMD method at ω = 0.89 and (b) the two-dimensional phase trajectory on (x, y) plane which is
+integrated numerically by choosing the right black point in Fig. 3(a) as the initial point.
+
+part of the chaotic saddle from period-1 attractor
+and corresponds to the edge of the quasi-potential
+plateau [Kraut & Feudel, 2003b; Hunt et al., 1996].
+Choosing the right black point on the Poincar´e
+section as the initial point, the trajectory of this
+period-3 saddle is obtained numerically and plotted
+in Fig. 3(b). Thus, we expect the analysis of the phe-
+nomenon of noise-induced chaos can be replaced by
+the analysis of the transition between the period-1
+attractor and the period-3 saddle.
+
+3. Simpliﬁcation of the System
+Through the global analysis by GCMD method in
+Sec. 2, one period-3 saddle is found just around the
+period-1 attractor which corresponds to the edge of
+quasi-potential plateau. Thus, the analysis on the
+phenomenon of noise-induced chaos can be replaced
+by the analysis on the exit behavior between this
+period-3 saddle and the period-1 attractor. Since
+both the white noise excitation and the damping
+coeﬃcient of the system are small, the stochastic
+averaging method, which is used widely for the
+analysis of the exit problems [Roy, 1996, 1997b,
+1994b, 1997a, 1994a, 1995; Rodrigues et al., 2010;
+Chen & Zhu, 2010; Chen et al., 2009], can be applied
+to simplify the system (1). It is noted that the
+period-1 attractor and this period-3 saddle are both
+structurally stable, thus it is reasonable to use an
+approximation method, such as the stochastic aver-
+aging method, to deal with this exit problem [Guck-
+enheimer & Holmes, 1983], and the averaged system
+
+as the substitution of the original piecewise linear
+system will facilitate the analysis of the MFPT.
+
+Via the comparison between the trajectory
+depicted in Fig. 3(b) and an elliptic trajectory, it
+is clear that the amplitude of this trajectory is
+obviously period-3. Then, the power spectrum of
+the motion around the period-3 saddle displayed
+in Fig. 4 shows that the subharmonic frequencies
+of orders 1/3 and 2/3 are present beside the main
+oscillating frequency. Thus, by adding two period-3
+harmonic components to the amplitude of the ellip-
+tic trajectory, the approximate solution to Eq. (1)
+
+|
+)
+
+ω
+X
+
+(
+
+|
+
+105
+
+104
+
+103
+
+102
+
+101
+0
+
+X: 0.8805
+Y: 5929
+
+X: 0.2953
+Y: 1733
+
+X: 0.5852
+Y: 2054
+
+0.2
+
+0.4
+
+0.6
+
+ω
+
+0.8
+
+1
+
+1.2
+
+Fig. 4. The power spectrum of the motion around the
+period-3 saddle found in Fig. 3.
+
+1750137-5
+
+Int. J. Bifurcation Chaos 2017.27. Downloaded from www.worldscientific.comby HONG KONG POLYTECHNIC UNIVERSITY on 04/20/19. Re-use and distribution is strictly not permitted, except for Open Access articles.August 28, 2017
+
+13:51 WSPC/S0218-1274
+
+1750137
+
+C. Kong & X.-B. Liu
+
+is assumed as follows
+
+x(t) = c + r(t) cos(ωt + θ(t))
+
++ r3(t) cos
+
++ ϑ(t)
+
+(cid:8)
+(cid:8)
+
+(cid:7)
+(cid:7)
+
+2ωt
+3
+
+ω
+3
+
++ r13(t) cos
+
++ Θ(t)
+
+(5)
+
+where c is a constant which is used to express the
+oﬀset of the trajectory caused by the constant force
+f0, r is the amplitude of the period-1 component,
+
+r3 and r13 are the amplitudes of the period-3 com-
+ponents respectively, and θ, ϑ and Θ are the phases
+of these components, respectively. However the
+seven independent variables contained in Eq. (5)
+will lead to much diﬃculty in the following calcula-
+tion. Since the last term in Eq. (5) is the one with
+the minimum energy according to Fig. 4, it is rea-
+sonable to ignore the last term to simplify the fol-
+lowing calculation. And the following results shown
+in Fig. 6 demonstrate that this approximation is
+appropriate and valid. Then, the new approximate
+solution is given below
+
+
+
+
+(cid:7)
+
+(cid:8)
+(cid:8)
+
+x(t) = c + r(t) cos(ωt + θ(t)) + r3(t) cos
+
+2ωt
+3
+= c + a(t) cos(ωt) − b(t) sin(ωt) + d(t) cos
+(cid:7)
+(cid:9)
+
+y(t) = −ωr(t) sin(ωt + θ(t)) − 2ω
+3
+
+r3(t) sin
+
+2ωt
+3
+
+(cid:7)
+
+= −ω[a(t) sin(ωt) + b(t) cos(ωt)] − 2ω
+3
+
++ ϑ(t)
+
+2ωt
+3
+
+(cid:7)
+
+(cid:8)
+
+,
+
+2ωt
+3
+
+− e(t) sin
+(cid:8)
+
+(6)
+
++ ϑ(t)
+
+(cid:7)
+
+(cid:8)
+
++ e(t) cos
+
+(cid:7)
+
+(cid:8)(cid:10)
+
+.
+
+2ωt
+3
+
+2ωt
+3
+
+d(t) sin
+
+The van der Pol variables a, b, c, d, and e are
+introduced to transform the periodic solutions in
+the phase space (x, y) to the ﬁxed points in the van
+der Pol phase space (a, b, c, d, e). Via the compari-
+son between Figs. 6(b) and 3(b), it is easy to verify
+that the expressions in Eq. (6) give well the approx-
+imations of either the period-3 solution [comparing
+Fig. 6(b) with Fig. 3(b)] under the condition that
+r3(t) (cid:5)= 0 or d(t)e(t) (cid:5)= 0 or the period-1 solution if
+r3(t) = 0 or d(t) = 0, e(t) = 0 [He & Habib, 2013;
+Roy & Nauman, 1995]. With the assumption of the
+approximate solution given in Eq. (6), it is reason-
+able to consider all the variables of a, b, c, d, and e
+as slow variables.
+
+N0 =
+
+ω
+6π
+
+N2i−1 =
+
+0
+
+(cid:11) 6π/ω
+(cid:11) 6π/ω
+(cid:11) 6π/ω
+
+ω
+3π
+
+0
+
+
+
+
+N2i =
+
+ω
+3π
+
+f(x) sin
+
+0
+
+f(x)dt,
+
+(cid:7)
+
+f(x) cos
+
+(cid:7)
+
+(i + 1) ωt
+
+3
+
+(cid:8)
+
+(i + 1)ωt
+
+3
+
+dt.
+
+Next, the piecewise linear function deﬁned in
+Eq. (2) is expanded along the trajectories given by
+Eq. (6) [Roy, 1997b], for which the expansion is
+given by
+
+(cid:7)
+
+(cid:8)
+
+2ωt
+3
+
+(cid:7)
+
+(cid:8)
+
+2ωt
+3
+
+f(x(t)) = N0 + N1 cos
+
++ N2 sin
+
++ N3 cos(ωt) + N4 sin(ωt)
+
+(7)
+where each of Ni, i = 0, . . . , 4 is the piecewise func-
+tion of the van der Pol variables c, a, b, d, and e and
+can be obtained easily through a simple integral of
+f(x) or f(x) multiples of an orthogonal triangle, if
+c, a, b, d, and e are given, i.e.
+
+(cid:8)
+
+dt,
+
+for i = 1, 2.
+
+(8)
+
+Since N0, N1, N2, N3, N4 are all piecewise and nonsmooth functions, wherein the variations of N0 and
+N2 versus the variables a are displayed in Fig. 5, then the approximation expression given in Eq. (7) is still
+
+1750137-6
+
+Int. J. Bifurcation Chaos 2017.27. Downloaded from www.worldscientific.comby HONG KONG POLYTECHNIC UNIVERSITY on 04/20/19. Re-use and distribution is strictly not permitted, except for Open Access articles.August 28, 2017
+
+13:51 WSPC/S0218-1274
+
+1750137
+
+Noise-Induced Chaos in a Piecewise Linear System
+
+2
+N
+0
+N
+
+ 
+
+3
+
+2
+
+1
+
+0
+
+−1
+
+−2
+
+−3
+−4
+
+N0
+N2
+
+−2
+
+0
+a
+
+2
+
+4
+
+Fig. 5. The multivariate functions N0(c, a, b, d, e), N2(c, a, b,
+d, e) plotted versus the variable a.
+
+piecewise and nonsmooth in the van der Pol vari-
+able space, just like that given in Eq. (2), which is
+the piecewise and nonsmooth function of the state
+variable.
+
+Consider the state equations for Eq. (1), as
+
+given by (cid:12)
+
+˙x(t) = y(t),
+˙y(t) + 2ζy(t) + f(x) = F (t).
+
+(9)
+
+After substituting Eq. (6) into Eq. (9) through a
+series of algebraic calculations, four governing equa-
+tions on the variables of (a, b, d, e) are obtained.
+Then the substitutions of Eqs. (7) and (3) into
+Eq. (9) and the application of the stochastic averag-
+ing method lead to a set of averaged Itˆo stochastic
+diﬀerential equations, i.e.
+
+
+
+
+√
+D
+ω dW1(t),
+
+da(t) =
+
+db(t) =
+
+1
+2
+
+1
+2
+
+dd(t) =
+
+de(t) =
+
+1
+12
+
+1
+12
+
+ω2b(t) + N4 − 2ζa(t)ω
+
+dt +
+−2ζb(t)ω + N3 − f1 − ω2a(t)
+
+ω
+
+ω
+
+dt +
+
+9N2 + 4ω2e(t) − 12d(t)ωζ
+
+ω
+
+dt +
+
+−12ζe(t)ω − 4ω2d(t) + 9N1
+
+ω
+
+dt +
+
+√
+D
+ω dW2(t),
+√
+3
+D
+2ω dW3(t),
+√
+3
+D
+2ω dW4(t),
+
+(10)
+
+where each Wi(t) for i = 1, . . . , 4 is an unit Wiener process.
+
+However Eq. (10) is not complete, there is a lack of governing equation for the van der Pol variable c,
+which is an algebraic one and is obtained through the condition that the integral average value of ¨c(t) over
+
+1.5
+
+1
+
+0.5
+
+0
+
+ds
+es
+
+0.5
+
+y
+
+0
+
+s
+
+e
+
+ 
+,
+
+d
+
+s
+
+−0.5
+
+0.8
+
+1
+
+1.2
+ω
+
+(a)
+
+1.4
+
+1.6
+
+−0.5
+
+0.8
+
+1
+
+1.4
+
+1.6
+
+1.2
+x
+
+(b)
+
+(a) Nonvanishing ds, es of the solutions of Eq. (13) are plotted versus ω and (b) the two-dimensional phase trajectory
+
+Fig. 6.
+on (x, y) plane corresponding to the period-3 saddle when ω = 1.4.
+
+1750137-7
+
+Int. J. Bifurcation Chaos 2017.27. Downloaded from www.worldscientific.comby HONG KONG POLYTECHNIC UNIVERSITY on 04/20/19. Re-use and distribution is strictly not permitted, except for Open Access articles.August 28, 2017
+
+13:51 WSPC/S0218-1274
+
+1750137
+
+C. Kong & X.-B. Liu
+
+the interval of [0, 6π/ω] for the variable t vanishes, i.e.
+a cos(ωt) − b sin(ωt) +
+
+¨x(t) + ω2
+
+(cid:11) 6π/ω
+
+(cid:5)
+
+ω
+6π
+
+0
+
+(cid:9)
+
+(cid:7)
+
+4
+9
+
+d cos
+
+(cid:7)
+
+(cid:8)
+
+2
+3
+
+ωt
+
+(cid:8)(cid:8)(cid:10)(cid:6)
+
+(cid:7)
+
+2
+3
+
+ωt
+
+− e sin
+
+dt = 0.
+
+(11)
+
+By substituting Eqs. (1), (3) and (7) into Eq. (11),
+the algebraic equation is then obtained, i.e.
+
+N0 = f0.
+
+(12)
+With Eqs. (10) and (12), a complete set of gov-
+erning equations for (a, b, c, d, e) is gained, which,
+under the assumption given in Eq. (6), is an Itˆo sys-
+tem with a higher dimension than those of the Itˆo
+system considered in [Roy, 1997a; Roy & Nauman,
+1995]. Based upon this system, the phenomenon of
+noise-induced chaos is predicted.
+
+Firstly, the nonlinear deterministic version of
+the averaged equations is considered, to which
+cs, as, bs, ds, and es represent the steady-state solu-
+tions. The equations are given by
+
+
+
+
+ω2bs + N4 − 2ζasω
+
+2ω
+
+= 0,
+−2ζbsω + N3 − f1 − ω2as
+
+2ω
+
+9N2 + 4ω2es − 12dsωζ
+
+12ω
+
+= 0,
+
+= 0,
+
+(13)
+
+−12ζesω − 4ω2ds + 9N1
+
+= 0,
+N0(as, bs, cs, ds, es) − f0 = 0.
+
+12ω
+
+It is noted that the hyperbolic ﬁxed points of
+the averaged system correspond to the hyperbolic
+periodic orbits in the original system, respectively
+[Guckenheimer & Holmes, 1983]. Among all the
+three solutions to Eq. (13), there is only one solu-
+tion possessing the nonvanishing ds and es, which
+are the functions of ω and are depicted in Fig. 6(a),
+and under the condition that ω = 1.4, the two-
+dimensional phase trajectory on (x, y) plane, which
+corresponds to the period-3 saddle,
+is shown in
+Fig. 6(b).
+
+4. Estimation of the Stationary
+Probability Density Function
+
+In Sec. 4, the stationary probability density function
+of the four-dimensional Itˆo system that is deﬁned in
+Eq. (10) is investigated in D, which is the domain
+of interest and is completely inside the basin of
+
+attraction of the stable equilibrium point mentioned
+above [Fig. 3(a) shows that the basin of attraction
+is very small]. The boundary of D is denoted by ∂D.
+Suppose that x0 is a ﬁve-dimensional vector,
+
+which is deﬁned by
+x0 = [x1 x2 x3 x4 x5]T = [a b d e
+
+c]T .
+(14)
+Since x5 is governed by the algebraic equation (12),
+then x5 is a function of x1, x2, x3, x4. Thus the vec-
+tor stochastic process of x = [x1 x2 x3 x4]T ,
+which is deﬁned by Eq. (10), forms a vector diﬀu-
+sion process and its stationary probability density
+function p(x) satisﬁes the following FPK equation
+
+L[p(x)]
+
+4(cid:13)
+
+=
+
+(cid:5)
+−∂i[bi(x)p(x)] +
+
+i,j=1
+∂
+∂xi
+
+∂i =
+
+,
+
+∂2
+ij =
+
+∂2
+
+∂xi∂xj
+
+,
+
+(cid:6)
+
+ij[aij(x)p(x)]
+∂2
+
+= 0,
+
+
+2
+
+(15)
+where  = D/ω2 is a small quantity, and bi and aij
+are respectively the drift coeﬃcients and the diﬀu-
+sion coeﬃcients which are deﬁned by
+
+
+
+
+1
+2
+
+1
+2
+
+1
+12
+
+1
+12
+
+A(x) =
+
+b1(x) =
+
+b2(x) =
+
+b3(x) =
+
+b4(x) =
+
+
+ =
+
+
+
+
+
+1 0
+0 1
+
+0 0
+
+0 0
+
+0
+0
+9
+4
+
+0
+
+
+
+,
+
+0
+0
+
+0
+
+9
+4
+
+a11 a12 a13 a14
+a21 a22 a23 a24
+a31 a32 a33 a34
+a41 a42 a43 a44
+
+ω2b + N4(x) − 2ζaω
+
+ω
+
+,
+
+−2ζbω + N3(x) − f1 − ω2a
+
+ω
+
+,
+
+9N2(x) + 4ω2e − 12dωζ
+
+,
+−12ζeω − 4ω2d + 9N1(x)
+
+ω
+
+ω
+
+.
+
+(16)
+
+
+
+
+
+
+
+1750137-8
+
+Int. J. Bifurcation Chaos 2017.27. Downloaded from www.worldscientific.comby HONG KONG POLYTECHNIC UNIVERSITY on 04/20/19. Re-use and distribution is strictly not permitted, except for Open Access articles.August 28, 2017
+
+13:51 WSPC/S0218-1274
+
+1750137
+
+Noise-Induced Chaos in a Piecewise Linear System
+
+For the matrix A, aij = 0 for i (cid:5)= j, i, j = 1, . . . , 4,
+and aii (cid:5)= 0 for i = 1, . . . , 4. This particular simpliﬁ-
+cation is suitable for all the systems that are under
+the external random excitations, and dramatically
+reduces the complexity of the solution process for
+the FPK equation (15).
+
+For p(x), the normalization condition and
+
+boundary condition are respectively given by
+
+(cid:11)
+
+p(x)dx = 1,
+
+R5
+
+p(x) = 0, x ∈ ∂D.
+
+(17)
+
+(18)
+
+In order to ﬁnd the solution to the FPK equa-
+tion (15) in the limit  → 0, the Wenzel–Kramers–
+Brillouin (WKB) approximation is applied and
+based on which, the approximation of the expres-
+sion of the stationary probability density function
+asymptotically is assumed as
+− ψ(x)
+
+(cid:10)
+ + O()
+
+p(x) = w(x) exp
+
+q(x)
+
+(19)
+
+(cid:9)
+
+wherein the function ψ(x) is the quasi-potential
+function, w(x) is a prefactor function and q(x) is
+the boundary layer function which satisﬁes the fol-
+
+lowing condition(cid:12)
+
+q(x) = 0, x ∈ ˜D,
+q(x) = 1, x /∈ ˜D,
+
+(20)
+
+where ˜D denotes a thin boundary layer close to the
+boundary ∂D. It is impossible to obtain the solu-
+tion over the entire R4, however the solution over
+the domain D is investigated instead.
+
+By substituting Eq. (19) into Eq. (15), the fol-
+
+lowing equation is obtained
+
+4(cid:13)
+
+q(x)L(z(x, )) − z(x, )L(ψ(x))
+(cid:8)
+
+aii∂iψ(x)∂iz(x, ) = 0,
+
+(cid:7)
+
++ 
+
+i=1
+
+z(x, ) = w(x) exp
+
+− ψ(x)
+
+
+,
+
+(21)
+
+
+
+
+
+
+
+Based on Eq. (20), Eq. (21) is divided into two equa-
+tions, i.e.
+
+L[z(x, )] = 0, x /∈ ˜D,
+4(cid:13)
+−z(x, )L(q(x)) + 
+
+i=1
+
+aii∂iq(x)∂iz(x, ) = 0,
+x ∈ ˜D,
+
+(23)
+which means that the ﬁrst term of Eq. (21) vanishes
+outside the boundary layer and the other terms van-
+ish inside the boundary layer.
+
+The solution to the ﬁrst equation of Eq. (23)
+is then investigated. By expanding the ﬁrst equa-
+tion of Eq. (23) and identifying the terms of the
+order −1 and 0, two independent partial diﬀeren-
+tial equations of the ﬁrst order are obtained, the one
+that governs ψ(x) is the Hamilton–Jacobi equation
+(24)
+and the other one that governs w(x) is the transport
+equation
+
+L(ψ(x)) = 0
+
+− 4(cid:13)
+
+i=1
+
+(cid:7)
+
+− 4(cid:13)
+
+i=1
+
+((bi(x) + aii∂iψ(x))∂iw(x))
+
+(cid:8)
+
+∂ibi(x) +
+
+1
+2
+
+aii∂2
+
+iiψ(x)
+
+w(x) = 0.
+
+(25)
+Based on the theory of partial diﬀerential equation
+of the ﬁrst order, Eqs. (24) and (25) are both solv-
+able by using the rays method [Ludwig, 1975]. The
+rays of these two equations are governed by ordi-
+nary diﬀerential equations, and along each ray ψ(x)
+and w(x) are also governed by ordinary diﬀeren-
+tial equations respectively. With appropriate initial
+conditions, a family of rays is found to cover the
+domain D, and then, approximate stationary proba-
+bility density function is obtained in the domain D.
+The equations governing the rays of Eq. (24) are
+given below
+
+where under the condition that aij = 0 for i (cid:5)=
+j, i, j = 1, . . . , 4, the operator L is the substitu-
+tion of the adjoint operator of the Fokker–Planck
+operator L deﬁned in Eq. (15), i.e.
+
+˙xi = bi(x) + aiipi(x),
+
+˙pi = − 4(cid:13)
+
+j=1
+
+(∂ibj(x)pj(x)),
+
+for i = 1, . . . , 4,
+
+4(cid:13)
+
+i=1
+
+L =
+
+bi∂i +
+
+1
+2
+
+
+
+4(cid:13)
+
+i
+
+aii∂2
+ii.
+
+(22)
+
+(26)
+where pi(x) = ∂iψ(x). Supposing that the coordi-
+nate along the rays is denoted by s, then ˙xi, ˙pi are
+
+1750137-9
+
+
+
+
+Int. J. Bifurcation Chaos 2017.27. Downloaded from www.worldscientific.comby HONG KONG POLYTECHNIC UNIVERSITY on 04/20/19. Re-use and distribution is strictly not permitted, except for Open Access articles.August 28, 2017
+
+13:51 WSPC/S0218-1274
+
+1750137
+
+C. Kong & X.-B. Liu
+
+respectively deﬁned by ˙xi = dxi
+each ray, ψ(x) is governed by
+
+ds , ˙pi = ∂2ψ(x)
+
+∂xi∂s . Along
+
+4(cid:13)
+
+i=1
+
+˙ψ =
+
+1
+2
+
+aiip2
+i .
+
+(27)
+
+With Eqs. (26) and (27), a family of rays that covers
+the whole domain of D is ﬁrst obtained, and then
+the function of ψ(x) on each ray is determined.
+
+Via the same method, the rays deﬁned by
+Eq. (25) are obtained which are the same as those
+that are given by Eq. (26). Along each of the rays,
+w(x) is governed by
+
+(cid:9)
+
+˙w = − 4(cid:13)
+
+i=1
+
+∂ibi(x) +
+
+1
+2
+
+(cid:10)
+
+aii∂ipi(x)
+
+w(x).
+
+(28)
+
+It is noted that Eq. (28) is diﬀerent from Eq. (27),
+for Eq. (28) there are second partial derivatives of
+ψ(x) involved, thus w(x) cannot be determined by
+Eqs. (26) and (28).
+
+To determine these second partial derivatives
+of ψ(x), each equation in Eq. (26) needs to be dif-
+ferentiated with respect to the three coordinates of
+the four-dimensional space where the rays lie, i.e.
+θ, ϕ, φ. Thus, along each ray, 24 ODEs are obtained,
+i.e.
+
+lj∂jbi + aiiqi,
+
+mj∂jbi + aiiri,
+
+nj∂jbi + aiisi,
+
+
+
+
+j=1
+
+j=1
+
+˙ni = ∂φ ˙xi =
+
+˙mi = ∂ϕ ˙xi =
+
+˙li = ∂θ ˙xi =
+
+4(cid:13)
+4(cid:13)
+4(cid:13)
+˙qi = ∂θ ˙pi = − 4(cid:13)
+˙ri = ∂ϕ ˙pi = − 4(cid:13)
+˙si = ∂ϕ ˙pi = − 4(cid:13)
+
+k=1
+
+k=1
+
+j=1
+
+j=1
+
+4(cid:13)
+4(cid:13)
+4(cid:13)
+
+j=1
+
+k=1
+
+j=1
+
+for i = 1, . . . , 4.
+
+(29)
+
+[(lj ∂2
+
+ijbk)pk + qj∂ibj],
+
+[(mj∂2
+
+ijbk)pk + rj∂ibj],
+
+[(mj∂2
+
+ijbk)pk + rj∂ibj],
+
+However, the second partial derivatives that arise in Eq. (28) cannot be solved directly from the above 24
+ODEs, but from the following relationships based on the chain rule, i.e.
+
+4(cid:13)
+
+4(cid:13)
+
+4(cid:13)
+
+4(cid:13)
+
+qi =
+
+lj∂2
+
+ijψ,
+
+ri =
+
+mj∂2
+
+ijψ,
+
+si =
+
+nj∂2
+
+ijψ,
+
+˙pi =
+
+˙xj∂2
+
+ijψ,
+
+for i = 1, . . . , 4.
+
+(30)
+
+j=1
+
+j=1
+
+j=1
+
+j=1
+
+The situation now is that the 12 second partial
+derivatives of ψ should be solved from the 16 lin-
+ear algebraic equations, which is obviously over-
+constrained, so the least square method is applied
+here. Denote the inhomogeneous term and the coef-
+ﬁcient matrix of the above linear equations by N
+and C respectively, then the solution vector x which
+consists of 12 second partial derivatives of ψ is eval-
+uated by
+
+X = (CTC)
+
+−1CN.
+
+(31)
+
+Thus far, 34 ODEs are obtained from the com-
+bination of Eqs. (26), (29) and (30), however the
+corresponding initial conditions are missing, which,
+according to characteristics theory of ﬁrst order par-
+tial diﬀerential equation [Ludwig, 1975], will be dis-
+cussed on a small hypersphere in R4 with radius α.
+
+1750137-10
+
+Int. J. Bifurcation Chaos 2017.27. Downloaded from www.worldscientific.comby HONG KONG POLYTECHNIC UNIVERSITY on 04/20/19. Re-use and distribution is strictly not permitted, except for Open Access articles.(32)
+
+(33)
+
+(34)
+
+August 28, 2017
+
+13:51 WSPC/S0218-1274
+
+1750137
+
+Noise-Induced Chaos in a Piecewise Linear System
+
+Since in the limit α → 0, the stationary probability density function is approximately Gaussian around the
+stable equilibrium point, then the initial conditions are readily derived, i.e.
+
+x20 = x∗
+4 + α cos(θ),
+
+x40 = x∗
+
+2 + α sin(θ) sin(ϕ) cos(φ),
+
+x10 = x∗
+1 + α sin(θ) sin(ϕ) sin(φ),
+x30 = x∗
+4(cid:13)
+3 + α sin(θ) cos(ϕ),
+kij(xj0 − x∗
+j ),
+4(cid:13)
+
+pi0 =
+
+j=1
+
+for i = 1, . . . , 4,
+
+kij(xi0 − x∗
+
+i )(xj0 − x∗
+
+j), w0 = 1,
+
+
+
+
+ψ0 =
+
+1
+2
+3, x∗
+
+i,j=1
+
+where x∗ = (x∗
+element of the inverse of the covariance matrix S which is derived from
+
+2, x∗
+
+1, x∗
+
+4) is the particular stable equilibrium point given in Sec. 3 and each kij is the
+
+B = [∂jbi(x∗
+
+)], BS + SB = −A, K = S−1.
+
+
+
+
+The other initial conditions are given as below
+
+l4 = −α sin(θ),
+l1 = α cos(θ) sin(ϕ) sin(φ),
+m1 = α sin(θ) cos(ϕ) sin(φ), m2 = α sin(θ) cos(ϕ) cos(φ), m3 = −α sin(θ) sin(ϕ), m4 = 0,
+r1 = α sin(θ) sin(ϕ) cos(φ),
+
+r2 = −α sin(θ) sin(ϕ) sin(φ),
+
+l2 = α cos(θ) sin(ϕ) cos(φ),
+
+l3 = α cos(θ) cos(ϕ),
+
+r3 = 0,
+
+r4 = 0,
+
+4(cid:13)
+
+4(cid:13)
+
+4(cid:13)
+
+ni =
+
+kijlj,
+
+qi =
+
+kijmj,
+
+si =
+
+kijnj,
+
+for i = 1, . . . , 4.
+
+j=1
+
+j=1
+
+j=1
+
+In brief, the solution to the ﬁrst equation of Eq. (23)
+is obtained.
+
+Next, the solution to the second equation in
+Eq. (23), which is the governing equation of the
+boundary layer function q(x), is then investigated.
+Before the analysis, it is supposed that the bound-
+ary ∂D is noncharacteristic, which means that the
+following condition holds everywhere on the bound-
+ary ∂D, i.e.
+
+b · v < 0
+
+(35)
+where b is the drift vector of the system (10) and
+v is the outer normal vector on the boundary ∂D.
+This condition is satisﬁed readily by choosing the
+domain D appropriately.
+
+In order to analyze the boundary layer function
+in the thin boundary layer ˜D, two new local coordi-
+nates are introduced, (ρ, s) = (ρ, s1, s2, s3), where
+ρ = ρ(x) characterizes the distance between the
+point x and the boundary ∂D, and s = [s1, s2, s3]
+are the local coordinates along the boundary. Since
+every point x near ∂D corresponds to only one ray
+deﬁned by Eq. (26), then only one point xb on the
+boundary is found via each ray, which corresponds
+to x. Thus, if the condition Eq. (35) is satisﬁed, ρ
+
+is deﬁned by
+
+ρ(x) = ψ(xb) − ψ(x).
+
+(36)
+
+And a stretched variable needs to be introduced, i.e.
+
+µ =
+
+ρ
+
+
+.
+
+(37)
+
+Based on the new local coordinates, the new bound-
+ary layer function is then given by
+
+Q(µ, s) = q(x).
+
+(38)
+
+With the new boundary layer function and new
+local variables, via a simple computation and iden-
+tifying the terms of the order −1, a new boundary
+layer equation governing Q(µ, s) is obtained, i.e.
+
+L(ψ(x))∂µQ(µ, s)
+
+4(cid:13)
+
+(cid:20)
+
++
+
+1
+2
+
+(cid:21)
+
+aii(∂iψ(x))2
+
+µµQ(µ, s) = 0
+∂2
+
+i=1
+
+(39)
+
+of which the simple form can then be obtained,
+on the basis of the Hamilton–Jacobi equation (24),
+
+1750137-11
+
+Int. J. Bifurcation Chaos 2017.27. Downloaded from www.worldscientific.comby HONG KONG POLYTECHNIC UNIVERSITY on 04/20/19. Re-use and distribution is strictly not permitted, except for Open Access articles.August 28, 2017
+
+13:51 WSPC/S0218-1274
+
+1750137
+
+C. Kong & X.-B. Liu
+
+i.e.
+
+µµQ(µ, s) + ∂µQ(µ, s) = 0.
+∂2
+
+(40)
+Combined with the boundary condition given in
+Eq. (20), the solution is ﬁnally given by
+
+Q(µ, s) = 1 − exp(−µ),
+
+(41)
+which is the ﬁrst-order approximation of the bound-
+ary layer function.
+
+With the boundary layer function deﬁned in
+Eq. (41), the 34 ODEs given by Eqs. (26) to (29)
+combined with their initial conditions given by
+Eqs. (32) to (34) and the 16 linear equations deﬁned
+in Eq. (30), the stationary probability density func-
+tion deﬁned in Eq. (19) are obtained along each
+ray in the domain D. Although this method leads
+to a set of 34 ODEs which is a little complicated,
+through it, the stationary probability density func-
+tion for a high-dimensional Itˆo system is obtained,
+which is the preparation for the estimation of the
+MFPT.
+
+5. Estimation of the MFPT
+In Sec. 5 the exit problem of the noise-driven piece-
+wise linear system that exhibits transient chaos
+is investigated. Based on the singular perturbed
+method, some results of MFPT and the distribu-
+tion of exit points were given by Z. Schuss and his
+co-workers [Naeh et al., 1990; Bobrovsky & Schuss,
+1982], and the quasi-potential plateaus were found
+in the systems that exhibit transient chaos [Kraut &
+Feudel, 2003b]. In this work, based on the concept
+of the quasi-potential plateaus, the phenomenon of
+noise-induced chaos which is found in Sec. 2 is mea-
+sured by MFPT. The simpliﬁed system with respect
+to the period-3 saddle and the period-1 attrac-
+tor has been established in Sec. 3. Then, with the
+preparation that has been completed in Sec. 4, the
+phenomenon of noise-induced chaos can be stud-
+ied through analyzing the exit problem between the
+period-1 attractor and the period-3 saddle in the
+simpliﬁed system given by Eqs. (10) and (12).
+
+In the following context, the derivation of
+MFPT is just sketched at ﬁrst for the complete-
+ness of this paper. In addition, since the model here
+is about a system with much higher dimensions and
+more complicated dynamical structures, the results
+obtained by Z. Schuss and his co-workers are not
+concise enough to deal with the problem directly
+here, thus some approximation method is needed
+to simplify the formula.
+
+(cid:11)
+
+(cid:11)
+
+T0 =
+
+Suppose that τ(x) is the exit time of the tra-
+jectory which starts at the point x ∈ D and reaches
+the boundary ∂D for the ﬁrst time. The Pontryagin
+equation which τ(x) needs to satisfy is given as
+
+
+Lτ(x) = −1, x ∈ D,
+x ∈ ∂D,
+
+τ(x) = 0,
+
+(42)
+
+where D is the domain within a four-dimensional
+space, then ∂D is a three-dimensional hypersurface.
+The solution to Eq. (42) is assumed as
+
+τ(x) = T0τq(x),
+
+(43)
+
+where τq(x) is the boundary layer function and T0
+is a constant, which, according to the second inter-
+pretation in [Naeh et al., 1990], is formulated by
+
+D
+
+p(x)dx1dx2dx3dx4
+J(x) · v(x)ds1ds2ds3
+
+∂D
+
+(44)
+
+where J is the stationary probability current den-
+sity and the components Ji of which are deﬁned
+as
+
+Ji = bip(x) − 
+2
+
+∂j(aijp(x))
+
+(45)
+
+4(cid:13)
+
+j=1
+
+and v is the outer normal vector of the boundary
+∂D, each si for i = 1, . . . , 3 is the variable of inte-
+gration along the boundary ∂D.
+
+Before the calculation for Eq. (44), the domain
+D and its boundary ∂D are needed to be deﬁned
+speciﬁcally [Roy, 1997b; Roy & Nauman, 1995; Roy,
+1994b, 1997a, 1995], i.e.
+
+(cid:12)
+D = {x| ψ(x) ≤ ˆψ},
+∂D = {x| ψ(x) = ˆψ},
+
+(46)
+
+where ˆψ is a constant determined artiﬁcially. The
+condition Eq. (35) of noncharacteristic boundaries
+is satisﬁed by an appropriate choice of ˆψ. And under
+the deﬁnition of Eq. (46), the outer normal vector
+of ∂D is derived, i.e.
+
+[p1
+
+v =
+
+p4]
+
+.
+
+(47)
+
+p3
+
+p2
+
+(cid:22)(cid:23)(cid:23)(cid:24) 4(cid:13)
+
+p2
+i
+
+i=1
+
+1750137-12
+
+Int. J. Bifurcation Chaos 2017.27. Downloaded from www.worldscientific.comby HONG KONG POLYTECHNIC UNIVERSITY on 04/20/19. Re-use and distribution is strictly not permitted, except for Open Access articles.August 28, 2017
+
+13:51 WSPC/S0218-1274
+
+1750137
+
+Noise-Induced Chaos in a Piecewise Linear System
+
+T0 =
+
+D
+
+By substituting Eqs. (19), (45), (47) and (41)
+
+into Eq. (44), the formula of MFPT is derived:
+
+(cid:8)
+
+− ψ(x)
+
+
+(cid:11)
+(cid:11)
+
+∂D
+
+w(x) exp
+
+(cid:7)
+
+4(cid:13)
+w(x)
+(cid:22)(cid:23)(cid:23)(cid:24) 4(cid:13)
+
+2
+
+i,j=1
+
+i (x)
+p2
+
+q(x)dx1dx2dx3dx4
+
+(cid:8)
+(cid:7)
+
+− ψ(xb)
+
+.
+
+
+
+
+ds1ds2ds3
+
+aijpi(x)pj(x) exp
+
+i=1
+
+(48)
+
+However, due to the high-dimensional integral in
+Eq. (48), this result is hardly available for a direct
+calculation, then the Laplace approximation and
+the condition given in Eq. (20) are applied to reduce
+the complexity of the calculation, which leads to
+
+(cid:22)(cid:23)(cid:23)(cid:24) 4(cid:13)
+
+2π
+
+√
+2
+(cid:30)
+
+T0 =
+
+i (xb) exp
+p2
+
+i=1
+
+det(H(x∗))w(xb)
+
+(cid:8)(cid:29)
+
+(cid:7)
+4(cid:13)
+
+ψ(xb)
+
+
+
+det(H(xb))
+
+,
+
+aijpi(xb)pj(xb)
+
+i,j=1
+
+(49)
+where the matrix H is the Hessian matrix of ψ(x)
+and xb is the point where the ray and the bound-
+ary intersect. In comparison with Eq. (48), Eq. (49)
+is simpler, and furthermore, for the estimation of
+MFPT, there is no need to calculate a family of
+
+rays that cover the domain D, just a calculation for
+one ray which connects the initial point x0 that is
+given in Eq. (32) and the point of xb is enough.
+
+With Eq. (49), the MFPT under a set of param-
+eters mentioned above is estimated and compares
+with the numerical result simulated by the Monte
+Carlo method. However during the analysis pro-
+cess, the authors have to face a new problem of
+which the matrix CTC that is deﬁned in Eq. (31)
+is ill-conditioned and directly leads to its inaccu-
+rate inverse matrix. The condition number is used
+to characterize how ill-conditioned the matrix CTC
+is. Figure 7(a) shows the variation of the condition
+number of the matrix CTC versus the coordinate s
+along one ray.
+
+In Fig. 7(a), the ill-conditioned degree is very
+serious. For example, if s = 34.25, the condition
+number of CTC is 2.1358 × 109. Under this condi-
+tion, if there are ten linear equations, the coeﬃcient
+matrix of full rank can be selected from the 16 lin-
+ear equations in Eq. (30), there are 2304 choices in
+which the maximum condition number of the coef-
+ﬁcient matrix is 1.18 × 108, and the minimum one
+is 4.41 × 104. There is no doubt that the problem
+of ill-conditioned matrix may lead to the incorrect
+solution or no solution of w(x) to Eq. (19). And
+Fig. 7(b) shows how the ill-conditioned matrix inﬂu-
+ences the prefactor function w(x) and the function
+w(x) is O(1) before the matrix gets ill-conditioned.
+It is noted that these numerical complexities are
+caused by the nonsmoothness eﬀect of the piecewise
+linear function and cannot be avoided by choosing
+
+x 104
+
+2.5
+
+ 
+
+r
+e
+b
+m
+u
+N
+n
+o
+i
+t
+i
+d
+n
+o
+C
+
+2
+
+1.5
+
+1
+
+0.5
+
+0
+0
+
+10
+
+20
+s
+
+(a)
+
+30
+
+40
+
+3.5
+
+3
+
+2.5
+
+w(x)
+
+2
+
+1.5
+
+1
+0
+
+10
+
+20
+s
+
+(b)
+
+30
+
+40
+
+(a) The condition number of the matrix CTC in Eq. (31) during the process of calculation for one ray. In order to
+Fig. 7.
+display the variation of the condition number, the peak value of the condition number does not appear in this ﬁgure and
+(b) the function w(x) in Eq. (19) during the same process for the same ray.
+
+1750137-13
+
+Int. J. Bifurcation Chaos 2017.27. Downloaded from www.worldscientific.comby HONG KONG POLYTECHNIC UNIVERSITY on 04/20/19. Re-use and distribution is strictly not permitted, except for Open Access articles.August 28, 2017
+
+13:51 WSPC/S0218-1274
+
+1750137
+
+C. Kong & X.-B. Liu
+
+a much smaller step size in numerical process [Hu,
+1995]. Detailed discussions about these numerical
+complexities are beyond the scope of this paper,
+and will be given in the further work. Here, we fol-
+low the method used in [Roy, 1996] and [Ludwig,
+1975]. Since w(x) is of the order O(1) before the
+matrix gets ill-conditioned as shown in Fig. 7(b),
+the term w(xb) in Eq. (49) is then ignored without
+loss of much accuracy. The ﬁnal solution of MFPT
+is obtained, i.e.
+
+(cid:22)(cid:23)(cid:23)(cid:24) 4(cid:13)
+(cid:30)
+
+i=1
+
+√
+2
+
+T0 ≈
+
+2π
+
+i (xb) exp
+p2
+
+(cid:8)(cid:29)
+
+ψ(xb)
+
+
+
+(cid:7)
+4(cid:13)
+
+det(H(xb))
+
+.
+
+det(H(x∗))
+
+aijpi(xb)pj(xb)
+
+i,j=1
+
+(50)
+It is remarked that in Eq. (31) the matrix C is
+involved in the calculation of the matrix H, so
+it must be ensured that the matrix C is not ill-
+conditioned during the calculation.
+
+As discussed in Sec. 2, the case of ω = 0.89
+is selected as the typical one for the estimation of
+the MFPT. There are two solutions to Eq. (13), one
+is the period-1 solution, which is under the condi-
+tion that as = −4.6291, bs = −1.7403, cs = 0.2874,
+ds = 2.9451e − 4, es = −5.0282e − 6, the other
+is the period-3 solution, which is under the condi-
+tion that as = −0.6931, bs = −0.0779, cs = 0.6308,
+ds = 0.2529, es = 1.1417. These results demon-
+strate that the approximation Eq. (6) gives appro-
+priate expressions of both the subharmonic solution
+(period-3) and the harmonic solution (period-1),
+and the dynamical behaviors such as the subhar-
+monic motions and the harmonic ones given by the
+deterministic version of the averaged system match
+the ones of the original system.
+
+On the basis of the solutions obtained above
+and the result given in Eq. (50), domain D is deﬁned
+via Eq. (46), wherein ˆψ = 0.00069 is selected. And
+the methods used above, like the averaging method
+and WKB approximation, are valid in the case
+ → 0, i.e. D → 0, while the Monte Carlo simu-
+lations can be only applied with ﬁnite noise inten-
+sity D. Thus D−1 values in Fig. 8 are chosen to
+vary between 5000 and 18 000. When D is chosen in
+this interval, D is very small and of order O(10−5),
+and meanwhile the numerical simulations do not
+cost too much time. Then the ﬁnal result of MFPT
+is estimated and the curve is plotted in Fig. 8,
+
+i
+
+)
+T
+(
+e
+m
+T
+ 
+e
+g
+a
+s
+s
+a
+P
+
+ 
+
+ 
+t
+s
+r
+i
+F
+n
+a
+e
+M
+
+105
+
+102.4
+
+104
+
+102.2
+
+6000
+
+7000
+
+8000
+
+103
+
+102
+
+0.6
+
+0.8
+
+1
+
+Monte Carlo simulation
+solution of Eq. (50)
+
+1.2
+1/D
+
+1.4
+
+1.6
+
+1.8
+x 104
+
+Fig. 8. The MFPT with Eq. (50) is compared with the result
+simulated by the Monte Carlo method versus D−1
+. Inset: The
+details of a part of the main ﬁgure when D is large.
+
+which matches the result given by the Monte Carlo
+simulation. The simulation results are obtained by
+averaging 10 000 samples at each data point. These
+two curves are both displayed versus D−1 on the
+semi-logarithmic plot to get a clear observation of
+the almost linear relationship between the loga-
+rithm of MFPT and D−1 according to Eq. (50).
+As the noise intensity D becomes large,
+i.e.
+D−1 becomes small, the error between these two
+results also becomes large as shown in the inset of
+Fig. 8. This fact is caused by Eq. (50) which is
+valid in the case D → 0. When the noise inten-
+i.e. D−1 becomes large,
+sity D becomes small,
+one can claim the agreement between these two
+results. These results demonstrate that the tran-
+sitions between the attractor and the saddle in
+simpliﬁed system Eq. (10) can be used to analyze
+the noise-induced chaos, and also demonstrate that
+Eq. (50) is useful to estimate the phenomenon of
+noise-induced chaos and the inﬂuence of the chaotic
+saddle in the exit problem quantitatively.
+
+6. Conclusions and Discussions
+The phenomenon of noise-induced chaos
+in a
+piecewise linear system that is subjected to both
+Gaussian white noise and harmonic excitation is
+investigated. This phenomenon depends on the exis-
+tence of a chaotic saddle around a regular attrac-
+tor. Noise drives the system to switch between the
+chaotic saddle and the regular attractor intermit-
+tently. So the onset and termination of this phe-
+nomenon are partly determined by the deterministic
+bifurcation which creates and destroys the chaotic
+
+1750137-14
+
+Int. J. Bifurcation Chaos 2017.27. Downloaded from www.worldscientific.comby HONG KONG POLYTECHNIC UNIVERSITY on 04/20/19. Re-use and distribution is strictly not permitted, except for Open Access articles.August 28, 2017
+
+13:51 WSPC/S0218-1274
+
+1750137
+
+saddle. And we choose the concept of MFPT to
+measure this phenomenon of noise-induced chaos
+quantitatively. After the onset of the noise-induced
+chaos, a tiny noise can induce large displacements
+from the deterministic stable state and the MFPT
+is expected to be ﬁnite. Compared to regular situa-
+tions, such a tiny noise could be expected to induce
+tiny displacements from the deterministic stable
+state and the MFPT is expected to be inﬁnite.
+
+For the relevant system in the absence of noise,
+through the numerical GCMD method, a chaotic
+saddle is ﬁrst found just around the attractor. It
+is noted that for the system of structural instabil-
+ity, even a very small noise excitation leads to a
+transition between the chaotic attractor and a peri-
+odic motion [Fig. 1(a)]. Based on an assumption
+of the approximate expression about the trajectory
+of the periodic motions, the piecewise linear sys-
+tem is simpliﬁed to a four-dimensional Itˆo system
+by using stochastic averaging method. Thus for the
+noise-driven system, the investigation on the phe-
+nomenon of noise-induced chaos in the original sys-
+tem is replaced by the one on the phenomenon of
+transition between a stable attractor and a saddle in
+the simpliﬁed system. Then the formula of MFPT is
+obtained by using the singular perturbation method
+and the Laplace approximation. In this process, the
+eﬀect of boundary layer is considered.
+
+Within the analysis, a serious problem the
+authors have to face is that an ill-conditioned
+matrix arises and hinders the calculation of MFPT.
+Since the condition number of this matrix is too
+large to obtain the accurate inverse matrix, one
+more approximation is applied to simplify the ﬁnal
+form of MFPT. The comparison between the ﬁnal
+result and the numerical simulation conﬁrms that
+the approximation method is available to character-
+ize the phenomenon of noise-induced chaos quanti-
+tatively, and the transitions between the attractor
+and the saddle in simpliﬁed system can be used to
+analyze the noise-induced chaos.
+
+Although Eq. (1) is a general piecewise linear
+system, we have noticed that in other types of non-
+linear systems, not all noise-induced chaos can be
+approximated to transitions between an attractor
+and a saddle. If this approximation fails, the ana-
+lytical procedure cannot work. Besides this, when
+the intensity of noise exceeds some level, noise-
+induced chaos disappears in this piecewise linear
+system. To characterize both the onset and termi-
+nation of noise-induced chaos, more concepts and
+
+Noise-Induced Chaos in a Piecewise Linear System
+
+techniques of random dynamics should be involved,
+like random attractors and the stochastic bifurca-
+tion. To devise a more general method to study
+the onset and termination of noise-induced chaos
+phenomenon in more complicated nonlinear systems
+with multiple stable periodic attractors will be the
+future direction of our works.
+
+Acknowledgments
+This work was supported by the National Natural
+Science Foundation of China (No. 11472126), the
+Research Fund of State Key Laboratory of Mechan-
+ics and Control of Mechanical Structures (Nanjing
+University of Aeronautics and Astronautics) (Grant
+No. MCMS-0116G01), and a Project Funded by
+the Priority Academic Program Development of
+Jiangsu Higher Education Institutions (PAPD).
+
+References
+Armbruster, D., Stone, E. & Kirk, V. [2003] “Noisy het-
+
+eroclinic networks,” Chaos 13, 71–79.
+
+Aubry, N., Holmes, P., Lumley, J. L. & Stone, E. [1988]
+“The dynamics of coherent structures in the wall
+region of a turbulent boundary layer,” J. Fluid Mech.
+192, 115–173.
+
+Billings, L. & Schwartz, I. B. [2002] “Exciting chaos with
+noise: Unexpected dynamics in epidemic outbreaks,”
+J. Math. Biol. 44, 31–48.
+
+Bobrovsky, B. Z. & Schuss, Z. [1982] “A singular pertur-
+bation method for the computation of the mean ﬁrst
+passage time in a nonlinear ﬁlter,” SIAM J. Appl.
+Math. 42, 174–187.
+
+Chen, L. C., Deng, M. L. & Zhu, W. Q. [2009] “First
+passage failure of quasi integrable-Hamiltonian sys-
+tems under combined harmonic and white noise exci-
+tations,” Acta Mech. 206, 133–148.
+
+Chen, L. C. & Zhu, W. Q. [2010] “First passage failure of
+quasi-partial integrable generalized Hamiltonian sys-
+tems,” Int. J. Non-Lin. Mech. 45, 56–62.
+
+Dellnitz, M., Froyland, G. & Junge, O. [2001] “The algo-
+rithms behind GAIO-set oriented numerical methods
+for dynamical systems,” Ergodic Theory, Analysis,
+and Eﬃcient Simulation of Dynamical Systems
+(Springer), pp. 145–174.
+
+Dtchetgnia Djeundam, S. R., Yamapi, R., Kofane,
+T. C. & Aziz-Alaoui, M. A. [2013] “Deterministic and
+stochastic bifurcations in the Hindmarsh–Rose neu-
+ronal model,” Chaos 23, 033125.
+
+Ellner, S. & Turchin, P. [1995] “Chaos in a noisy world:
+New method and evidence from time series analysis,”
+Am. Nat. 145, 343–375.
+
+1750137-15
+
+Int. J. Bifurcation Chaos 2017.27. Downloaded from www.worldscientific.comby HONG KONG POLYTECHNIC UNIVERSITY on 04/20/19. Re-use and distribution is strictly not permitted, except for Open Access articles.August 28, 2017
+
+13:51 WSPC/S0218-1274
+
+1750137
+
+C. Kong & X.-B. Liu
+
+Freidlin, M. I. & Wentzell, A. D. [2012] Random Pertur-
+bations of Dynamical Systems, 3rd edition (Springer).
+[1983] Nonlinear
+Oscillations, Dynamical Systems, and Bifurcations of
+Vector Fields (Springer-Verlag, NY).
+
+Guckenheimer, J. & Holmes, P.
+
+Han, Q., Xu, W. & Yue, X. [2014] “Global bifurcation
+analysis of a Duﬃng–Van der Pol oscillator with para-
+metric excitation,” Int. J. Bifurcation and Chaos 24,
+1450051-1–11.
+
+Han, Q., Xu, W., Yue, X. & Zhang, Y. [2015] “First-
+passage time statistics in a bistable system subject to
+Poisson white noise by the generalized cell mapping
+method,” Commun. Nonlin. Sci. Numer. Simul. 23,
+220–228.
+
+He, T. & Habib, S. [2013] “Chaos and noise,” Chaos 23,
+
+033123.
+
+Hikihara, T., Perkins, E. & Balachandran, B.
+
+[2012]
+“Noise-enhanced response of nonlinear oscillators,”
+Procedia IUTAM 5, 59–68.
+
+Hong, L. & Xu, J. [2003] “Chaotic saddles in Wada
+basin boundaries and their bifurcations by the gener-
+alized cell-mapping digraph (GCMD) method,” Non-
+lin. Dyn. 32, 371–385.
+
+Hong, L. [2010] “A fuzzy crisis in a Duﬃng–van der Pol
+
+system,” Chin. Phys. B 19, 1–6.
+
+Hsu, C. S.
+
+Hong, L., Zhang, Y. & Jiang, J. [2010] “A hyperchaotic
+crisis,” Int. J. Bifurcation and Chaos 20, 1193–1200.
+[1987] Cell-to-Cell Mapping: A Method
+of Global Analyis for Nonlinear Systems (Springer-
+Verlag, NY).
+
+Hsu, C. S. [1995] “Global analysis of dynamical systems
+using posets and digraphs,” Int. J. Bifurcation and
+Chaos 5, 1085–1118.
+
+Hu, H. [1995] “Simulation complexities in the dynamics
+of a continuously piecewise-linear oscillator,” Chaos
+Solit. Fract. 5, 2201–2212.
+
+Hunt, B., Ott, E. & Yorke, J. [1996] “Fractal dimensions
+of chaotic saddles of dynamical systems,” Phys. Rev.
+E 54, 4819–4823.
+
+Klosek-Dygas, M., Matkowsky, B. J. & Schuss, Z. [1988]
+“Stochastic stability of nonlinear oscillators,” SIAM
+J. Appl. Math. 48, 1115–1127.
+
+Kong, C., Gao, X. & Liu, X. [2016] “On the global anal-
+ysis of a piecewise linear system that is excited by a
+Gaussian white noise,” J. Comput. Nonlin. Dyn. 11,
+051029-1.
+
+Kraut, S. & Feudel, U. [2002] “Multistability, noise, and
+attractor hopping: The crucial role of chaotic sad-
+dles,” Phys. Rev. E 66, 1–4.
+
+Kraut, S. & Feudel, U. [2003a] “Enhancement of noise-
+induced escape through the existence of a chaotic sad-
+dle,” Phys. Rev. E 67, 015204.
+
+Kraut, S. & Feudel, U. [2003b] “Noise-induced escape
+through a chaotic saddle: Lowering of the activation
+energy,” Physica D 181, 222–234.
+
+Lin, K. K. & Young, L.-S. [2008] “Shear-induced chaos,”
+
+Nonlinearity 21, 899–922.
+
+Ludwig, D. [1975] “Persistence of dynamical systems
+under random perturbations,” SIAM Rev. 17, 605–
+640.
+
+Naeh, T., K(cid:5)losek, M. M., Matkowsky, B. J. & Schuss, Z.
+[1990] “A direct approach to the exit problem,” SIAM
+J. Appl. Math. 50, 595–627.
+
+Rodrigues, C. S., Grebogi, C. & De Moura, A. P. S.
+[2010] “Escape from attracting sets in randomly per-
+turbed systems,” Phys. Rev. E 82, 1–5.
+
+Roy, R. [1994a] “Averaging method for strongly non-
+linear oscillators with periodic excitations,” Int. J.
+Non-Lin. Mech. 29, 737–753.
+
+Roy, R. [1994b] “Noise perturbations of a non-linear sys-
+tem with multiple steady states,” Int. J. Non-Lin.
+Mech. 29, 755–773.
+
+Roy, R. V. [1995] “Noise-induced transitions in weakly-
+nonlinear oscillators near resonance,” J. Appl. Mech.
+62, 496–504.
+
+Roy, R. V. & Nauman, E. [1995] “Noise-induced eﬀects
+on a non-linear oscillator,” J. Sound Vibr. 183, 269–
+295.
+
+Roy, R. [1996] “Probabilistic analysis of a nonlinear pen-
+
+dulum,” Acta Mech. 115, 87–101.
+
+Roy, R. [1997a] “Asymptotic analysis of ﬁrst-passage
+
+problems,” Int. J. Non-Lin. Mech. 32, 173–186.
+
+Roy, R. V. [1997b] “Global stability analysis of nonlinear
+dynamical systems,” Uncertainty Modeling in Finite
+Element, Fatigure and Stability of Systems, Series on
+Stability, Vibration and Control of Systems Series B,
+Vol. 9 (World Scientiﬁc), pp. 261–295.
+
+Stone, E. & Armbruster, D.
+
+[1999] “Noise and O(1)
+amplitude eﬀects on heteroclinic cycles,” Chaos 9,
+499–506.
+
+T´el, T., Lai, Y.-C. & Gruiz, M. [2008] “Noise-induced
+long deterministic tran-
+
+chaos: A consequence of
+sients,” Int. J. Bifurcation and Chaos 18, 509–520.
+
+Young, L.-S. [1986] “Stochastic stability of hyperbolic
+
+attractors,” Ergod. Th. Dyn. Syst. 6, 311–319.
+
+Yue, X., Xu, W. & Zhang, Y. [2012] “Global bifurca-
+tion analysis of Rayleigh–Duﬃng oscillator through
+the composite cell coordinate system method,” Non-
+lin. Dyn. 69, 437–457.
+
+Zhou, C. S., Kurths, J., Allaria, E., Boccaletti, S.,
+Meucci, R. & Arecchi, F. T.
+[2003] “Constructive
+eﬀects of noise in homoclinic chaotic systems,” Phys.
+Rev. E 67, 066220.
+
+1750137-16
+
+Int. J. Bifurcation Chaos 2017.27. Downloaded from www.worldscientific.comby HONG KONG POLYTECHNIC UNIVERSITY on 04/20/19. Re-use and distribution is strictly not permitted, except for Open Access articles.

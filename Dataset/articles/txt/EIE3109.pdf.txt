@@ -1,0 +1,308 @@
+Subject Description Form 
+
+Subject Code 
+
+EIE3109  
+
+Subject Title 
+
+Mobile Systems and Application Development 
+
+Credit Value 
+
+Level 
+
+Pre-requisite / 
+Co-requisite/ 
+Exclusion 
+
+Objectives 
+
+ 
+
+3 
+
+3 
+
+Nil 
+
+This  course  aims  at  providing  students  with  an  understanding  of  the  real-time 
+embedded and mobile systems, and the techniques essential to the design and 
+implementation of mobile applications. 
+
+Intended Subject 
+Learning Outcomes 
+
+ 
+
+Upon completion of the subject, students will be able to: 
+ 
+Category A: Professional/academic knowledge and skills 
+1.  Understand the structure of real-time operating systems for modern mobile 
+
+computer systems. 
+
+2.  Understand the programming techniques and tools for developing software 
+
+that is run in modern mobile computer systems 
+
+3.  Apply the knowledge to develop practical applications for modern real-time 
+
+mobile computer systems. 
+
+ 
+Category B: Attributes for all-roundedness 
+4.  understand the creative process when designing solutions to a problem 
+
+Subject Synopsis/ 
+Indicative Syllabus 
+
+1. 
+ 
+
+ 
+
+Introduction 
+Introduction  to  Embedded  Systems  –  embedded  real-time  systems, 
+embedded programming and program models, real-time operating system 
+(RTOS).  
+
+      Introduction  to  Mobile  Systems  and  Mobile  Application  Development  – 
+advancement of mobile devices, comparison of various mobile platforms 
+(iOS,  Android,  Windows  Phone,  Blackberry,  etc.),  application  design 
+process. 
+
+ 
+2. 
+
+iOS Application Development 
+Introduction  to  iOS  –  system  architecture,  development  environment 
+(Xcode), MVC architecture.  
+Introduction  to  Objective-C  Programming  –  message  passing,  delegate 
+pattern, retain/release. 
+
+ 
+3.  Android Application Development 
+
+Introduction to Android OS – development environment (Eclipse), Android 
+application  basic  (activity,  service,  content  provider,  broadcast  receiver, 
+intent resolution).  
+User  Interface  –  layout  overview,  user  interface  widget,  user  interface 
+event handling, user notification. 
+Data  Storage  –  shared  preference,  internal  storage,  external  storage, 
+SQLite, content provider. 
+Networking  –  Android  network  overview  and  management,  socket  and 
+HTTP, Wi-Fi and Bluetooth, GPS & telephony. 
+Multimedia – voice recording, image capturing, basic drawing & animation. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Teaching/Learning 
+Methodology  
+
+ 
+
+Lectures: The subject matters will be delivered through lectures. Students will 
+be engaged in the lectures through Q&A, discussions and specially designed 
+classroom activities. 
+ 
+Tutorials: During tutorials, students will work on/discuss some chosen topics in 
+small group. This will help strengthen the knowledge taught in lectures. 
+ 
+Laboratory and assignments: During laboratory exercises, students will perform 
+hands-on  tasks  to  practice  what  they  have  learned.  They  will  evaluate 
+performance  of  systems  and  design  solutions  to  problems.  The  assignments 
+will help students to review the knowledge taught in class. 
+
+While lectures and tutorials will help to achieve the professional outcomes, the 
+open-ended questions in laboratory exercises and assignments will provide the 
+chance to students to exercise their creatively in problem solving. 
+
+ 
+
+Assessment 
+Methods in 
+Alignment with 
+Intended Subject 
+Learning Outcomes 
+
+ 
+
+Specific Assessment 
+Methods/Tasks  
+
+% 
+
+Weighting 
+
+1.   Continuous 
+
+Assessment  
+(total: 50%) 
+
+  Homework and 
+
+assignments 
+
+  Tests 
+
+  Laboratory 
+
+exercises 
+
+2.   Examination 
+
+Total  
+
+ 
+
+10% 
+
+10% 
+
+30% 
+
+50% 
+
+100% 
+
+Intended Subject Learning 
+Outcomes to be Assessed 
+(Please tick as appropriate) 
+
+1 
+
+ 
+
+2 
+
+ 
+
+3 
+
+ 
+
+4 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+Student Study 
+Effort Expected 
+ 
+
+ 
+Explanation  of  the  appropriateness  of  the  assessment  methods  in 
+assessing the intended learning outcomes: 
+
+Assignment, homework and laboratory exercises will require students to apply 
+what they have learnt to solve problems. There will be open-ended questions 
+that allow students to exercise their creativity in making design. 
+
+Examination  and  tests:  They  assess  students’  achievement  of  the  learning 
+outcomes more rigorously. 
+
+Class contact (time-tabled): 
+
+ 
+
+  Lecture 
+
+  Tutorial/Laboratory/Practice Classes 
+
+Other student study effort: 
+
+24 Hours 
+
+15 hours 
+
+ 
+
+  Lecture: preview/review of notes; homework/assignment; 
+
+36 Hours 
+
+preparation for test/quizzes/examination 
+
+  Tutorial/Laboratory/Practice Classes: preview of 
+
+30 Hours 
+
+materials, revision and/or reports writing 
+
+Total student study effort: 
+
+105 Hours 
+
+ 
+
+ 
+
+Reading List and 
+References 
+
+Reference Books: 
+ 
+1.  Raj  Kamai,  Embedded  Systems:  Architecture,  Programming  and  Design, 
+
+2nd ed., McGraw-Hill, 2009. 
+
+2.  Jack  Nutting, Fredrik  Olsson, David  Mark and Jeff  LaMarche,  Beginning 
+
+iOS 7 Development: Exploring the iOS SDK, Apress, 2014. 
+
+3.  Grant Allen, Beginning Android 4, Apress, 2012. 
+
+ 
+
+Last Updated 
+
+June 2015 
+
+Prepared by 
+
+Dr Ivan Ho 
+
+ 
+  
+
+

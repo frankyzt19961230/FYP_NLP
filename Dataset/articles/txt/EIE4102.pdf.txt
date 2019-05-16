@@ -1,0 +1,284 @@
+Subject Description Form 
+
+ 
+
+Subject Code 
+
+EIE4102  
+
+Subject Title 
+
+IP Networks 
+
+Credit Value 
+
+Level 
+
+Pre-requisite 
+
+3 
+
+4 
+
+EIE3333 Data and Computer Communications or 
+EIE3342 Computer Network 
+
+Co-requisite/ 
+Exclusion 
+
+Nil 
+
+Objectives 
+
+1.  Give a practical treatment on the design, implementation, and management 
+
+ 
+
+2. 
+
+of IP networks. 
+Introduce the variety of facilities, technologies, and communication systems 
+to meet future needs of network services. 
+
+3.  Evaluate  critically  the  performance  of  existing  and  emerging  global 
+
+communication networking technologies. 
+
+Intended Subject 
+Learning Outcomes 
+
+ 
+
+Upon completion of the subject, students will be able to: 
+
+Category A: Professional/academic knowledge and skills 
+1.  Describe the operational and functional attributes of different components 
+
+of IP networks. 
+
+2.  Evaluate  critically  the  design,  implementation,  and  performance  of  IP 
+
+Subject Synopsis/ 
+Indicative Syllabus 
+
+ 
+
+networks with regard to different criteria. 
+
+ 
+Category B: Attributes for all-roundedness 
+3.  Think and evaluate critically. 
+4.  Take up new technology for life-long learning. 
+5.  Work in a team, and collaborate effectively with other members. 
+
+1.  Basic Protocol Functions 
+ 
+
+IP  address,  IP  datagram  structure,  basic  IP  operations,  delivery  and 
+forwarding IP packets 
+
+2.  Protocols in TCP/IP 
+ 
+
+ARP, RARP, ICMP, IGMP, UDP, TCP 
+
+3.  Routing Protocols 
+ 
+
+RIP, OSPF, BGP, Multicast Routing 
+
+4.  Applications Over TCP/IP 
+ 
+
+DNS, TELNET, FTP, Email, HTTP 
+
+5.  Other Issues About IP 
+ 
+
+IP over ATM, Mobile IP, Multimedia, Voice over IP, SIP, H.323, IPv6, IPSec 
+
+ 
+
+Laboratory Experiments: 
+1.  Voice over IP Experiment 
+2. 
+
+IP Security 
+
+Teaching/Learning 
+Methodology  
+
+Lecture/Tutorial: 39 hours 
+
+Laboratory: 2 hours  
+
+ 
+
+(Equivalent to 6 hours spent by students in laboratory) 
+
+ 
+
+Assessment 
+Methods in 
+Alignment with 
+Intended Subject 
+Learning Outcomes 
+
+ 
+
+Specific Assessment 
+Methods/Tasks  
+
+% 
+
+Weighting 
+
+Intended Subject Learning 
+Outcomes to be Assessed 
+(Please tick as appropriate) 
+
+1.   Continuous 
+ 
+Assessment 
+(total: 40%) 
+ 
+
+  Assignments 
+
+  Laboratory reports 
+
+  Tests 
+
+2.   Examination 
+
+ 
+
+10% 
+
+10% 
+
+20% 
+
+60% 
+
+Total  
+
+ 
+
+100% 
+
+ 
+
+Student Study Effort 
+Expected 
+ 
+
+Class contact (time-tabled): 
+
+  Lecture 
+
+  Tutorial/Laboratory/Practice Classes 
+
+Other student study effort: 
+
+  Lecture: preview/review of notes; 
+
+homework/assignment; preparation for 
+test/quizzes/examination 
+
+1 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+2 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+3 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+4 
+
+5 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+24 Hours 
+
+15 Hours 
+
+ 
+
+36 Hours 
+
+  Tutorial/Laboratory/Practice Classes: preview of 
+
+30 Hours 
+
+materials, revision and/or reports writing 
+
+Total student study effort: 
+
+105 Hours 
+
+1.  Behrouz A. Forouzan, TCP/IP Protocol Suite, 3rd ed., McGraw-Hill, 2006. 
+
+Reading List and 
+References 
+
+Last Updated 
+
+June 2015 
+
+Prepared by 
+
+Dr Lawrence Cheung 
+
+ 
+
+

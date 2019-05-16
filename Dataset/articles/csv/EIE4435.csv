@@ -1,0 +1,244 @@
+Subject Description Form 
+ 
+Subject Code 
+EIE4435 
+Subject Title 
+Image and Audio Processing 
+Credit Value 
+Level 
+Pre-requisite 
+Co-requisite/ 
+Exclusion 
+Objectives 
+3 
+4 
+EIE3312 Linear Systems or 
+EIE3103 Digital Signals and Systems  
+Nil 
+To  provide  a  broad  treatment  of  the  fundamentals  in  image  and  audio 
+processing. 
+Intended Subject 
+Learning Outcomes 
+Upon completion of the subject, students will be able to: 
+ 
+ 
+Category A: Professional/academic knowledge and skills 
+1.  Understand  the  fundamentals  of  image  and  audio  signal  processing  and 
+associated techniques. 
+2.  Understand  how  to  solve  practical  problems  with  some  basic  image  and 
+audio signal processing techniques. 
+3.  Have  the  ability  to  design  simple  systems  for  realizing  some  multimedia 
+image  and  audio  signal  processing 
+applications  with  some  basic 
+techniques. 
+ 
+Category B: Attributes for all-roundedness 
+4.  Present ideas and findings effectively. 
+5.  Learn independently. 
+Subject Synopsis/ 
+Indicative Syllabus 
+Syllabus: 
+ 
+1.   Image processing 
+ 
+1.1  Fundamentals  of  digital  image:  Digital  image  representation  and  visual 
+perception, image sampling and quantization. 
+ 
+ 
+ 
+ 
+1.2   Image enhancement:  Histogram processing; Median filtering; Low-pass 
+interpolation, 
+filtering;  Spatial 
+filtering;  Linear 
+filtering;  High-pass 
+Zooming. 
+1.3  Image  coding  and  compression 
+techniques:  Scalar  and  vector 
+quantizations; Codeword assignment; Entropy coding; Transform image 
+coding; Wavelet coding; Codec examples.  
+1.4  Image analysis and segmentation: Feature extraction; Histogram; Edge 
+detection; Thresholding.  
+1.5  Image representation and description:  Boundary descriptor; Chaincode; 
+Fourier descriptor; Skeletonizing; Texture descriptor; Moments. 
+ 
+2.   Audio processing 
+ 
+2.1  Fundamentals  of  digital  audio:  Sampling;  Dithering;  Quantization; 
+psychoacoustic model.  
+2.2  Basic  digital  audio  processing 
+filtering; 
+Oversampling;  Analog-to-digital  conversion;  Dithering;  Noise  shaping; 
+Digital-to-analog Conversion; Equalisation.  
+techniques:  Anti-aliasing 
+2.3 Digital Audio compression: Critical bands; threshold of hearing; Amplitude 
+masking;  Temporal  masking;  Waveform  coding;  Perceptual  coding; 
+Coding techniques: Subband coding and Transform coding.  
+2.4  Case  Study  of  Audio  System/Codecs:  MP3;  MP3-Pro;  CD;  MD;  DVD-
+Audio;  AC-3;  Dolby  digital;  Surround;  SRS  Surround  system;  Digital 
+Audio Broadcasting, etc. 
+ 
+ 
+ 
+ 
+ 
+Teaching/ Learning 
+Methodology 
+Assessment 
+Methods in 
+Alignment with 
+Intended Subject 
+Learning Outcomes 
+ 
+Laboratory Experiments: 
+ 
+1.  Image processing techniques  
+2.  Image compression  
+3.  Audio compression 
+4.  Psychoacoustic behaviour 
+ 
+ 
+ 
+Teaching 
+and 
+Learning 
+Method 
+Intended 
+Subject 
+Learning 
+Outcome 
+Lectures 
+1, 2, 3 
+Tutorials 
+2, 3, 5 
+Remarks 
+Fundamental principles and key concepts of the 
+subject are delivered to students. 
+These  are  supplementary  to  lectures  and  are 
+conducted with smaller class sizes;  
+students  will  be  able  to  clarify  concepts  and  to 
+gain  a  deeper  understanding  of  the  lecture 
+material;  
+problems  and  application  examples  are  given 
+and discussed. 
+Laboratory 
+sessions 
+4, 5 
+Students  will  make  use  of  software  to  simulate 
+the various theories and visualize the results. 
+Specific Assessment 
+Methods/Tasks  
+% 
+Weighting 
+Intended Subject Learning 
+Outcomes to be Assessed 
+(Please tick as appropriate) 
+1.  Continuous 
+Assessment 
+  Short quizzes  
+  Tests 
+  Laboratory sessions 
+2.   Examination 
+Total  
+40% 
+10% 
+16% 
+14% 
+60% 
+100 % 
+ 
+1 
+ 
+2 
+ 
+3 
+4 
+5 
+ 
+ 
+    
+    
+ 
+ 
+ 
+ 
+    
+ 
+ 
+ 
+ 
+The continuous assessment will consist of a number of assignments, laboratory 
+reports, and two tests. 
+ 
+ 
+ 
+Explanation  of  the  appropriateness  of  the  assessment  methods  in 
+assessing the intended learning outcomes: 
+ 
+Specific Assessment 
+Methods/Tasks 
+Remark 
+Short quizzes  
+ 
+Assignments, tests and 
+examination 
+Laboratory sessions 
+These can measure the students’ understanding 
+of  the  theories  and  concepts  as  well  as  their 
+comprehension of subject materials. 
+End-of  chapter 
+to 
+evaluate the students’ ability in applying concepts 
+and skills learnt in the classroom; 
+type  problems  are  used 
+students  need  to  think  critically  and  to  learn 
+independently  in  order  to  come  up  with  an 
+alternative solution to an existing problem. 
+Students are required to conduct some laboratory 
+works, and produce the written reports; 
+The  accuracy  and  presentation  of  the  report  will 
+be assessed; 
+the emphasis is on assessing the students’ ability 
+to apply knowledge and skills learned in lectures, 
+and their ability to relate the taken data and results 
+to the most relevant theory. 
+ 
+Class contact (time-tabled): 
+ 
+  Lecture 
+  Tutorial/Laboratory/Practice Classes 
+Other student study effort: 
+  Lecture: preview/review of notes; 
+homework/assignment; preparation for 
+test/quizzes/examination 
+24 Hours 
+15 Hours 
+ 
+36 Hours 
+  Tutorial/Laboratory/Practice Classes: preview of 
+30 Hours 
+materials, revision and/or reports writing 
+Total student study effort: 
+105 Hours 
+Student Study 
+Effort Expected 
+Reading List and 
+References 
+Textbooks: 
+ 
+1.  R.C. Gonzalez and R.E. Woods, Digital Image Processing, 2nd ed., Prentice-
+Hall, 2002. 
+2.  Ken C. Pohlmann, Principles of Digital Audio, 4th ed., McGraw-Hill, 2000. 
+ 
+Reference Books: 
+ 
+1.  Ze-Nian  Li  and  Mark  S.  Drew,  Fundamentals  of  Multimedia,  Pearson 
+Prentice-Hall, 2004. 
+2.  M. Mandal, Multimedia Signals and Systems, Kluwer Academic Publishers, 
+2003. 
+Last Updated 
+January 2018 
+Prepared by 
+Dr Chris Chan 
+ 
+

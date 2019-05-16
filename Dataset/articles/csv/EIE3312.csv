@@ -1,0 +1,275 @@
+Subject Description Form 
+ 
+Subject Code 
+EIE3312 
+Subject Title 
+Linear Systems 
+Credit Value 
+Level 
+3 
+3 
+Pre-requisite 
+AMA2111 Mathematics I 
+Co-requisite/ 
+Exclusion 
+Objectives 
+Nil 
+1.  To  provide students  with basic  concepts  and  techniques  for  the  modelling 
+and  analysis  of  linear  continuous-time  and  discrete-time  signals  and 
+systems. 
+2.  To  provide  students  with  an  analytical  foundation  for  further  studies  in 
+Communication Engineering and Digital Signal Processing. 
+Intended Subject 
+Learning Outcomes 
+ 
+Upon completion of the subject, students will be able to: 
+ 
+Category A: Professional/academic knowledge and skills 
+1.  Understand  the  representations  and  classifications  of  the  signals  and 
+Subject Synopsis/ 
+Indicative Syllabus 
+ 
+systems. 
+2.  Understand the modelling of linear systems. 
+3.  Use different techniques to analyze and design systems. 
+4.  Apply  software  tools  to  laboratory  exercises  for  experimenting  with 
+theories, and to the analysis and design of signals and systems. 
+5.  Appreciate  the  advantages  and  disadvantages  of  using  the  different 
+representations and modeling approaches. 
+ 
+Category B: Attributes for all-roundedness 
+6.  Present ideas and findings effectively. 
+7.  Think critically and learn independently. 
+8.  Work in a team and collaborate effectively with others. 
+Syllabus: 
+1.  Signal Representation 
+ 
+Signal  Classification,  Continuous  and  Discrete-Time  Signals,  Random 
+Signals. Time-Domain and Frequency-Domain Representations. 
+ 
+2.  Continuous-Time and Discrete-Time Systems 
+ 
+Impulse  Representation  and  Convolution,  Linear  Time-Invariant  Systems. 
+Properties of Systems: Causality, Time Invariance, Linearity, Systems with 
+Memory,  Inverse  of  a  System,  Stability.  LTI  Systems:  Differential  and 
+Difference Equation Representation, Block Diagram Representations. 
+ 
+3.  Fourier Representations for Signals 
+ 
+Reviews  on  Periodic  and  Nonperiodic  Signals,  Continuous  and  Discrete 
+Signal,  Fourier  Series  and  Transform,  Frequency  Spectra.  Properties  of 
+Fourier Representations, Time Functions, Applications on System Frequency 
+Response  and  Signal  Frequency  Spectrum.  Frequency  Response  of  LTI 
+Systems, Sampling. Discrete-Time Fourier Transform, 
+ 
+4.  Laplace Transform 
+ 
+Definition  and  Properties  of  Laplace  Transform,  Inversion  of  Laplace 
+Transform, Bilateral Laplace Transform. Transform Analysis of LTI Systems, 
+Poles and Zeros. Relationship of Laplace Transform and Fourier Transform. 
+ 
+ 
+ 
+Teaching/ Learning 
+Methodology 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Assessment 
+Methods in 
+Alignment with 
+Intended Subject 
+Learning Outcomes 
+ 
+ 
+5.  Analogue Filters 
+ 
+Ideal Filters, Bode Plots. Filter Design: Butterworth Filters, Chebyshev Filters, 
+Frequency Transformations. 
+ 
+Laboratory Experiments: 
+1.  Fundamentals of Signals 
+2.  Linear Time-Invariant Systems 
+3.  Fourier Analysis of Continuous-time Signals 
+4.  Sampling 
+5.  Fourier Analysis of Discrete-time Signals 
+Teaching and 
+Learning Method 
+Remarks 
+Intended 
+Subject 
+Learning 
+Outcome 
+Lectures 
+1, 2, 3, 5, 7 
+Tutorials 
+1, 2, 3, 5, 7 
+Laboratory sessions 
+4, 6, 7, 8  
+Fundamental  principles  and  key 
+concepts  of 
+the  subject  are 
+delivered to students. 
+These  are  supplementary 
+to 
+lectures  and  are  conducted  with 
+smaller class sizes;  
+students  will  be  able  to  clarify 
+concepts  and  to  gain  a  deeper 
+understanding  of 
+lecture 
+material;  
+the 
+problems 
+examples 
+discussed. 
+and 
+are 
+application 
+and 
+given 
+Students  will  make  use  of  the 
+software MATLAB to simulate the 
+various theories and visualize the 
+results. 
+ 
+ 
+ 
+Specific 
+Assessment 
+Methods/ Task 
+% 
+Weighting 
+Intended Subject Learning 
+Outcomes to be Assessed 
+(Please tick as appropriate) 
+ 
+ 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+1. Continuous 
+Assessment  
+  Assignments 
+  Laboratory 
+sessions 
+ 
+ Tests 
+2. Examination 
+Total 
+ 
+40% 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+10% 
+10% 
+20% 
+60% 
+100% 
+         
+ 
+ 
+        
+         
+     
+       
+ 
+ 
+ 
+ 
+Explanation of the appropriateness of the assessment methods in 
+assessing the intended learning outcomes: 
+ 
+Specific Assessment 
+Methods/Tasks 
+Remark 
+Short quizzes  
+ 
+Assignments, tests and 
+examination 
+can  measure 
+These 
+students’ 
+understanding of the theories and concepts as 
+well  as 
+their  comprehension  of  subject 
+materials. 
+the 
+End-of-chapter-type  problems  are  used 
+evaluate 
+concepts and skills learnt in the classroom; 
+the  students’  ability 
+to 
+in  applying 
+students  need  to  think  critically  and  to  learn 
+independently  in  order  to  come  up  with  an 
+alternative solution to an existing problem. 
+Laboratory sessions 
+Each  student  is  required  to  produce  a  written 
+report; 
+the accuracy and presentation of the report will 
+be assessed; 
+oral  examination  based  on  the  laboratory 
+exercises will be conducted for each student to 
+evaluate  his/her 
+technical  knowledge  and 
+communication skills. 
+ 
+Class contact (time-tabled): 
+ 
+  Lecture 
+  Tutorial/Laboratory/Practice Classes 
+Other student study effort: 
+  Lecture: preview/review of notes; 
+homework/assignment; preparation for 
+test/quizzes/examination 
+24 Hours 
+15 hours 
+ 
+36 Hours 
+Student Study Effort 
+Required 
+  Tutorial/Laboratory/Practice Classes: preview of 
+30 Hours 
+materials, revision and/or reports writing 
+ 
+Total student study effort: 
+105 Hours 
+Reading List and 
+References 
+Reference Books: 
+ 
+1.  Ed. Kamen and Bonnie Heck, Fundamentals of Signals and Systems Using 
+the Web and Matlab, 3/e, Prentice-Hall, 2007. 
+2.  M.J. Roberts, Fundamentals of Signals & Systems, McGraw-Hill, 2008 
+3.  Simon Haykin and Barry Van Veen, Signals and Systems, Wiley, 2003. 
+4.  Charles L. Phillips, et al., Signals, Systems, and Transforms, 3/e, Prentice-
+Hall, 2003. 
+Last Updated 
+ May 2018  
+Prepared by 
+ Prof. Kenneth Lam 
+ 
+

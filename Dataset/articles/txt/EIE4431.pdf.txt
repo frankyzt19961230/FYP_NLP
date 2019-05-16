@@ -1,0 +1,395 @@
+ 
+
+Subject Code 
+
+EIE4431  
+
+Subject Description Form 
+
+Subject Title 
+
+Digital Video Production and Broadcasting 
+
+Credit Value 
+
+Level 
+
+3 
+
+4 
+
+Pre-requisite/ Co-
+requisite/ Exclusion 
+
+Nil 
+
+Objectives 
+
+This  subject  provides  a  broad  knowledge  of  digital  video  production  and 
+broadcasting. 
+
+Intended Subject 
+Learning Outcomes 
+
+  
+
+Upon completion of the subject, students will be able to: 
+ 
+ 
+Category A: Professional/academic knowledge and skills 
+1.  Understand  the  fundamentals  of  digital  video  systems  with  emphasis  on 
+
+production and broadcasting. 
+
+2.  Work with digital video editing tools. 
+3.  Understand the system design principles of video broadcasting. 
+4.  Design simple systems related to video broadcasting. 
+5.  Facilitate for further development in advanced digital video production and 
+
+Subject Synopsis/ 
+Indicative Syllabus 
+
+  
+
+broadcasting. 
+
+ 
+Category B: Attributes for all-roundedness. 
+6.  Learn independently. 
+
+Syllabus: 
+ 
+1. 
+
+Introduction to Video Production and Broadcasting  
+Elements of a video production and broadcasting system.  Video services 
+in Hong Kong. Video production and  broadcasting standards and current 
+development. 
+
+ 
+2.  Fundamental of Video Production 
+ 
+
+Production  process,  pre-production,  production  and  post-production.  
+Digital video editing. 
+
+ 
+3.  Video Production and Recording Equipments 
+
+Digital  camera  and  video  camera,  video  cassette  recorder  (VCR),  digital 
+video recorder, storage media, VCD, DVD-video.  Video player: DVD player 
+and advanced digital video player with full VCR support. 
+
+ 
+4.  Analog Video Broadcasting Standards 
+ 
+ 
+5.  Fundamental of Digital Video Broadcasting 
+
+Component video and composite video, NTSC, and  PAL.   
+
+Digital  video  coding  standards,  Video  transport  layer,  and  transmission 
+layer. 
+ 
+
+ 
+
+6.  Video Transport Layer 
+  MPEG-2  systems  and  multiplexing,  programme  specific  information  and 
+
+service information.   
+ 
+
+ 
+
+7.  Error Control for Digital Video 
+
+Quality of service requirements for video communications. Error resilience 
+and  concealment  techniques  for  digital  video.  Transport  protocols  for 
+multimedia communications. Video streaming over the Internet. 
+ 
+
+8.  Digital Video Broadcasting Techniques and Standards 
+
+Channel coding for error control in digital TV, Digital modulation technique 
+
+Teaching/ Learning 
+Methodology 
+
+  
+
+Assessment 
+Methods in 
+Alignment with 
+Intended Subject 
+Learning Outcomes 
+
+ 
+
+and conditional access for digital TV.  
+
+ 
+Laboratory Experiments: 
+ 
+1.   Basic video editing tools 
+2.  Digital video editing – visual effects  
+3.  Digital video editing – Layering and keying clips 
+
+Teaching and 
+Learning 
+Method 
+
+Intended 
+Subject 
+Learning 
+Outcome 
+
+Lectures 
+
+1, 3, 4, 5, 6 
+
+Tutorials 
+
+1, 3, 4, 5, 6 
+
+Remarks 
+
+fundamental  principles  and  key  concepts 
+of the subject are delivered to students 
+
+to 
+
+lectures  and  are 
+
+supplementary 
+conducted with smaller class size;  
+students  will  be  able  to  clarify  concepts 
+and to have a deeper understanding of the 
+lecture material;  
+problems  and  application  examples  are 
+given and discussed 
+
+Laboratory 
+sessions 
+
+2, 6 
+
+students  will  make  use  of  digital  video 
+editing tools 
+
+ 
+
+ 
+
+ 
+ 
+
+Specific 
+Assessment 
+Methods/Tasks  
+
+% 
+
+Weighting 
+
+Intended Subject Learning Outcomes 
+to be Assessed (Please tick as 
+appropriate) 
+
+1.  Continuous 
+Assessment 
+(total 40%) 
+
+ 
+
+  Short quizzes/ 
+
+10% 
+
+Assignments 
+
+  Tests 
+
+  Laboratory 
+
+sessions 
+
+20% 
+
+10% 
+
+1 
+
+2 
+
+3 
+
+4 
+
+5 
+
+6 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+  
+
+   
+
+   
+
+ 
+
+  
+
+ 
+
+ 
+
+
+
+2.   Examination 
+
+60% 
+
+  
+
+   
+
+Total  
+
+100% 
+
+ 
+
+ 
+The continuous assessment will consist of laboratory reports, a number of short 
+quizzes, assignments, and tests. 
+ 
+
+ 
+
+ 
+Explanation  of  the  appropriateness  of  the  assessment  methods  in 
+assessing the intended learning outcomes: 
+ 
+
+Specific Assessment 
+Methods/Tasks 
+
+Remark 
+
+Short quizzes  
+
+ 
+
+Assignments, tests and 
+examination 
+
+Laboratory sessions 
+
+tests 
+
+true-false,  and  matching 
+
+(e.g.,  multiple-choice 
+mainly  objective 
+questions, 
+items) 
+conducted  to  measure  the  students’  ability  to 
+remember  facts  and  figures  as  well  as  their 
+comprehension of subject materials 
+
+end-of  chapter  type  problems  used  to  evaluate 
+students’  ability  in  applying  concepts  and  skills 
+learnt in the classroom; 
+students need  to think critically  and creatively  in 
+order  to  come  with  an  alternate  solution  for  an 
+existing problem 
+
+each group of students are required to produce a 
+written report; 
+accuracy and the presentation of the report will be 
+assessed; 
+oral  examination  based  on 
+laboratory 
+exercises  will  be  conducted  for  each  group 
+member to evaluate his technical knowledge and 
+communication skills 
+
+the 
+
+ 
+
+Student Study 
+Effort Expected 
+
+Class contact (time-tabled): 
+
+ 
+
+  Lecture 
+
+  Tutorial/Laboratory/Practice Classes 
+
+Other student study effort: 
+
+  Lecture: preview/review of notes; 
+
+homework/assignment; preparation for 
+test/quizzes/examination 
+
+24 Hours 
+
+15 Hours 
+
+ 
+
+36 Hours 
+
+  Tutorial/Laboratory/Practice Classes: preview of 
+
+30 Hours 
+
+materials, revision and/or reports writing 
+
+Total student study effort: 
+
+105 Hours 
+
+Reading List and 
+References 
+
+Reference Books: 
+ 
+1.  U.  Reimers,  DVB:  The  Family  of  International  Standards  for  Digital  Video 
+
+Broadcasting, Springer, 2005. 
+
+2.  Richard Brice, Newnes Guide to Digital TV, Newnes, 2003. 
+3.  Gerald Millerson, Television Production, Focal Press, 2001. 
+
+Last Updated 
+
+March 2014 
+
+Prepared by 
+
+Dr Y.L. Chan 
+
+ 
+  
+
+

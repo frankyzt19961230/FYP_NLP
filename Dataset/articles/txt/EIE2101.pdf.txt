@@ -1,0 +1,467 @@
+Subject Description Form 
+
+Subject Code 
+
+EIE2101 
+
+Subject Title 
+
+Basic Circuit Analysis 
+
+Credit Value 
+
+Level 
+
+Pre-requisite/  
+Co-requisite/  
+Exclusion 
+
+Objectives 
+
+Intended Subject 
+Learning 
+Outcomes 
+
+ 
+
+Subject Synopsis/ 
+Indicative Syllabus 
+
+ 
+
+3 
+
+2 
+
+Nil 
+
+Introduce fundamental circuit theory. 
+
+1. 
+2.  Develop ability for solving problems involving electric circuits. 
+3.  Develop skills for experimentation on electric circuits. 
+4. 
+
+Impart  relevant  skills  and  knowledge  for  independent  learning  of  other 
+subjects that require such skills and knowledge. 
+
+Upon completion of the subject, students will be able to: 
+ 
+Category A: Professional/academic knowledge and skills 
+1.  Acquire a good understanding of fundamental circuit theory. 
+2.  Solve simple problems in electric circuits. 
+3.  Use  suitable  instrumentation  to  carry  out  experimental  investigations  to 
+ 
+ 
+Category B: Attributes for all-roundedness 
+4.  Search for useful information in solving problems in electric circuits. 
+
+validate the theoretical investigations. 
+
+Syllabus:  
+ 
+1.  DC Circuits 
+ 
+
+Introduction to electric circuits. Voltage and current as two basic variables. 
+Kirchhoff’s current and voltage laws. Independent and dependent sources. 
+Simple circuits: voltage divider, current divider, series and parallel circuits. 
+Graphs.  Trees  &  Co-trees.  Cutsets  &  loops.  Nodal  and  mesh  analyses.  
+Loop  and  cutset  analyses  of  resistive  circuits.  Thévenin  and  Norton 
+theorems. Power dissipation. Source loading and maximum power transfer.  
+
+ 
+2.  Capacitance, Inductance and First Order Transient 
+ 
+
+Constitutive  relations  of  capacitor  and  inductor.  Introduction  to  time-varying 
+circuits.  Simple  RC  and  LC  circuits.  Important  concept  of  independent  state 
+variables. First-order differential equation (with simple solution of exponential 
+form).  First  order  transient  analysis.  Time-domain  solution  and  transient 
+behaviour of first order circuits.  
+
+ 
+3. 
+
+Introduction to Transformers 
+Concept of ideal transformer (assuming sinusoidal voltages and currents). Dot 
+convention.  Physical  transformer  as  ideal  transformer  with  leakage  and 
+magnetizing inductances. Applications in galvanic isolation and voltage/current 
+level conversion. 
+ 
+
+4.  Steady-state Analysis of AC Circuits 
+
+Average and rms values. Phasors (rotating vectors). Steady-state analysis of 
+circuits  driven  by  single  fixed  frequency  sinusoidal  sources.  Impedance  and 
+admittance. Analysis approach 1: phasor diagrams for simple circuits. Analysis 
+approach 2: systematic complex number analysis, i.e., same treatment as DC 
+circuits but with complex numbers representing phase and magnitude of AC 
+voltages and currents. Real and reactive powers. Power factor.  
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+5.  Operational Amplifiers 
+
+Ideal  operational  amplifier.  Defining  characteristics  (i.e.,  infinite  gain  and 
+infinite input resistance). Op-amp circuits: inverting amplifier, non-inverting 
+amplifier,  summer,  difference  amplifier, 
+integrator  and  differentiator. 
+Applications:  instrumentation  amplifier;  current-to-voltage  and  voltage-to-
+current converters. 
+ 
+
+ 
+Laboratory Experiments:  
+ 
+1.   Introduction to laboratory instrumentation / Thévenin and Norton theorems 
+2.   First order transient 
+3.   Use of operational amplifiers. 
+
+ 
+
+Teaching/ Learning 
+Methodology 
+
+Teaching and 
+Learning Method 
+
+ 
+
+Lectures, 
+supplemented with 
+interactive questions 
+and answers 
+
+Intended Subject 
+Learning 
+Outcome 
+
+1, 2, 4 
+
+1, 2, 4 
+
+2, 3, 4 
+
+Practice classes, 
+where  problems are 
+discussed and are 
+given to students for 
+them to solve 
+
+Laboratory sessions, 
+where students will 
+perform experimental 
+verifications. They will 
+have to record results 
+and write a report on 
+one of the experiments. 
+
+Assignments 
+
+1, 2, 3, 4 
+
+Remarks 
+
+In lectures, students are 
+introduced to the 
+knowledge of the subject, 
+and comprehension is 
+strengthened with 
+interactive Q&A. 
+
+In practice classes, students 
+apply what they have learnt 
+in  solving 
+the  problems 
+given by the tutor.  
+
+Students acquire hands-on 
+experience in using 
+electronic equipment and 
+apply what they have learnt 
+in lectures/tutorials to 
+experimentally validate the 
+theoretical investigations.  
+
+Through working 
+assignments, students will 
+develop a firm 
+understanding and 
+comprehension of the 
+knowledge taught. 
+
+ 
+
+ 
+
+Assessment 
+Methods in 
+Alignment with 
+Intended Subject 
+Learning 
+Outcomes  
+
+Specific Assessment 
+Methods/ Task 
+
+% 
+
+Weighting 
+
+Intended Subject Learning 
+Outcomes to be Assessed 
+(Please tick as appropriate) 
+
+ 
+
+1.  Continuous Assessment  
+ 
+
+(Total 40%) 
+
+  Laboratory  works  and 
+
+reports 
+
+  Quizzes 
+
+  End-of-semester test 
+
+2.  Examination 
+
+Total 
+
+ 
+
+ 
+
+15% 
+
+15% 
+
+10% 
+
+60% 
+
+1 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+2 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+3 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+4 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+100% 
+
+ 
+
+ 
+Explanation  of  the  appropriateness  of  the  assessment  methods  in 
+assessing the intended learning outcomes: 
+
+Specific Assessment 
+Methods/Tasks 
+
+Remark 
+
+Assignments 
+
+of 
+
+level 
+
+level  (i.e. 
+
+knowledge 
+
+Assignments are given to students to assess their 
+competence 
+and 
+comprehension.  The  criteria  (i.e.  what  to  be 
+demonstrated)  and 
+the  extent)  of 
+achievement will be graded according to six levels: 
+(A+ and A), Good (B+ and B), Satisfactory (C+ and 
+C),  Marginal  (D)  and  Failure  (F).  These  will  be 
+made known to the students before an assignment 
+is given. Feedback about their performance will be 
+given  promptly 
+them 
+improvement their learning. 
+
+to  students 
+
+to  help 
+
+Laboratory works and 
+reports 
+
+Students  will  be  required 
+three 
+experiments  and  submit  a  report  on  one  of  the 
+experiments.  Expectation  and  grading  criteria  will 
+be given as in the case of assignments. 
+
+to  perform 
+
+Mid-semester test 
+
+There  will  be  a  mid-semester  test  to  evaluate 
+students’ achievement of all the learning outcomes 
+and  give 
+for  prompt 
+improvement. Expectation and grading criteria will 
+be given as in the case of assignments. 
+
+feedback 
+
+them 
+
+to 
+
+End-of-semester test 
+and Examination 
+
+There  will  be  an  end-of-semester 
+test  and 
+examination to assess students’ achievement of all 
+the 
+learning  outcomes.  These  are  mainly 
+summative  in  nature.  Expectation  and  grading 
+criteria will be given as in the case of assignments. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Student Study Effort 
+Expected 
+
+Class contact (time-tabled): 
+
+ 
+
+  Lecture 
+
+  Tutorial/Laboratory/Practice Classes 
+
+Other student study effort: 
+
+  Lecture: preview/review of notes; 
+
+homework/assignment; preparation for 
+test/quizzes/examination 
+
+  Tutorial/Laboratory/Practice Classes: preview of 
+
+materials, revision and/or reports writing 
+
+Total student study effort: 
+
+24 Hours 
+
+15 hours 
+
+ 
+
+36 Hours 
+
+30 Hours 
+
+105 Hours 
+
+Reading List and 
+References 
+
+Textbook: 
+ 
+1.  W.H. Hayt, J.E. Kemmerly and S.M. Durbin,  Engineering Circuit Analysis, 
+
+7th ed., New York: McGraw-Hill, 2006. 
+
+2.  G.  Rizzoni,  Fundamentals  of  Electrical  Engineering,  1st  ed.,  McGraw-Hill, 
+
+2009. 
+
+ 
+References: 
+ 
+1.  C.K. Tse, Linear Circuit Analysis, London: Addison-Wesley, 1998. 
+2.  D.A.  Neamen,  Micoelectronics:  Circuit  Analysis  and  Design,  Boston: 
+
+McGraw-Hill, 3rd ed., 2007. 
+
+3.  R.A.  DeCarlo  and  P.M.  Lin,  Linear  Circuit  Analysis,  2nd  ed.,  Oxford 
+
+University Press, 2001. 
+
+4.  A.H.  Robbins  and  W.C.  Miller,  Circuit  Analysis:  Theory  and  Practice, 
+
+Thomson Learning, 4th ed., 2006. 
+
+Last Updated 
+
+July 2014 
+
+Prepared by 
+
+Dr Martin Chow 
+
+ 
+  
+
+ 
+
+

@@ -1,0 +1,323 @@
+ 
+Subject Code 
+EIE4110  
+Subject Description Form 
+Subject Title 
+Introduction to VLSI and Computer-Aided Circuit Design 
+Credit Value 
+Level 
+3  
+4 
+Pre-requisite 
+EIE3100 Analogue Circuit Fundamentals  
+Co-requisite/ 
+Exclusion 
+Objectives 
+Nil 
+To enable students to gain knowledge and understanding in the following 
+aspects: 
+ 
+1.  Fundamentals of VLSI circuits and systems. 
+2.  VLSI design CAD tools. 
+3.  Hardware Description Languages (VHDL) 
+4.  VLSI design prototyping using Field Programmable Gate Arrays (FPGAs) 
+Intended Subject 
+Learning Outcomes 
+  
+Upon completion of the subject, students will be able to: 
+ 
+ 
+Category A: Professional/academic knowledge and skills 
+1.  Understand the fundamentals of CMOS VLSI and associated technologies. 
+2.  Solve problems in the design of CMOS logic circuits, with particular reference 
+to speed and power consumption. 
+3.  Acquire hands-on skills of using CAD tools in VLSI design. 
+4.  Appreciate the design process in VLSI through a mini-project on the design 
+of a CMOS sub-system. 
+ 
+Category B: Attributes for all-roundedness 
+5.  Communicate effectively. 
+6.  Think critically and creatively. 
+7.  Assimilate new technological and development in related field. 
+ 
+Syllabus: 
+ 
+1.  Overview of VLSI Design  
+      VLSI design methodology; functional, logic and physical design; gate arrays 
+and standard cells, programmable logic devices; system-on-chip.   
+ 
+2.  CMOS Fabrication and Layout 
+      Fabrication processes in CMOS VLSI; latch-up; characteristics of devices 
+in VLSI; mask layout techniques and design rules.  
+Subject Synopsis/ 
+Indicative Syllabus 
+  
+Transmission gates; static and dynamic gates and flip flops; domino logic. 
+ 
+3.  CMOS Logic Circuits 
+ 
+ 
+4.  High Speed CMOS Logic Design 
+ 
+Delay  estimation  and 
+capacitance; optimal delay design of buffers 
+transistor  sizing;  device  and 
+interconnect 
+ 
+5.  Logic Synthesis 
+ 
+Synthesis of Hardware Description Languages (HDL) e.g. VHDL or Verilog 
+into gate-netlists. Timing and area optimizations. 
+ 
+6  High-Level Synthesis 
+ 
+Synthesis  of  behavioural  descriptions  e.g.  ANSI-C  into  Register  Transfer 
+Level Descriptions (i.e. synthesizable – Verilog or VHDL). Review of three 
+main steps: (1) Resource allocation, (2)scheduling and (3) binding 
+ 
+ 
+7  Physical Design 
+ 
+Logic netlist partitioning methods, floor planning, placement of gate-netlists 
+and routing 
+Design of VLSI power grids and clock trees 
+ 
+8.  Power Grid and Clock Design 
+ 
+ 
+9.  VLSI Power and Thermal Considerations 
+ 
+Power  (static  and  dynamic  power)  estimation.  Main  factors  that  impact 
+power  consumption  and  how  to  reduce  them  e.g.  Clock  gating,  Dynamic 
+Voltage and Frequency Scaling (DVFS), voltage island. 
+Testability of ICs, scan chain, boundary scan, ATPG 
+ 
+10  Design for Test (DFT) 
+ 
+ 
+Laboratory Experiment/Mini-project: 
+ 
+1.  Practice  of  CAD  tools  for  VLSI  design:  circuit  simulation  and  FPGA 
+implementation using a FPGA prototyping board 
+2.  Mini-project: design of a VLSI sub-system for computer or communication 
+Teaching/ Learning 
+Methodology 
+  
+applications. 
+ 
+Teaching and 
+Learning Method 
+Lectures, 
+supplemented 
+with interactive 
+questions and 
+answers, and 
+short quizzes 
+Tutorials where 
+design problems 
+are discussed, 
+and are given to 
+students for them 
+to solve 
+Laboratory 
+sessions, where 
+students will 
+perform a mini-
+project on a 
+subsystem design 
+using CAD tools. 
+They will have to 
+write a report on 
+their mini-projects. 
+Intended 
+Subject 
+Learning 
+Outcome 
+1, 2, 6, 7 
+Remarks 
+the 
+In lectures, students are introduced to the 
+knowledge 
+and 
+of 
+comprehension 
+is  strengthened  with 
+interactive  Q&A  and  short  quizzes.  They 
+will  be  able  to  explain  and  generalize 
+knowledge in VLSI. 
+subject, 
+1, 2, 5, 6 
+2, 3, 4, 5, 
+6 
+In tutorials, students apply what they have 
+learnt  in  analyzing  the  cases  and  solving 
+the problems given by the tutor. They will 
+analyze  the  given  information,  compare 
+and  contrast  different  scenarios  and 
+propose solutions or alternatives. 
+Students  acquire  hands-on  experience  in 
+using CAD tools in VLSI design, and apply 
+what  they  have  learnt  in  lectures/tutorials 
+to do a mini-project on the design of a sub-
+system.  
+Assignment and 
+Homework 
+1, 2, 3, 4, 
+5, 6 
+ 
+ 
+assignment 
+Through  working 
+and 
+homework,  students  will  develop  a  firm 
+understanding  and  comprehension  of  the 
+knowledge taught. They will analyze given 
+information  and  apply  knowledge 
+in 
+solving problem. For some design type of 
+questions,  they  will  have  to  synthesize 
+solutions 
+different 
+alternatives. 
+evaluating 
+by 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Assessment 
+Methods in 
+Alignment with 
+Intended Subject 
+Learning Outcomes 
+Specific Assessment 
+Methods/Tasks  
+% 
+Weighting 
+Intended Subject Learning 
+Outcomes to be Assessed 
+(Please tick as 
+appropriate) 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1.  Continuous Assessment 
+ 
+(total 50%) 
+  Min-project 
+ 
+Individual Assignment 
+  Laboratory works and 
+reports 
+2.   Examination 
+Total  
+20% 
+15% 
+15% 
+50% 
+100% 
+        
+   
+    
+       
+ 
+       
+ 
+ 
+The  continuous  assessment  will  consist  of  a  mini-project,  a  number  of 
+laboratory sessions. 
+ 
+Explanation  of  the  appropriateness  of  the  assessment  methods  in 
+assessing the intended learning outcomes: 
+ 
+Specific 
+Assessment 
+Methods/ Tasks 
+Mini-project 
+Individual 
+assignment 
+Laboratory works 
+and reports 
+Examination 
+Remark 
+Students are required to conduct one mini-project in 
+teams of 3-4 students. The emphasis is on assessing 
+their  ability  to apply  knowledge  and  skills  learned  in 
+designing a complex VLSI system, ability in working 
+with other  people and ability  to take data and relate 
+the measurement results to theory.  Expectation and 
+grading criteria will be given. 
+The  students  will  work  on  a  small 
+individual 
+assignment  to  as  demonstrate  the  development  an 
+analytical skills related the design of VLSI circuits. 
+Students  will  be  required  to  perform  6-7  laboratory 
+sessions  and  write  an  individual  laboratory  report. 
+The emphasis is on assessing their ability to use VLSI 
+CAD 
+to  perform  VLSI  design. 
+Expectation and grading criteria will be given as in the 
+case of mini-project. 
+tools  effectively 
+There  will  be  an  end-of-semester  examination  to 
+assess  students’  achievement  of  all  the  learning 
+outcomes.  Expectation  and  grading  criteria  will  be 
+given as in the case of mini-project. 
+ 
+ 
+ 
+Student Study 
+Effort Expected 
+Class contact (time-tabled): 
+ 
+  Lecture 
+  Tutorial/Laboratory/Practice Classes 
+Other student study effort: 
+  Lecture: preview/review of notes; 
+homework/assignment; preparation for 
+test/quizzes/examination 
+24 Hours 
+15 Hours 
+ 
+36 Hours 
+Reading List and 
+References 
+  Tutorial/Laboratory/Practice Classes: preview of 
+30 Hours 
+materials, revision and/or reports writing 
+Total student study effort: 
+105 Hours 
+Reference Books: 
+ 
+1.  D.A. Hodges, H.G. Jackson and R.A. Saleh, Analysis and Design of Digital 
+Integrated Circuits, 3rd ed., New York: McGraw-Hill, 2003. 
+2.  W. Wolf, Modern VLSI Design: System-on-chip Design, 3rd ed., Englewood 
+Cliffs: Prentice-Hall, 2002. 
+3.  P.  Ashenden,  The  Designers  Guide  to  VHDL,3rd  ed.,    Morgan  Kaufmann, 
+2008. 
+Last Updated 
+June 2015 
+Prepared by 
+Dr Benjamin CARRION SCHAFER 
+ 
+

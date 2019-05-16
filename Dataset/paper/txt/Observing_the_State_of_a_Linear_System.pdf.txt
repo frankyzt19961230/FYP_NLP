@@ -1,0 +1,1137 @@
+Observing the State of a Linear System
+
+DAVID G. LUENBERGER, STUDENT MEMBER, IEEE
+
+Summary-In much of modern control theory designs are based
+on the assunption that the state vector of the system to be controlled
+is available for measurement. In many practical situations only a few
+output quantities are available. Application of theories which assume
+that the state vector is known is severely limited in these cases. In
+this paper it is shown that the state vector of a linear system can be
+reconstructed from observations of the system inputs and outputs.
+It is shown that the observer, which reconstructs the state vector,
+is itself a linear system whose complexity decreases as the number of
+output quantities available increases. The observer may be incorpo-
+rated in the control of a system which does not have its state vector
+available for measurement. The observer supplies the state vector,
+but at the expense of adding poles to the over-all system.
+
+I. INTRODUCTION
+
+I N THE PAST few years there has been an increasing
+percentage of control system literature written from
+the "state variable" point of view [1]-[8]. In the
+case of a continuous, time-invariant linear system the
+state variable representation of the system is of the
+form:
+
+y(t) = Ay(t) +Bx(t),
+
+where
+
+y(t) is an (n X 1) state vector
+x(t) is an (m X1) input vector
+A is an (nXn) transition matrix
+B is an (nXm) distribution matrix.
+This state variable representation has some con-
+ceptual advantages over the more conventional transfer
+function representation. The state vector y(t) contains
+enough information to completely summarize the past
+behavior of the system, and the future behavior is
+governed by a simple first-order differential equation.
+The properties of the system are determined by the con-
+stant matrices A and B. Thus the study of the system
+can be carried out in the field of matrix theory which is
+not only well developed, but has many notational and
+conceptual advantages over other methods.
+
+When faced with the problem of controlling a system,
+some scheme must be devised to choose the input vector
+x(t) so that the system behaves in an acceptable man-
+ner. Since the state vector y(t) contains all the essential
+information about the system, it is reasonable to base
+the choice of x(t) solely on the values of y(t) and per-
+haps also t. In other words, x is determined by a relation
+of the form x(t) = F[y(t), t].
+
+This is, in fact, the approach taken in a large portion
+of present day control system literature. Several new
+
+Received November 2, 1963. This research was partially sup-
+The author is with the Department of Electrical Engineering,
+
+ported by a grant from Westinghouse Electric Corporation.
+Stanford University, Stanford, Calif.
+
+74
+
+techniques have been developed to find the function F
+for special classes of control problems. These techniques
+include dynamic programming [8]- [10], Pontryagin's
+maximum principle [11], and methods based on Lya-
+punov's theory [2], [12].
+
+In most control situations, however, the state vector
+is not available for direct measurement. This means
+that it is not possible to evaluate the function F[y(t), t].
+In these cases either the method must be abandoned or a
+reasonable substitute for the state vector must be found.
+In this paper it is shown how the available system in-
+puts and outputs may be used to construct an estimate
+of the system state vector. The device which recon-
+structs the state vector is called an observer. The ob-
+server itself as a time-invariant linear system driven by
+the inputs and outputs of the system it observes.
+
+Kalman [3], [13], [14] has done some work on this
+problem, primarily for sampled-data systems. He has
+treated both the nonrandom problem and the problem
+of estimating the state when measurements of the out-
+puts are corrupted by noise. In this paper only the non-
+statistical problem is discussed but for that case a fairly
+complete theory is developed.
+
+It is shown that the time constants of an observer can
+be chosen arbitrarily and that the number of dynamic
+elements required by the observer decreases as more
+output measurements become available. The novel point
+of view taken in this paper leads to a simple conceptual
+understanding of the observer process.
+
+II. OBSERVATION OF A FREE DYNAMIC SYSTEM
+
+As a first step toward the construction of an observer
+it is useful to consider a slightly more general problem.
+Instead of requiring that the observer reconstruct the
+state vector itself, require only that it reconstruct some
+constant linear transformation of the state vector. This
+problem is simpler than the previous problem and its
+solution provides a great deal of insight into the theory
+of observers.
+
+Assuming it were possible to build a system which re-
+constructs some constant linear transformation T of the
+state vector y, it is clear that it would then be possible
+to reconstruct the state vector itself, provided that the
+transformation T were invertible. This is the approach
+taken in this paper. It is first shown that it is relatively
+simple to build a system which will reconstruct some
+linear transformation of the state vector and then it is
+shown how to guarantee that the transformation ob-
+tained is invertible.
+
+The first result concerns systems which have no in-
+puts. (Such systems are called free systems.) The situa-
+
+Luenberger: State of a Linear System
+
+75
+
+tion which is investigated is illustrated in Fig. 1. The
+free system is used to drive another linear system with
+state vector z. In this situation it is nearly always true
+that z will be a constant linear transformation of the
+state vector of the free system.
+
+Theorem 1 (Observation of a Free System): Let S1 be a
+free system: y =Ay, which drives S2: X=Bz+Cy. If A
+and B have no common eigenvalues, then there is a
+constant linear transformation T such that if z(o)
+= Ty(o), then z(t) = Ty(t) for all t > 0. Or more generally,
+
+z(t) = Ty(t) + eSt[z(o) - Ty(o)].
+
+Proof: Notice that there is no need for A and B to
+
+be the same size; they only have to be square.
+
+Suppose that such a transformation did exist; i.e.,
+
+suppose that for all t
+
+z(t) = Ty(t).
+
+The two systems are governed by
+
+y= Ay,
+x = Bz +Cy,
+
+but using the relation z = Ty,
+Ty = TAy,
+Ty=BTy+Cy.
+
+(1)
+
+(2)
+
+(3)
+
+Now, since the left sides agree, so must the right sides.
+This implies that T satisfies
+
+TA-BT= C.
+
+(4)
+
+Since A and B have no common eigenvalues, (4) will
+have a unique solution T, [15 ]. It will now be shown that
+T has the properties of the theorem. Using (3),
+
+z-Ty =Bz-TAy+Cy.
+
+By using (4), this becomes
+
+z- Ty= B(z -Ty).
+
+(5)
+
+(6)
+
+This is a simple first-order differential equation in the
+
+variable z - Ty. It has the well-known solution
+
+z(t) = Ty(t) + eBt[z(o) - Ty(o)],
+
+(7)
+
+which proves the theorem.
+
+The result of Theorem 1 may be easily interpreted in
+terms of familiar linear system theory concepts. As a
+simple example, consider the situation described by
+Fig. 2. Here both SI and S2 are first order systems. It is
+clear from the figure that y(t) = y(o)eXt and that ay(o)ext
+is the signal which drives S2. By elementary transform
+theory it may be verified that
+
+z(t) =
+
+y(o)
+
+X-,
+
+t + elltLz(o) -
+
+a(8
+
+a
+
+X - A
+
+y(o)I
+
+(8)
+
+Fig. 1-A simple observer.
+
+Fig. 2-Observation of a first-order system.
+
+So, if the initial condition on z(o) is chosen as
+
+then for all t>0,
+
+z(o) =
+
+a
+
+X _ p
+
+y(o),
+
+z(t)=
+
+a
+
+y(t),
+
+(9)
+
+(10)
+
+which is just a constant multiple of y. This type of
+reasoning may be easily extended to higher-order sys-
+tems.
+
+The results of Theorem 1 would be of little practical
+value if they could not be extended to include nonfree
+systems. Fortunately, thisextension is relatively straight-
+forward.
+
+Assume, now, that the plant or system, Si, that is to
+
+be observed is governed by
+
+y= Ay+ Dx,
+
+(11)
+where x is an input vector. As before, an observer for
+this system will be driven by the state vector y. In
+addition, it is natural to expect that the observer must
+also be driven by the input vector x. Consider the sys-
+tem S2 governed by
+
+= Bz + Cy + Gx.
+
+(12)
+As before, let T satisfy TA - B T = C. Then, it follows
+that
+
+x-Ty-=Bz-TAy + Cy + (G-TD)x,
+
+(13)
+
+or, using (4)
+
+z- T = B(z - Ty) + (G - TD)x.
+
+(14)
+By choosing G = TD the differential equation above can
+be easily integrated giving
+
+z(t) = Ty(t) + eBt[z(o) - Ty(o)].
+
+(15)
+
+This shows that the results for free systems contained in
+Theorem 1 will also apply to nonfree systems provided
+that the input drive satisfies
+
+G = TD.
+
+(16)
+
+76
+
+IEEE TRANSACTIONS ON MILITARY ELECTRONICS
+
+April
+
+This is what one might intuitively expect. The system
+which produces Ty is driven with an input just equal to
+T times the input used to drive the system which pro-
+duces y.
+
+In applications, then, an observer can be designed for
+a system by assuming that the system is free; then an
+additional input drive can be added to the observer in
+order to satisfy (16). For this reason it is possible to
+continue to develop the theory and design techniques
+for free systems only.
+
+III. OBSERVATION OF THE ENTIRE STATE VECTOR
+
+It was shown in the last section that "almost" any
+linear system will follow a free system which is driving
+it. In fact, the state vectors of the two systems will be
+related by a constant linear transformation. The ques-
+tion which naturally arises now is: How does one guar-
+antee that the transformation obtained will be in-
+vertible?
+
+One way to insure that the transformation will be
+invertible is to force it to be the identity transformation.
+This requirement guarantees that (after the initial
+transient) the state vector of the observer will equal the
+state vector of the plant.
+
+In the notation used here, vectors such as a are com-
+monly column vectors, whereas row vectors are repre-
+sented as transposes of column vectors, such as a'.
+
+Assume that the plant has a single output v
+
+y= Ay
+v = aly
+
+(17)
+
+and that the corresponding observer is driven by v as its
+only input
+
+or
+
+B=Rz+bv
+
+= Bz + baty.
+
+under these conditions z= Ty where T satisfies
+
+Forcing T= I gives
+
+TA -BT = ba'.
+
+B =A-ba'
+
+(18)
+
+(19)
+
+(20)
+
+(21)
+
+which prescribes the observer in this case. In (21) A and
+a' are given as part of the plant, hence, chosing a vector
+b will prescribe B and the observer will be obtained.
+
+This solution to the observer problem is illustrated in
+Fig. 3 and is the solution obtained by Kalman [3 ] using
+other methods. For a sampled-data system, he deter-
+mined the vector b so that the transient would die out
+in minimum time. In the continuous case, presumably,
+the vector b would be chosen to make the transient die
+out quickly.
+
+Fig. 3-Observation of the entire state vector.
+
+IV. REDUCTION OF DYNAMIC ORDER
+
+The observer constructed above by requiring T= I
+possesses a certain degree of mathematical simplicity.
+The state vector of the observer is equal to the state
+vector of the system being observed. Further examina-
+tion will reveal a certain degree of redundancy in the
+observer system. The observer constructs the entire
+state vector when the output of the plant, which repre-
+sents part of the state vector, is available by direct
+measurement.
+
+Intuitively, it seems that this redundancy might be
+eliminated, thereby giving a simpler observer system.
+In this section it is shown that this redundancy can be
+eliminated by reducing the dynamic order of the ob-
+server. It is possible, however, to choose the pole loca-
+tions of the observer in a fairly arbitrary manner.
+
+The results of this section rely heavily on the con-
+cepts of controllability and observability introduced by
+Kalman [3] and on properties of the matrix equation
+TA - B T = C. Some new properties of this equation are
+developed but first a motivation for these results is
+given in the form of a rough sketch of the method that
+is used to reduce the dynamic order of the observer.
+
+Consider the problem of building an observer for an
+nth-order system Si which has only one output. Let this
+system drive an (n - 1)th-order system S2. Then by the
+results of Section II each state variable of S2 is a time-
+invariant, linear combination of the state variables of
+Si. Thus, the n -1 state variables of S2 together with
+the output of S1 give n quantities each of which is a
+linear combination of the state variables of Si. If these
+different combinations are linearly independent it
+is
+possible to find the state variables of SI by simple mati ix
+(no dynamics) operations. The scheme is illustrated in
+Fig. 4.
+
+Another way to describe the method is in terms of
+matrix inversion. The state vector of S2 is given by
+z = Ty; but z has only n -1 components while y has n
+components. This means that T is an (n-1) Xn matrix
+and so it cannot be inverted. However, if another com-
+ponent that is a linear combination of the components
+of y is adjoined to the z vector, one obtains an n-dimen-
+sional vector z1 = T1y, where T, is now an nXn matrix
+which may possess an inverse. The component adjoined
+to the z vector in the scheme of Fig. 4 is the output of Si.
+
+1 964
+
+Luenberger: State of a Linear System
+
+77
+
+Fig. 4-Reduction of the dynamic order.
+
+It is appropriate at this point to review the definitions
+of controllability and observability for linear time-
+invariant systems. A discussion of the physical inter-
+pretations of these definitions can be found in [3] and
+[16].
+
+Definition: The nth-order system y-Ay+Bx is said
+to be completely controllable if the collection of vectors
+
+= 1,2, ..
+
+, m
+
+spans n dimensions. (The bi are the m columns of the
+nXm matrix B.)
+
+As a notational convenience this situation will some-
+times be described by writing "(A, B) is completely
+controllable. "
+
+Definition: The system
+
+-=Ay with output vector
+v = B'y is said to be completely observable if (A', B) is
+completely controllable. As a notational convenience,
+this situation will sometimes be described by writing
+"(A, B') is completely observable."
+
+In the special case that A is diagonal with distinct
+eigenvalues and B is just a column vector there is a
+simple condition which is equivalent to complete con-
+trollability [16].
+
+Lemma 1: Let A be diagonal with distinct roots. Then
+(A, b) is completely controllable if, and only if, each
+component bi is nonzero.
+
+The following theorem which is proved in Appendix I
+connects complete controllability and complete ob-
+servability with the matrix equation TA -B T = C.
+
+Theorem 2: Let A and B be n X n matrices with no
+common eigenvalues. Let a and b be vectors such that
+(A, a') is completely observable and (B, b) is completely
+controllable. Let T be the unique solution of TA -BT
+= ba'. Then T is invertible.
+
+With this Theorem it is easy to derive a result concern-
+ing the dynamic order of an observer for a single output
+system.
+
+Theorem 3: Let Si: y=Ay, v=a'y be an nth-order
+completely observable system. Let
+.I*n be a
+set of distinct complex constants distinct from the
+eigenvalues of A. An observer can be built for Si which
+is of (n - 1)th-order and which has n -1 of the /.ti's as
+eigenvalues of its transition matrix.
+
+1,u2,
+
+.
+
+Proof: As a first attempt let S1 drive the nth-order
+
+system
+
+Mi
+
+0 1
+
+1
+
+Y2
+
+0=
+
+O
+
+1
+
+Z + V
+I.
+An IjjJ
+
+(22)
+
+where the /ii are arbitrary except that IAi 'tj for i$j
+and AiXk for all i and k. Now (under proper initial
+conditions) z = Ty and by Theorem 2 the n rows ti of T
+are independent. It is clear that there is one ti which
+may be replaced by a', so that the (row) vectors
+, ,tn a' will be independent. (If this
+t1, t2,
+is not clear see Lemma 2 in Appendix IL.)
+
+By removing the ith dynamic element from the ob-
+server, an (n - 1)th-degree system (with state vector z1)
+is obtained. The state vector y may be recovered from
+the n -1 components of zi and the output a'y since
+
+*, ti1,
+
+.
+
+z1
+
+V=
+
+t2
+ti-i,
+ti+l
+
+tn
+at
+
+y = YTy
+
+(23)
+
+and the matrix on the right is invertible. This proves
+Theorem 3.
+
+Note: By employing here the methods used in Ap-
+pendix I in the proof of Theorem 2, it can be shown
+that the n-1 eigenvalues of the observer can, in fact,
+be chosen arbitrarily provided only that they are dis-
+tinct from those of A.
+
+At this point it is natural to ask whether these results
+can be extended to systems with more than one output.
+Theorem 4, which is proved in Appendix II, states that
+an nth-order system with m independent outputs can
+be observed with n-m "arbitrary" dynamic elements.
+Theorem 4: Let S1 be a completely observable nth-
+order system with m independent outputs. Then an ob-
+server, S2, may be built for Si using only n-im dynamic
+elements. (As illustrated by the proof, the eigenvalues of
+the observer are essentially arbitrary.)
+
+In order to illustrate the results obtained in this sec-
+tion, consider the system shown in Fig. 5. It may be ex-
+pressed in matrix form as
+
+Y = _
+
+--[2
+
+1-O2
+
+O -1_ Y + 1_X.
+
+(24)
+
+It will be assumed that y, is the only measurable output.
+
+78
+
+IEEE TRANSACTIONS ON MILITARY ELECTRONICS
+
+April
+
+To build an observer for this system observer eigen-
+values must be chosen. According to Theorem 3, an
+observer can be constructed for this system using a sin-
+gle dynamic element. Suppose it is decided to require
+the observer to have -3 as its eigenvalue. The observer
+will have a single state variable z and will be driven by
+y, and x. The state variable z will satisfy
+0 ]y + kx,
+
+(25)
+where k is determined by the input relation given by
+(16).1 Then z= Ty, where T satisfies
+
+z = -3z+ [ 1
+
+TA+3T=[ 1
+
+(26)
+This equation is easily solved giving T = [ 1- 1/2 ]. To
+evaluate k (16) is used,
+
+01.
+
+k=[ 1-1/2 ]=-1/2.
+
+(27)
+
+It is easy to see how to combine y, and z to produce Y2.
+The final system is shown in Fig. 6. In the figure, 92
+represents the observer's estimate of Y2.
+
+Fig. 5-A seco
+
+e p
+
+Fig. 5-A second-order plant.
+
+Fig. 6-Observer and plant.
+
+V. APPLICATION TO CONTROL PROBLEMS
+
+The primary justification for an investigation of ob-
+servers is its eventual application to control system de-
+sign. A control system can be regarded as performing
+three operations: it measures certain plant inputs and
+outputs; on the basis of these measurements it computes
+certain other input signals and it applies these input sig-
+nals to the plant. The philosophy behind this paper is
+that the computational aspect of control should be di-
+vided into two parts. First, the state vector should be
+constructed; this is the job of the observer. Then, the
+inputs can be calculated using this value for the state
+vector.
+
+A primary consideration
+
+that arises when this
+philosophy is used is the extent that use of the estimated
+
+o
+
+Here
+
+r
+
+corresponds to D, and k corresponds to G in (16).
+
+state vector, rather than the actual state vector, de-
+teriorates the performance of control. Various criteria
+can be used to measure this deterioration. One of the
+most important considerations is the effect that an ob-
+server may have on pole locations. It would be unde-
+sirable, for example, if an otherwise stable control de-
+sign became unstable when an observer is used to real-
+ize it. It is shown in this section that an observer has no
+effect on a control system's closed-loop pole locations
+other than to add the poles of the observer itself.
+
+Consider a linear plant: y-Ay+Dx, which has all of
+its state variables measurable and all of its input com-
+ponents available for control. It is then possible to de-
+sign a linear feedback system by putting x= Fy. This
+is a feedback system without dynamics. The closed-loop
+plant would be governed by y= (A +DF)y, so that the
+eigenvalues of A +DF are the closed-loop poles of the
+system.
+
+Suppose the same plant is given, except that not all
+state variables are measurable. In this case, an observer
+for the plant might be used to construct an estimate,
+9, of the plant state vector. The vector 9 could then be
+used to put x= F9. The closed-loop poles of this system
+can be found in terms of the poles of the observer and
+the poles of the system above. Suppose the observer is
+governed by z=Bz+Cy+TDx, where TA-BT== C.
+Then 9 is a linear combination of y and z,
+
+where
+
+9 = Hy + Kz,
+
+H+KT = I.
+
+Putting x = F9, the over-all system becomes
+
+y = Ay + DF(Hy + Kz),
+
+z = Bz + Cy + TDF(Hy + Kz),
+
+or, in matrix form,
+
+A + DFH
+
+y [_
+y
+z LTC+TDFH B+TDFK ZJ
+
+DFK
+
+(28)
+
+(29)
+
+(30)
+
+(
+
+Theorem 5: The eigenvalues of the over-all system
+(31) are the eigenvalues of A +DF and the eigenvalues
+of B.
+
+Proof: For an eigenvalue X,
+
+Ay + DFHy + DFKz = Xy,
+Cy + TDFHy + Bz + TDFKz = Xz.
+Multiplying (32) by T and subtracting (33),
+(TA - C)y - Bz = X(Ty - z).
+
+Using TA - B T this becomes
+
+(32)
+(33)
+
+(34)
+
+B(Ty - z) = X(Ty - z).
+
+(35)
+This equation can be satisfied if X is an eigenvalue of B
+or if Ty =z. This shows that all eigenvalues of B (in-
+cluding multiplicity) are eigenvalues of the over-all sys-
+tem (31).
+
+1964
+
+Luenberger: State of a Linear System
+
+79
+
+Now if Ty= z (32) becomes
+
+(A + DFH + DFKT)y = Xy,
+
+(36)
+
+but using (29) this reduces to
+
+(A + DF)y = Xy.
+
+(37)
+This equation immediately shows that all eigenvalues of
+A +DF (including multiplicity) are also eigenvalues of
+the over-all system (31). This proves the theorem.
+
+Theorem 5 demonstrates that as far as pole location
+problems are concerned it is possible to design a feed-
+back system assuming the state were available and then
+add an observer to construct the state. There is still the
+problem of what feedback coefficients to use if the state
+were available.
+
+For a single input system it is possible to find feed-
+back coefficients to place the closed-loop poles anywhere
+in the complex plane. This result can be obtained from
+a canonical form given by Kalman [17], or by a simple
+application of Theorem 2.
+
+*
+
+*
+
+*
+
+*
+
+Theorem 6: Given a completely controllable, single
+input system: y=Ay+bx, and a set of complex con-
+stants pi, MU2,
+* *, tAn; there is a vector c such that if
+closed-loop system will have
+x=c'y the resulting
+Ali A2
+
+, A, as its eigenvalues.
+
+Proof: First assume that each ,ui is distinct from the
+eigenvalues of A. Let B be a matrix in Jordan form
+which has the ui as its eigenvalues and has only one
+Jordan block associated with each distinct eigenvalue
+[31. Let c1 be any vector such that (B, c1') is completely
+observable. By Theorem 2 the equation
+
+TB - AT = bci'
+
+(38)
+has a unique solution T which is invertible. Let c'
+=c1'T-l then
+
+A + bc' = TBT-1
+
+(39)
+which says A +bc' is similar to B. This establishes the
+result.
+
+In case some of the Ai are not distinct from the eigen-
+values of A proceed in two steps. First, choose coeffi-
+cients to make the eigenvalues distinct from those of A
+and from the ,ui. Then move the eigenvalues of the re-
+sulting system to the /ui. This proves Theorem 6.
+
+Finally, the results of Theorems 4-6 may be collected
+to obtain a result for systems that do not have their
+state vector available. Suppose one is given an nth-
+order system with m independent outputs. According
+to Theorem 4, an observer can be designed which has
+n - m essentially arbitrary eigenvalues. If the state vec-
+tor were available, constant feedback coefficients could
+be found to place the closed-loop eigenvalues arbitrarily
+by the method of Theorem 6. Then, according to Theo-
+rem 5, if the observer's estimate of the state is used in
+place of the actual state the resulting system will have
+the eigenvalues of the observer and the eigenvalues of
+the constant coefficient feedback system. This result is
+expressed in Theorem 7.
+
+Theorem 7: Let S be an nth-order, single input, com-
+pletely controllable, completely observable system with
+m independent outputs. Then a feedback network can
+be designed for S which is (n-m)th-order and the re-
+sulting 2n - m poles of the closed-loop system are essen-
+tially arbitrary.
+
+VI. CONCLUSIONS
+
+It has been shown that the state vector of a linear sys-
+tem can be reconstructed from observations of its inputs
+and outputs. The observer which performs the recon-
+struction is itself a linear system with arbitrary time
+constants. It has been shown that the dynamic order
+of an observer which observes an nth-order system with
+m outputs is n- m. Hence, when more outputs are avail-
+able a simpler observer may be constructed.
+
+Observers may be incorporated in the design of con-
+trol systems. If a feedback system has been designed
+based on knowledge of the state, then incorporation of
+an observer to construct the state does not change the
+pole locations of the system. The observer simply adds
+its own poles to the system. Much work remains, how-
+ever, in the area of incorporation of observers in control
+system design. The effects of parameter variations, use
+of design criteria other than pole location and considera-
+tion of systems which are "marginally" observable
+should be investigated.
+
+Most of the results given can be easily extended to
+include sampled-data systems. The necessary proofs
+are in fact often simpler in the sampled case. Likewise,
+many of the results can be extended to include time-
+varying linear systems.
+
+APPENDIX I
+
+Theorem 2: Let A and B be n Xn matrices with no
+common eigenvalues. Let a and b be vectors such that
+(A, a') is completely observable and (B, b) is completely
+controllable. Let T be the unique solution of TA - B T
+= ba'. Then T is invertible.
+
+Proof: Without loss of generality it may be assumed
+that A is in Jordan Canonical Form [13], [18]. A will
+consist of several Jordan blocks but since (A, a') is
+completely observable no two blocks are associated with
+the same eigenvalue [3]. Furthermore, the component
+of the vector a which corresponds to the top of a Jordan
+block must be nonzero [19], [20]. Partition the matrix
+T into columns
+
+T = [t| t2,
+
+...
+
+tn.
+
+Then if a particular Jordan block with eigenvalue X is
+located with its top row in the kth row of A and extends
+to row k+q it is possible to express the corresponding
+columns of T as
+
+tk = ak(XI - B)-lb,
+ti = (XI -B)-'(aib -ti-1)
+
+k < i -< k + q -1.
+
+(40)
+
+80
+
+IEEE TRANSACTIONS ON MILITARY ELECTRONICS
+
+Hence, the vectors ti will be linearly dependent only if
+for some set of aai not all zero
+
+where P is a polynomial of degree less than p. But since
+each (A'- ujI)-' is nonsingular this implies that
+
+qi
+
+A;ZX oaii(IXi -B)-lb = 0.
+i 1=
+
+This equation can be multiplied by the nonsingular
+matrix
+
+to obtain
+
+7 (IX, - B)>
+
+i
+
+P(B)b = O,
+
+where P is a polynomial of degree n-I or less. But un-
+less P=O, which implies that each aii is zero, this con-
+dition contradicts the complete controllability of (B, b).
+Hence, the vectors ti must be linearly independent.
+
+APPENDIX II
+
+* *
+
+Y
+IYM, xil, xi2,
+
+Lemma 2: Let x1,X2,'
+
+In order to prove the general statement concerning
+the dynamic order of an observer the following well-
+known lemma [21] will be used.
+-*, x,, be n linearly independ-
+ent vectors in an n-dimensional space. LetYi, Y2,*
+, Ym
+also be independent. Then there are n - m xi's such that
+Yli, Y2,
+Theorem 4: Let S1 be a completely observable nth-
+order system with m independent outputs. Then an ob-
+server, S2, may be built for S1 using only n - m dynamic
+elements. (As illustrated by the proof, the eigenvalues
+of the observer are essentially arbitrary.)
+ainy. Then since S1
+tion of vectors
+
+Proof: Let the m outputs be given by al'y, a2'y,*
+
+is completely observable the collec-
+
+*, xin__ are independent.
+
+(A')iaj
+
+1,l2,
+i -O
+j.1-1, 2;,*,
+
+*
+
+, n 1
+m
+
+spans n dimensions.
+
+Let p be the order of the minimal polynomial of A.
+To each output of S1 connect a completely controllable
+pth-order system with distinct eigenvalues. Consider the
+system driven by al'y. The p state variables of this sys-
+tem (under proper initial conditions) are
+zi= [b(A' - u)-lal]'y
+
+(41)
+where a diagonal form for this system has been assumed.
+Lemma1
+It will be shown that the vectors (A'-ujI)-'aj,
+,p, generate the same space as the vectors
+1,
+n. Assume that we can find ai's
+
+guarantees that each bi is not zero.
+
+*
+
+,
+
+2,*
+
+i=
+(A')ka,, k=1, 2,*
+*
+such that
+
+p
+
+i=1
+
+ai(A'- ujI) = 0.
+
+This can be rewritten as
+
+P(A')fi (A -u jI)-l = 0
+
+i=l
+
+(42)
+
+(43)
+
+P(A') = 0.
+
+(44)
+Since this polynomial has a degree less than the minimal
+polynomial, each a5 = 0 in the original combination
+(42). This implies that any polynomial in A' can be
+written as a linear combination of the (A'-ujI)-1. In
+particular, the vectors (A'-ujI)-1a1, i=1, 2, .. I P,
+generate the same space as the vectors (A)ka,, k= 1, 2,
+
+. ,n.
+This same argument applies to each ai. Hence, the
+output vectors from all observing systems span n dimen-
+sions. Now, from Lemma 2 n dimensions can be spanned
+, am and n-im dy-
+with m output vectors a,, a2,
+namics. This proves Theorem 4.
+
+REFERENCES
+
+[11]
+
+[21
+
+"Control system analysis and design via the
+
+[1] R. E. Kalman and J. E. Bertram, "A unified approach to the
+theory of sampling systems," J. Franklin Inst., vol. 267, pp.
+405-436; May, 1959.
+'second
+method' of Lyapunov-I. Continuous-Time Systems," Journal
+of Basic Engineering, Trans. ASME, Series D, vol. 82, pp. 171-
+393; June, 1960.
+[3] R. E. Kalman, "On the General Theory of Control Systems,"
+Proc. of the FirstIFA C Moscow Congress; 1960.
+[4] J. E. Bertram and P.E. Sarachik, "On Optimal Computer Con-
+trol, " Proc. of the First IFA C Moscow Congress; 1960.
+[51 E. B. Lee, "Design of optimum multivariable control systems,"
+J. of Basic Engrg., Trans. ASME, Series D, vol. 83, pp. 85-90;
+March, 1961.
+[6] R. Bellman,I. Glicksberg, and 0. Gross, "On the 'Bang-Bang'
+control problem," Quart. Appl. Math., vol. 14, pp. 11-16; 1961.
+[7] H. L. Groginsky, "On a property of optimum controllers with
+boundedness constraints," IRE TRANS. ON AUTOMATIC CON-
+TROL,vol. AC-6, pp. 98-1 10; May, 1961.
+[81 K. K. Maitra, "An Application of the Theory of Dynamic Pro-
+gramming to Optimal Synthesis of Linear Control Systems,"
+Proc. of Dynamic Programming Workshop, ed, J. E. Gibson,
+Purdue University, Lafayette,Ind.; 1961.
+[9] R. Bellman, "Dynamic Programming," Princeton University
+Press, N. J.; 1957.
+[10]
+R. Bellman and R. Kalaba, "Dynamic programming and feed-
+back control," Proc. of the First IFA C Moscow Congress; 1960.
+V. G. Boltyanski, R. V. Gamkrelidze, E. F. Mischenko, and L. S.
+Pontryagin, "The maximum principle in the theory of optimal
+processes of control," Proc. of the First IFA C Moscow Congress;
+1960.
+112] J. La Salle and S. Lefshetz,"Stability by Liapunov's Direct
+Method with Applications," Academic Press, New York, N. Y.;
+1961.
+[13] R. E. Kalman, "A new approach to linear filtering and pre-
+diction theory," J. of Basic Engrg., Trans. A SME, Series D,
+vol. 82, pp. 35-45; March, 1960.
+R.E. Kalman and R. S. Bucy, "New results in linear filtering
+Trans. ASME,
+and prediction theory," J.
+Series D, vol. 83, pp. 95-108; March, 1961.
+[15] F. R. Gantmacher, "The Theory of Matrices," Chelsea, New
+York, vol. 1, especially pp. 215-225; 1959.
+[16] E. G. Gilbert, "Controllability and observability in multivari-
+able control systems," J. Soc. Indust. Appl.Math. Series A:
+On Control, vol. 1, pp. 128-151; 1963.
+[17] R.E. Kalman, "Mathematical description of linear dynamical
+systems," J. Soc. Indust. Appl. Math. Series A: On Control, vol.
+1, pp. 152-192; 1963.
+[18] D. G. Luenberger, "Special Decomposition of Linear Transfor-
+mations in Finite Dimensional Spaces," Mimeographed Notes,
+Stanford University, Calif.
+[19] Y. C. Ho, "What constitutes a controllable system?", IRE
+TRANS. ON AUTOMATIC CONTROL (Correspondence), vol. AC-7,
+p. 76; April, 1962.
+[20] D. G. Luenberger,"Determining the State of a Linear System
+with Observers of Low Dynamic Order," Ph.D. dissertation,
+Dept. of Elec. Engrg., Stanford University, Calif.; 1963.
+[21] P. R. Halmos,"Finite-Dimensional Vector Spaces," D. Van
+Nostrand, Co., Inc. Princeton, N.J., especially p.11; 1958.
+
+of Basic Engrg.,
+
+[141
+
+

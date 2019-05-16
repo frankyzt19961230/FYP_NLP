@@ -1,0 +1,519 @@
+Subject Description Form 
+
+ 
+
+Subject Code 
+
+EIE4402 
+
+Subject Title 
+
+Power Electronics 
+
+Credit Value 
+
+Level 
+
+Pre-requisite /  
+Co-requisite / 
+Exclusion 
+
+Objectives 
+
+3 
+
+4 
+
+Nil 
+
+To enable students to gain knowledge and understanding in the following 
+aspects: 
+ 
+1.  Fundamentals of power electronics. 
+2.  The concepts and operating principles of power electronics circuits. 
+3.  Design procedures and techniques of power electronics systems. 
+
+Sustainable  development is  one  of the  emerging  societal objectives  in  China 
+and the world at large. The knowledge & experience gained from this subject 
+provide  some  of 
+to  address this  kind  of 
+development. 
+
+fundamentals 
+
+technical 
+
+the 
+
+Intended Subject 
+Learning Outcomes 
+
+  
+
+Upon completion of the subject, students will be able to: 
+ 
+ 
+Category A: Professional/academic knowledge and skills 
+1.  Understand the fundamental principles and applications of power electronics 
+
+circuits. 
+
+2.  Solve problems and design switching regulators according to specifications. 
+3.  Use Computer-aided techniques for the design of power converter circuits. 
+4.  Appreciate the latest developments in power electronics. 
+ 
+Category B: Attributes for all-roundedness 
+5.  Communicate effectively. 
+6.  Think critically and creatively. 
+7.  Assimilate new technological and development in related field. 
+
+Subject Synopsis/ 
+Indicative Syllabus 
+
+  
+
+Syllabus: 
+ 
+1. 
+  Overview  of  power  electronics  systems:  applications  and  areas  of  future 
+
+Introduction to Power Electronics 
+
+development. 
+
+ 
+2.  Basic Switching Regulator Topologies 
+ 
+
+Basic  operations.  Critical 
+inductance  criterion.  Continuous-  and 
+discontinuous-conduction  modes.  Practical  considerations.  Merits  and 
+drawbacks. 
+
+ 
+3.  Mathematical Modelling of Switching Regulators 
+ 
+
+Small-signal  approximation  for  linearity.  Applications  of  approximation 
+techniques. Switching regulator transfer functions and salient features. 
+
+ 
+4.  Switching Regulators with Transformer Isolation 
+ 
+
+Flyback  converter.  Forward  converter.  Half-  and  full-bridge  converters. 
+Push-pull converter. Areas of application. 
+
+ 
+5.  Feedback Control Design 
+   Classical control design. Bode plot and Nyquist stability criterion. Voltage- 
+
+and current-mode controls. 
+
+ 
+ 
+
+Inductor. Transformer. Saturation, hysteresis, and residual flux. 
+
+ 
+6.  Magnetic Components 
+ 
+ 
+7.  Latest Development in Power Electronics 
+ 
+Laboratory Experiments: 
+ 
+1.  Computer-aided design of switching regulator. 
+2.  Design of a closed-loop controlled power converter circuit. 
+
+ 
+
+Teaching/ Learning 
+Methodology 
+
+  
+
+Teaching and 
+Learning Method 
+
+Lectures, 
+supplemented with 
+interactive questions 
+and answers, and 
+short quizzes 
+
+Intended 
+Subject 
+Learning 
+Outcome 
+
+1, 2, 6, 7 
+
+Remarks 
+
+comprehension 
+
+In lectures, students are introduced 
+to  the  knowledge  of  the  subject, 
+and 
+is 
+strengthened  with  interactive  Q&A 
+and short quizzes. They will be able 
+to 
+generalize 
+knowledge  in  the  design  of  power 
+converter circuits. 
+
+explain 
+
+and 
+
+1, 2, 5, 6 
+
+Tutorials where 
+design problems are 
+discussed, and are 
+given to students for 
+them to solve 
+
+In  tutorials,  students  apply  what 
+they  have  learnt  in  analyzing  the 
+cases  and  solving  the  problems 
+given by the tutor. They will analyze 
+the given information, compare and 
+contrast  different  scenarios  and 
+propose solutions or alternatives. 
+
+Laboratory sessions, 
+where students will 
+perform a mini-project 
+by computer 
+simulations and 
+experimental 
+verifications. They will 
+have to write a report 
+on their mini-projects. 
+
+2, 3, 4, 5, 6  Students 
+
+acquire 
+
+hands-on 
+experience  in  using  CAD  tools  in 
+power converter design, and apply 
+what 
+in 
+lectures/tutorials 
+to  do  a  mini-
+project  on  the  design  of  a  power 
+converter circuit.  
+
+learnt 
+
+have 
+
+they 
+
+Assignment and 
+Homework 
+
+1, 2, 3, 4, 5, 
+6 
+
+understanding 
+
+Through  working  assignment  and 
+homework, students  will develop  a 
+firm 
+and 
+comprehension  of  the  knowledge 
+taught.  They  will  analyze  given 
+information and apply knowledge in 
+solving  problem.  For  some  design 
+type of questions, they will have to 
+synthesize  solutions  by  evaluating 
+different alternatives. 
+
+ 
+
+Assessment 
+Methods in 
+Alignment with 
+Intended Learning 
+Outcomes 
+
+Specific Assessment 
+Methods/Tasks  
+
+% 
+
+Weighting 
+
+Intended Subject Learning 
+Outcomes to be Assessed 
+(Please tick as appropriate) 
+
+1 
+
+2 
+
+3 
+
+4 
+
+5 
+
+6 
+
+7 
+
+1.  Continuous 
+
+Assessment  
+(total 50%) 
+
+  1 Assignment 
+
+  Laboratory works 
+
+and reports 
+
+  Mid-semester test 
+
+  End-of-semester 
+
+test 
+
+ 
+
+8% 
+
+30% 
+
+6% 
+
+6% 
+
+ 
+
+ 
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+   
+
+ 
+
+       
+
+ 
+
+       
+
+       
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+2.   Examination 
+
+50% 
+
+       
+
+Total  
+
+ 
+
+100 % 
+
+ 
+
+ 
+
+The continuous assessment consists of assignments, quizzes, and two tests. 
+ 
+Explanation  of  the  appropriateness  of  the  assessment  methods  in 
+assessing the intended learning outcomes: 
+ 
+
+Specific Assessment 
+Methods/Tasks 
+
+Remark 
+
+Assignment/Homework/ 
+Case study reports 
+
+Laboratory works and 
+reports 
+
+Mid-semester test 
+
+ 
+
+information,  ability 
+
+Assignment/Homework  and  case  study  reports 
+are given to students to assess their competence 
+level of knowledge and comprehension, ability to 
+analyze  given 
+to  apply 
+knowledge  and  skills  in  new  situation,  ability  to 
+synthesize structure, and ability to evaluate given 
+data to make judgment. The criteria (i.e.  what to 
+be  demonstrated)  and  level  (i.e.  the  extent)  of 
+achievement  will  be  graded  according  to  six 
+levels: (A+ and A), Good (B+ and B), Satisfactory 
+(C+ and C), Marginal (D) and Failure (F). These 
+will  be  made  known  to  the  students  before  an 
+assignment/homework  is  given.  Feedback  about 
+their  performance  will  be  given  promptly  to 
+students to help them improvement their learning. 
+
+Students will be required to perform a mini-project 
+and  submit  a  report.  The  emphasis 
+is  on 
+assessing  their  ability  to  use  VLSI  CAD  tools 
+effectively  to  perform  VLSI  design.  Expectation 
+and grading criteria will be given as in the case of 
+assignment/homework. 
+
+There  will  be  a  mid-semester  test  to  evaluate 
+students’  achievement  of  all 
+learning 
+outcomes  and give feedback  to them for  prompt 
+improvement. Expectation and grading criteria will 
+be given as in the case of assignment/homework. 
+
+the 
+
+ 
+
+ 
+
+ 
+
+Specific Assessment 
+Methods/Tasks 
+
+Remark 
+
+End-of-semester test 
+and Examination 
+
+There  will  be  an  end-of-semester 
+test  and 
+examination  to  assess  students’  achievement  of 
+all  the  learning  outcomes.  These  are  mainly 
+summative  in  nature.  Expectation  and  grading 
+criteria  will  be  given  as 
+the  case  of 
+assignment/homework. 
+
+in 
+
+Student Study 
+Effort Expected 
+
+Class contact (time-tabled): 
+
+ 
+
+  Lecture 
+
+  Tutorial/Laboratory/Practice Classes 
+
+Other student study effort: 
+
+  Lecture: preview/review of notes; 
+
+homework/assignment; preparation for 
+test/quizzes/examination 
+
+24 Hours 
+
+15 hours 
+
+ 
+
+36 Hours 
+
+  Tutorial/Laboratory/Practice Classes: preview of 
+
+30 Hours 
+
+materials, revision and/or reports writing 
+
+Total student study effort: 
+
+105 Hours 
+
+Reading List and 
+References 
+
+Reference Books: 
+ 
+1.  R.W. Erickson, D. Maksimovic, Fundamentals of Power Electronics, 2nd ed., 
+
+Kluwer Academic Publishers, 2001. 
+
+2.  M.K. Kazimierczuk, Pulse-width Modulated DC-DC Power Converters, Wiley, 
+
+2008. 
+
+3.  A.I. Pressman, K. Billings, T. Morey, Switching Power Supply Design, 3rd ed., 
+
+McGraw-Hill, 2009. 
+
+4.  C.  Basso,  Switch-Mode  Power  Supplies  Spice  Simulations  and  Practical 
+
+Designs, McGraw-Hill, 2008. 
+
+5.  N.S. Nise, Control System Engineering, 6th ed., Wiley, 2010. 
+6.  R.C. Dorf, R.H. Bishop, Modern Control Systems, 12th ed., 2010 
+
+Last Updated 
+
+March 2014 
+
+Prepared by 
+
+Dr K.H. Loo 
+
+ 
+
+

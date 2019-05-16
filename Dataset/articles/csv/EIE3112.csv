@@ -1,0 +1,189 @@
+Subject Description Form 
+Subject Code 
+EIE3112  
+Subject Title 
+Database System 
+Credit Value 
+Level 
+Pre-requisite /      
+Co-requisite/ 
+Exclusion 
+Objectives 
+ 
+Intended Subject 
+Learning Outcomes 
+ 
+3 
+3 
+Nil 
+To introduce:  
+ 
+1.  database design, development, and programming 
+2.  advanced database queries and database security 
+3.  data warehousing and data mining 
+Upon completion of the subject, students will be able to: 
+ 
+Category A: Professional/academic knowledge and skills 
+1.  Database design, development, and programming 
+2.  Advanced database queries and database security. 
+3.  Data warehousing and data mining 
+ 
+Category B: Attributes for all-roundedness 
+4.  Communicate effectively 
+Subject Synopsis/ 
+Indicative Syllabus 
+Syllabus: 
+ 
+1.    Database Design and Development 
+ 
+1.1  DBMS systems; Client-server architecture; Database architectures and 
+the web  
+1.2  SQL: data manipulation; data definition;  
+1.3  DB Development: DB applications and views; 
+1.4  Advanced  SQL:  SQL  programming  language;  stored  procedures; 
+functions; triggers; cursors; exception handling  
+1.5  ER Modelling: ER diagrams; Transforming ER diagrams to relations 
+1.6  Normalization:  Data  redundancy  and  update  anomalies;  functional 
+dependencies; normalization processes; normal forms 
+ 
+2.    Managing Database Environments 
+2.1  Database  Security:  Database  security  best  practices;  SQL  injection; 
+Preventing SQL injection 
+ 
+3.    Data Warehouse and Data Mining 
+3.1  Architectures of data warehouse; applications of data warehouse; data 
+warehouse tools and technologies 
+3.2  Data warehouse queries; OLTP versus OLAP;  
+3.3  Data-mining processes; Data representation;  
+3.4  Classification, regression, and cluster Analysis 
+ 
+Laboratory Experiments 
+ 
+Lab 1: Database Implementation and SQL 
+Lab 2: Advanced SQL 
+Lab 3: Data Mining and Data Analysis 
+ 
+ 
+ 
+ 
+Teaching/Learning 
+Methodology  
+ 
+Lectures: Fundamental principles and key concepts of the subject are delivered 
+to students. 
+ 
+Tutorials:  Students  will  be  able  to  clarify  concepts  and  to  have  a  deeper 
+understanding of the lecture material; problems and application examples are 
+given  and discussed. Students  will be given programming exercises and use 
+database development tools to design database. 
+ 
+Laboratory  Sessions:  Students  will  do  some  programming  exercises  to 
+enhance their understanding on database design and development. 
+ 
+Alignment of 
+Assessment and 
+Intended Subject 
+Learning Outcomes 
+ 
+Specific Assessment 
+Methods/Tasks  
+%  
+Intended Subject 
+Weighting 
+Learning Outcomes to 
+be Assessed (Please 
+tick as appropriate) 
+1.  Continuous Assessment 
+(Total: 50%) 
+  Short quizzes 
+  Assignment 
+  Test 
+  Laboratory  
+2.   Examination 
+Total  
+1 
+ 
+ 
+ 
+ 
+ 
+ 
+2 
+ 
+ 
+ 
+ 
+ 
+ 
+3 
+4 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5% 
+5% 
+20% 
+20% 
+50% 
+100% 
+ 
+Explanation  of  the  appropriateness  of  the  assessment  methods  in 
+assessing the intended learning outcomes: 
+Short quizzes: These can measure the students’ understanding of the theories 
+and concepts as well as their comprehension of subject materials. 
+Test  &  Examination:  End-of-chapter-type  problems  are  used  to  evaluate  the 
+students’ ability in applying concepts and skills learnt in the classroom; students 
+need to think critically and to learn independently in order to come up with an 
+appropriate design. 
+Laboratory:  Each  student  is  required  to  produce  a  report;  the  accuracy  and 
+presentation of the report will be assessed. 
+Class contact (time-tabled): 
+ 
+  Lecture/Tutorial 
+  Laboratory/Practice Classes 
+Other student study effort: 
+  Lecture: preview/review of notes; 
+homework/assignment; preparation for 
+test/quizzes/examination 
+  Tutorial/Laboratory/Practice Classes: preview of 
+materials, revision and/or reports writing 
+Total student study effort: 
+ 
+30 Hours 
+9 Hours 
+ 
+36 Hours 
+30 Hours 
+105 Hours 
+Student Study Effort 
+Expected 
+ 
+ 
+ 
+Reading List and 
+References 
+1.  Thomas  Connolly  and  Carolyn  Begg,  Database  Systems:  A  Practical 
+Approach  to  Design,  Implementation,  and  Management,  6/E,  Pearson, 
+2015. 
+2.  Mark  L.  Gillenson,  Fundamentals  of  database  management  systems, 
+Wiley, 2nd ed., Wiley, 2012. 
+3. 
+I.H.  Witten,  Data  Mining:  Practical  Machine  Learning  Tools  and 
+Techniques, 3rd ed., Morgan Kaufmann, 2011 
+Last Updated 
+September 2016 
+Prepared by 
+Dr Pauli Lai 
+ 
+ 
+

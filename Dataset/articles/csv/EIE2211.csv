@@ -1,0 +1,280 @@
+Subject Description Form 
+ 
+Subject Code 
+EIE2211 
+Subject Title 
+Logic Design 
+Credit Value 
+Level 
+3 
+2 
+Pre-requisite/ Co-
+requisite/ Exclusion 
+Nil 
+Objectives 
+To provide students with a broad view in both hardware and software aspects 
+of  digital  systems  in  general  and  microprocessor  systems  in  particular,  and 
+enable them to gain understanding and skills that will be used in later computer 
+related courses.    Emphasis will be placed on topics including: 
+ 
+1.  Common binary logic components found in a microcomputer system 
+2.  Use and applications of programmable logic devices 
+3.  Structure and organization of microprocessors 
+Intended Subject 
+Learning Outcomes 
+   
+Subject Synopsis/ 
+Indicative Syllabus 
+   
+Upon completion of the subject, students will be able to: 
+ 
+ 
+Category A: Professional/academic knowledge and skills 
+1.  Understand 
+the 
+fundamentals  of  digital  systems  and  associated 
+technologies. 
+2.  Analyse and design simple systems related to digital logic. 
+3.  Apply 
+to  construct  digital  systems  with 
+programmable logic devices and microprocessors, and appreciate the use 
+of them. 
+logic  design 
+techniques 
+4.  Appreciate  the  importance  of  creativity  and  critical  thinking  on  finding 
+“good” solutions or making “good” designs. 
+ 
+Category B: Attributes for all-roundedness 
+5.  Think critically. 
+Syllabus: 
+ 
+1.  Logic Circuit and ICs 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2.  Memory and Programmable Logic Devices 
+ 
+1.1  Decoders and encoders 
+1.2  Multiplexers and demultiplexers 
+1.3  Binary adders, binary adder-subtractors 
+1.4  Binary multipliers 
+1.5  Sequential circuit analysis and design 
+1.6  Registers and counters 
+1.7  HDL representation. 
+2.1  RAM: Write and read operations, timing waveforms, RAM integrated 
+circuits, three-state buffers, DRAM ICs 
+ 
+ 
+ 
+2.2  Programmable logic technologies 
+2.3  ROM, PLA and PAL 
+2.4  VLSI programmable logic devices: Xilinx FPGA. 
+3.  Microprocessor 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3.1  Register transfer operations 
+3.2  Microoperations 
+3.3  Bus-based transfer 
+3.4  ALU 
+3.5  Shifter 
+3.6  Datapath representation 
+3.7  Control word 
+3.8  Control unit 
+ 
+ 
+3.9  Hardwired control 
+3.10  Basic Assembly Language Programming. 
+Laboratory Experiment: 
+1.  Basic logic gates and their applications 
+2.  Hardware description language and programmable logic devices 
+Teaching and 
+Learning 
+Method 
+Intended 
+Subject 
+Learning 
+Outcome 
+Lectures 
+1, 2, 3, 4 
+Tutorials 
+1, 2, 3, 4, 5 
+Laboratory 
+sessions 
+1, 2, 3, 4, 5 
+ 
+ 
+Remarks 
+Fundamental principles and key concepts 
+of the subject are delivered to students. 
+Supplementary 
+conducted with smaller class size. 
+lectures  and  are 
+to 
+Students  will  be  able  to  clarify  concepts 
+and  to  have  a  deeper  understanding  of 
+the lecture materials. 
+Problems  and  application  examples  are 
+given and discussed. 
+students  will  make  use  of  the  software 
+and  hardware  tools  to  develop  simple 
+digital systems, perform simulations 
+Specific Assessment 
+Methods/Tasks   
+% 
+Weighting 
+Intended Subject Learning 
+Outcomes to be Assessed 
+(Please tick as appropriate) 
+1 
+2 
+3 
+4 
+5 
+1.  Continuous 
+Assessment   
+  Assignments   
+-  homework 
+-  Class question/ 
+participation 
+  Test 
+  Laboratory sessions 
+2.    Examination 
+50% 
+ 
+ 
+ 
+ 
+ 
+ 
+15% 
+5% 
+20% 
+10% 
+50% 
+  
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+     
+    
+    
+Total   
+ 
+100% 
+ 
+Teaching/ Learning 
+Methodology 
+   
+Assessment 
+Methods in 
+Alignment with 
+Intended Subject 
+Learning Outcomes 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The continuous assessment will consist of a number of assignment, lab reports, 
+and two tests. 
+ 
+Explanation  of  the  appropriateness  of  the  assessment  methods  in 
+assessing the intended learning outcomes: 
+ 
+Specific Assessment 
+Methods/Tasks 
+Remark 
+Assignments, tests 
+and examination 
+End-of  chapter 
+evaluate  students’  ability 
+concepts and skills learned in the lessons. 
+type  problems  used 
+to 
+in  applying 
+Student Study 
+Effort Expected 
+ 
+ 
+ 
+ 
+ 
+Reading List and 
+References 
+ 
+Students need to think critically and creatively 
+in order to come up with solutions for existing 
+problems. 
+Laboratory sessions 
+Each  student 
+demonstration. 
+ 
+is 
+required 
+to  do  a 
+Class contact (time-tabled): 
+ 
+  Lecture 
+  Tutorial/Laboratory/Practice Classes 
+Other student study effort: 
+  Lecture: preview/review of notes; 
+homework/assignment; preparation for 
+test/quizzes/examination 
+24 Hours 
+15 hours 
+ 
+36 Hours 
+  Tutorial/Laboratory/Practice Classes: preview of 
+30 Hours 
+materials, revision and/or reports writing 
+Total student study effort: 
+105 Hours 
+Textbooks: 
+ 
+1.  M.M. Mano and C.R. Kime, Logic and Computer Design Fundamentals, 4th 
+ed., Upper Saddle River, NJ: Prentice-Hall, 2008. 
+ 
+Reference Books: 
+ 
+1.  M.M.  Mano  and  M.D.  Ciletti,  Digital  Design.    Upper  Saddle  River,  NJ: 
+Prentice-Hall, 2007. 
+2.  S. Yalamanchili, VHDL – A Starter’s Guide, 2nd ed. Prentice-Hall, 2005. 
+3.  E.O. Hwang, Digital Logic and Microprocessor Design With VHDL, 1st ed., 
+CL-Engineering, 2006. 
+Last Updated 
+February 2018 
+Prepared by 
+Dr Gang Li 
+ 
+ 
+ 
+ 
+

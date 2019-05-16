@@ -1,0 +1,432 @@
+ 
+
+ 
+
+ 
+
+Subject Code 
+
+EIE3343 
+
+Subject Description Form 
+
+Subject Title 
+
+Computer Systems Principles 
+
+Credit Value 
+
+Level 
+
+Pre-requisite 
+
+Co-requisite/ 
+Exclusion 
+
+Objectives 
+
+Intended Subject 
+Learning Outcomes 
+
+ 
+
+Subject Synopsis/ 
+Indicative Syllabus 
+
+ 
+
+3 
+
+3 
+
+For 42477: 
+EIE2105 Digital and Computer Systems 
+ 
+For 42480: 
+Nil 
+
+Nil 
+
+This subject provides students with a broad treatment of the fundamentals of 
+computer operating systems and the related system programming techniques.  
+
+Upon completion of the subject, students will be able to: 
+ 
+Category A: Professional/academic knowledge and skills 
+1.   Understand the basic structure of a computer operating system. 
+2.   Comprehend the basic concepts of file system and management, process 
+control, scheduling and communication, as well as memory management. 
+3.   Develop  software  programs  to  implement  the  abovementioned  system 
+
+functions. 
+
+   
+Category B: Attributes for all-roundedness 
+4.  Understand the creative process when designing solutions to a problem. 
+
+Syllabus:  
+ 
+  Operating System Overview 
+OS objectives and functions 
+ 
+Modern operating systems 
+ 
+Microsoft windows overview 
+ 
+ 
+UNIX and LINUX 
+ 
+ 
+
+File System and Management 
+File organization and access 
+File directories 
+File sharing 
+Secondary storage management 
+System programming for file, directory and I/O access 
+
+Definition of process 
+Process description 
+Process control 
+Process communication 
+System programming for process control and communication 
+
+ 
+  Process Description and Control 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  Memory Management 
+ 
+
+Threads and Scheduling 
+Processes and threads 
+Thread management and scheduling 
+Thread synchronization 
+System programming for thread management 
+
+Memory management requirement 
+
+Memory partitioning 
+Paging 
+Segmentation 
+Dynamic Link Library (DLL) 
+System programming for memory management 
+
+ 
+ 
+ 
+ 
+ 
+ 
+  Processor Scheduling 
+ 
+ 
+ 
+ 
+
+Types of processor scheduling 
+Scheduling algorithms 
+Multiprocessor scheduling 
+Case study 
+
+Teaching/ Learning 
+Methodology 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Teaching and 
+Learning Method 
+
+Remarks 
+
+Intended 
+Subject 
+Learning 
+Outcome 
+
+Lectures 
+
+1, 2, 3 
+
+Tutorials 
+
+1, 2, 3 
+
+Laboratory 
+sessions 
+
+1, 2, 3, 4 
+
+Assignments 
+
+1, 2, 3 
+
+Fundamental 
+key 
+concepts of the subject are delivered to 
+students. 
+
+principles 
+
+and 
+
+Supplementary 
+conducted with smaller class size;  
+
+lectures  and  are 
+
+to 
+
+students  will be able to clarify concepts 
+and to have a  deeper  understanding  of 
+the lecture material;  
+
+problems  and application examples  are 
+given and discussed. 
+
+Students will make use of software tools 
+to develop system programs in order to 
+resolve different system problems. 
+
+Through  working  assignment  and  end-
+text  books, 
+of-chapter  problems 
+students 
+firm 
+understanding  and  comprehension  of 
+the knowledge taught. 
+
+develop 
+
+will 
+
+in 
+
+a 
+
+ 
+
+Assessment 
+Methods in 
+Alignment with 
+Intended Subject 
+Learning Outcomes 
+
+ 
+
+Specific Assessment 
+Methods/ Task 
+
+% 
+
+Weighting 
+
+Intended Subject Learning 
+Outcomes to be Assessed 
+(Please tick as appropriate) 
+
+1. Continuous 
+
+Assessment  
+
+1 
+
+ 
+
+2 
+
+ 
+
+3 
+
+ 
+
+4 
+
+ 
+
+50% 
+
+  Laboratory sessions 
+
+14% 
+
+
+
+
+
+
+
+
+
+  Quizzes 
+
+  Tests 
+
+2. Examination 
+
+Total 
+
+18% 
+
+18% 
+
+50% 
+
+100% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+Explanation  of  the  appropriateness  of  the  assessment  methods  in 
+assessing the intended learning outcomes: 
+ 
+
+Specific Assessment 
+Methods/Tasks 
+
+Remark 
+
+Assignments, tests and 
+examination 
+
+End-of-chapter type problems used to evaluate 
+students’  ability  in  applying  concepts  and  skills 
+learnt in the classroom; 
+
+Laboratory sessions 
+
+ 
+
+Each  student  is  required  to  answer  several 
+questions related to each lab session in the lab 
+sheet  and  hand  in  his/her  answers.  Students 
+need to think critically and creatively in order to 
+come  with  an  alternate  solution  for  an  existing 
+problem. 
+
+Student Study Effort 
+Required 
+
+Class contact (time-tabled): 
+
+ 
+
+  Lecture 
+
+  Tutorial/Laboratory/Practice Classes 
+
+Other student study effort: 
+
+  Lecture: preview/review of notes; 
+
+homework/assignment; preparation for 
+test/quizzes/examination 
+
+24 Hours 
+
+15 Hours 
+
+ 
+
+36 Hours 
+
+Reading List and 
+References 
+
+  Tutorial/Laboratory/Practice Classes: preview of 
+
+30 Hours 
+
+materials, revision and/or report writing 
+
+Total student study effort: 
+
+105 Hours 
+
+Reference Books: 
+
+1.  J. Hart, Windows System Programming, 4th  ed., Addison-Wesley, 2010. 
+2.  W.  Stallings,  Operating  Systems:  Internals  and  Design  Principles,  7th  ed., 
+
+Prentice-Hall, 2011. 
+
+3.  H.M.  Deital,  P.J.  Deital,  and  D.R.  Choffnes,  Operating  Systems,  3rd  ed., 
+
+Prentice-Hall, 2004.  
+
+Last Updated 
+
+January 2018 
+
+Prepared by 
+
+Dr C. Chan 
+
+ 
+
+

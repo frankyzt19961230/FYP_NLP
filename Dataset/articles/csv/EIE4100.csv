@@ -1,0 +1,216 @@
+ 
+Subject Code 
+EIE4100  
+Subject Description Form 
+Subject Title 
+Computer Vision and Pattern Recognition  
+Credit Value 
+Level 
+Pre-requisite /  
+Co-requisite/ 
+Exclusion 
+Objectives 
+ 
+3 
+4 
+For 42477:  
+EIE2106 Signal and System Analysis and  
+EIE3103 Digital Signals and Systems 
+1.  To introduce students the fundamentals of image formation;   
+2.  To  introduce  students  the  major  ideas,  methods,  and  techniques  of 
+computer vision and pattern recognition; 
+3.  To  develop  an  appreciation  for  various  issues  in  the  design  of  computer 
+vision and object recognition systems; and   
+4.  To  provide  the  student  with  programming  experience  from  implementing 
+computer vision and object recognition applications. 
+Intended Subject 
+Learning Outcomes 
+ 
+Upon completion of the subject, students will be able to: 
+  
+Category A: Professional/academic knowledge and skills 
+1.  Comprehend the fundamentals of image formation. 
+2.  Comprehend  the  major  ideas,  methods,  and  techniques  of  image 
+processing and computer vision. 
+3.  Appreciate typical pattern recognition techniques for object recognition. 
+4. 
+5.  Develop simple object recognition systems. 
+Implement basic image processing and computer vision techniques. 
+Category B: Attributes for all-roundedness 
+6.  Present ideas and findings effectively. 
+7.  Think critically. 
+8.  Learn independently. 
+Subject Synopsis/ 
+Indicative Syllabus 
+Syllabus: 
+ 
+ 
+Linear Filters; Edge Detection; Texture; Digital Libraries. 
+Image Formation and Image Models 
+Radiometry; Sources, Shadows and Shading; Colour; Cameras. 
+ 
+ 
+ 
+  Early Vision with One Image 
+ 
+ 
+  Early Vision with Multiple Images 
+  The Geometry of Multiple Views; Stereopsis. 
+ 
+  Mid-Level Vision 
+  Segmentation and Fitting; Tracking with Linear Dynamic Models. 
+ 
+  High-Level Vision 
+  Correspondence and Pose; Registration in Medical Imaging Systems. 
+ 
+  Finding Templates Using Classifiers 
+  Classifiers; Building Classifiers from Class Histograms; Feature Selection. 
+ 
+  Category-Level Recognition  
+  Current  Approaches  to  Object  Recognition;  Decision  Trees;  Nearest 
+Neighbour Rule (NNR); Support Vector Machine; Artificial Neural Networks; 
+Deep Learning. 
+Teaching/Learning 
+Methodology  
+ 
+given.   
+implementation 
+further  readings,  applications  and 
+Lectures: 
+fundamental  principles  and  key  concepts  of  the  subject  are  delivered 
+1. 
+to   students; 
+ 
+2.  guidance  on 
+ 
+ 
+Tutorials: 
+1.  supplementary to lectures and are conducted with a smaller class  
+size;  
+2.  students  will  be  able  to  clarify  concepts  and  to  have  a  deeper 
+ 
+3.  problems and application examples are given and discussed 
+ 
+Laboratory sessions: 
+1.  students  will  make  use  of  the  software  tools 
+ 
+understanding of the lecture material;  
+computer vision applications.  
+to  construct  simple 
+is 
+ 
+Assessment 
+Methods in 
+Alignment with 
+Intended Subject 
+Learning Outcomes 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Specific 
+Assessment 
+Methods/Tasks  
+% 
+Weighting 
+Intended Subject Learning Outcomes 
+to be Assessed (Please tick as 
+appropriate) 
+1.   Continuous 
+Assessment 
+ 
+ 
+(total: 45%) 
+  Tests 
+  Assignments 
+  Lab exercises 
+and lab 
+reports 
+ 
+25% 
+10% 
+10% 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+ 
+ 
+ 
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+       
+ 
+        
+2.   Examination 
+55% 
+    
+ 
+ 
+ 
+ 
+Total  
+ 
+100% 
+ 
+Student Study Effort 
+Expected 
+Class contact (time-tabled): 
+  Lecture 
+  Tutorial/Laboratory/Practice Classes 
+Other student study effort: 
+  Lecture: preview/review of notes; 
+homework/assignments; preparation for 
+test/quizzes/examination 
+  Tutorial/Laboratory/Practice Classes: preview of 
+materials, revision and/or reports writing 
+Total student study effort: 
+ 
+ 
+ 
+24 Hours 
+15 hours 
+ 
+36 Hours 
+30 Hours 
+105 Hours 
+Reading List and 
+References 
+Recommended Textbook: 
+ 
+1.  D.A. Forsyth and J. Ponce, Computer Vision: a Modern Approach, Pearson, 
+2012. 
+ 
+Reference Books: 
+ 
+1.  M.  Negnevitsky,  Artificial  Intelligence:  A  Guide  to  Intelligent  Systems,  3rd 
+Edition, Pearson/Addison Wesley, 2011. 
+2.  C.M. Bishop, Pattern Recognition and Machine Learning, Springer, 2006. 
+3.  L.G. Shapiro and G. Stockman, Computer Vision, Prentice-Hall, 2001. 
+4.  R.  Schalkoff,  Pattern  Recognition  –  Statistical,  Structural  &  Neural 
+Approaches, John Wiley, 1992. 
+5.  C.H. Chen and P.S.P. Wang (Editors), Handbook of Pattern Recognition and 
+Computer Vision, World Scientific, 2005. 
+Last Updated 
+January 2018 
+Prepared by 
+Prof. Kenneth Lam and Dr Zheru Chi 
+ 
+
